@@ -4,80 +4,68 @@ This repository contains a first-draft prototype of a product-data field specifi
 
 Goal
 
-Current product listings often only capture the "what" (title and short description). This specification documents field names and modules for product data enrichment. No examples or invented fields are included in this document.
+Provide better context with product data for improved positioning in product search
 
-Contributing
+Problem
 
-This is a prototype. Please open issues or submit pull requests for corrections to the field list or module mappings.
+Product data (like WooCommerce product data) is too thin for an LLM to position the product correctly.
+
+Current product listings often only capture the "what" (title and short description). This standard is derived from a Prince2 style Project Brief, that answers 'who, what, where, when, why'.
+
+Apart from 'standard' product data, size, weight, color, you also specify the goal, the problem it solves, example users, example use cases. Especially when working with vectors, that gives an AI a lot more handles to position the proposal/product.
+
+This specification documents field names and modules for product data enrichment. 
 
 Modules (files present in this repository)
 
 - acceptance.json
-- acceptance_expanded.json
 - ai-metadata.json
-- ai-metadata_expanded.json
 - assumptions.json
-- assumptions_expanded.json
 - business-case.json
-- business-case_expanded.json
 - business-processes.json
-- business-processes_expanded.json
 - common.json
-- common_expanded.json
 - constraints.json
-- constraints_expanded.json
 - decisions.json
-- decisions_expanded.json
 - dependencies.json
-- dependencies_expanded.json
 - embeddings_mapping.json
 - functional-requirements.json
-- functional-requirements_expanded.json
 - glossary.json
-- glossary_expanded.json
 - governance.json
-- governance_expanded.json
 - interfaces.json
-- interfaces_expanded.json
 - metadata.json
-- metadata_expanded.json
 - non-functional-requirements.json
-- non-functional-requirements_expanded.json
 - open-questions.json
-- open-questions_expanded.json
 - opportunities.json
-- opportunities_expanded.json
 - outcomes.json
-- outcomes_expanded.json
 - personas.json
-- personas_expanded.json
 - problem-domain.json
-- problem-domain_expanded.json
 - product-description.json
-- product-description_expanded.json
 - project-brief-schema-expanded-full.json
-- project-brief-schema-expanded.json
 - project-brief-schema.json
 - project-definition.json
-- project-definition_expanded.json
 - quality.json
-- quality_expanded.json
 - references.json
-- references_expanded.json
 - risks.json
-- risks_expanded.json
 - scope.json
-- scope_expanded.json
 - solution-options.json
-- solution-options_expanded.json
 - stakeholders.json
-- stakeholders_expanded.json
 - success-metrics.json
-- success-metrics_expanded.json
 - technology-considerations.json
-- technology-considerations_expanded.json
 - users.json
-- users_expanded.json
+
+(each with an '.expanded.json' extension)
+
+Contributing
+
+This is a prototype. Please:
+
+    Open issues for proposals and edge cases.
+    Submit PRs for schema changes or examples.
+
+Roadmap (short)
+
+    Stabilize core fields and types.
+    Test standard on openideabox.com
 
 License
 
