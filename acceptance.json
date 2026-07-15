@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "acceptance.json",
+  "title": "Acceptance Criteria",
+  "description": "Acceptance criteria structure used across requirements and outcomes.",
+  "type": "object",
+  "properties": {
+    "criteria": { "allOf": [ { "$ref": "common.json#/$defs/fieldWrapper" }, { "properties": { "meta": { "required": ["id","title","type","lastUpdated","version"] }, "value": { "type": "array", "items": { "type": "object", "properties": { "id": { "$ref": "common.json#/$defs/uuid" }, "description": { "type": "string" }, "method": { "type": "string" }, "owner": { "$ref": "common.json#/$defs/personRef" } }, "required": ["id","description"] } } } } ] }
+  },
+  "required": ["criteria"],
+  "additionalProperties": false
+}

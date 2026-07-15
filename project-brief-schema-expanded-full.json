@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "project-brief-schema.json",
+  "title": "Project Brief Schema (AI-native, PRINCE2-inspired)",
+  "description": "Root schema that composes all modular project brief components.",
+  "type": "object",
+  "properties": {
+    "metadata": {
+      "$ref": "metadata_expanded.json"
+    },
+    "projectDefinition": {
+      "$ref": "project-definition_expanded.json"
+    },
+    "businessCase": {
+      "$ref": "business-case_expanded.json"
+    },
+    "stakeholders": {
+      "$ref": "stakeholders_expanded.json"
+    },
+    "users": {
+      "$ref": "users_expanded.json"
+    },
+    "personas": {
+      "$ref": "personas_expanded.json"
+    },
+    "businessProcesses": {
+      "$ref": "business-processes_expanded.json"
+    },
+    "problemDomain": {
+      "$ref": "problem-domain_expanded.json"
+    },
+    "opportunities": {
+      "$ref": "opportunities_expanded.json"
+    },
+    "constraints": {
+      "$ref": "constraints_expanded.json"
+    },
+    "assumptions": {
+      "$ref": "assumptions_expanded.json"
+    },
+    "dependencies": {
+      "$ref": "dependencies_expanded.json"
+    },
+    "risks": {
+      "$ref": "risks_expanded.json"
+    },
+    "scope": {
+      "$ref": "scope_expanded.json"
+    },
+    "outcomes": {
+      "$ref": "outcomes_expanded.json"
+    },
+    "successMetrics": {
+      "$ref": "success-metrics_expanded.json"
+    },
+    "productDescription": {
+      "$ref": "product-description_expanded.json"
+    },
+    "functionalRequirements": {
+      "$ref": "functional-requirements_expanded.json"
+    },
+    "nonFunctionalRequirements": {
+      "$ref": "non-functional-requirements_expanded.json"
+    },
+    "quality": {
+      "$ref": "quality_expanded.json"
+    },
+    "solutionOptions": {
+      "$ref": "solution-options_expanded.json"
+    },
+    "technologyConsiderations": {
+      "$ref": "technology-considerations_expanded.json"
+    },
+    "interfaces": {
+      "$ref": "interfaces_expanded.json"
+    },
+    "acceptance": {
+      "$ref": "acceptance_expanded.json"
+    },
+    "governance": {
+      "$ref": "governance_expanded.json"
+    },
+    "references": {
+      "$ref": "references_expanded.json"
+    },
+    "glossary": {
+      "$ref": "glossary_expanded.json"
+    },
+    "decisions": {
+      "$ref": "decisions_expanded.json"
+    },
+    "openQuestions": {
+      "$ref": "open-questions_expanded.json"
+    },
+    "aiMetadata": {
+      "$ref": "ai-metadata_expanded.json"
+    }
+  },
+  "required": [
+    "metadata",
+    "projectDefinition"
+  ],
+  "additionalProperties": false,
+  "$comment": "Final root composed on 2026-07-14T15:49:13.178841Z with 350 logical fields"
+}

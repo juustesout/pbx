@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "interfaces.json",
+  "title": "Interfaces",
+  "description": "APIs, human interfaces and data contracts.",
+  "type": "object",
+  "properties": {
+    "interfaces": { "allOf": [ { "$ref": "common.json#/$defs/fieldWrapper" }, { "properties": { "meta": { "required": ["id","title","type","lastUpdated","version"] }, "value": { "type": "array", "items": { "type": "object", "properties": { "id": { "$ref": "common.json#/$defs/uuid" }, "name": { "type": "string" }, "type": { "type": "string", "enum": ["api","ui","file","event","other"] }, "contract": { "type": "object", "description": "Free-form contract: can include JSON Schema for payloads or OpenAPI refs" }, "security": { "type": "string" } }, "required": ["id","name"] } } } } ] }
+  },
+  "required": ["interfaces"],
+  "additionalProperties": false
+}

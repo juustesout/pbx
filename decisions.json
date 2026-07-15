@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "decisions.json",
+  "title": "Decisions",
+  "description": "Record of decisions, rationale and owners.",
+  "type": "object",
+  "properties": {
+    "decisions": { "allOf": [ { "$ref": "common.json#/$defs/fieldWrapper" }, { "properties": { "meta": { "required": ["id","title","type","lastUpdated","version"] }, "value": { "type": "array", "items": { "type": "object", "properties": { "id": { "$ref": "common.json#/$defs/uuid" }, "title": { "type": "string" }, "rationale": { "type": "string" }, "owner": { "$ref": "common.json#/$defs/personRef" }, "date": { "$ref": "common.json#/$defs/timestamp" } }, "required": ["id","title"] } } } } ] }
+  },
+  "required": ["decisions"],
+  "additionalProperties": false
+}

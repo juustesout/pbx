@@ -1,0 +1,138 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "metadata.json",
+  "title": "Project Brief Metadata",
+  "description": "High-level metadata for the project brief document.",
+  "type": "object",
+  "properties": {
+    "projectId": {
+      "allOf": [
+        { "$ref": "common.json#/$defs/fieldWrapper" },
+        {
+          "properties": {
+            "meta": {
+              "properties": {
+                "id": { "$ref": "common.json#/$defs/uuid" },
+                "title": { "const": "projectId" },
+                "description": { "const": "Canonical project identifier (UUID)" },
+                "type": { "const": "string" },
+                "required": { "const": true },
+                "example": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+                "examples": ["3fa85f64-5717-4562-b3fc-2c963f66afa6"],
+                "default": null,
+                "validationRules": { "pattern": "uuid" },
+                "pattern": "^[0-9a-fA-F\\-]{36}$",
+                "importanceWeight": 1.0,
+                "completionWeight": 1.0,
+                "aiPrompt": "Provide or confirm the canonical project UUID.",
+                "followUpQuestions": ["Do you have an existing project ID?"],
+                "editable": false,
+                "generated": false,
+                "reviewStatus": "approved",
+                "lastUpdated": "2026-07-14T12:00:00Z",
+                "version": "1.0"
+              },
+              "required": ["id","title","type","lastUpdated","version"]
+            },
+            "value": { "$ref": "common.json#/$defs/uuid" }
+          },
+          "required": ["meta","value"]
+        }
+      ]
+    },
+    "title": {
+      "allOf": [
+        { "$ref": "common.json#/$defs/fieldWrapper" },
+        {
+          "properties": {
+            "meta": {
+              "properties": {
+                "id": { "$ref": "common.json#/$defs/uuid" },
+                "title": { "const": "title" },
+                "description": { "const": "Short human-readable project title" },
+                "type": { "const": "string" },
+                "required": { "const": true },
+                "example": "Customer Portal Revamp",
+                "examples": ["Customer Portal Revamp","Orders Modernization"] ,
+                "importanceWeight": 0.9,
+                "completionWeight": 0.9,
+                "aiPrompt": "Summarize the project in a short title.",
+                "followUpQuestions": ["What is the short project name?"],
+                "editable": true,
+                "generated": false,
+                "lastUpdated": "2026-07-14T12:00:00Z",
+                "version": "1.0"
+              },
+              "required": ["id","title","type","lastUpdated","version"]
+            },
+            "value": { "type": "string" }
+          },
+          "required": ["meta","value"]
+        }
+      ]
+    },
+    "description": {
+      "allOf": [
+        { "$ref": "common.json#/$defs/fieldWrapper" },
+        {
+          "properties": {
+            "meta": {
+              "properties": {
+                "id": { "$ref": "common.json#/$defs/uuid" },
+                "title": { "const": "description" },
+                "description": { "const": "Elevator pitch / short description of the project" },
+                "type": { "const": "string" },
+                "required": { "const": true },
+                "example": "Revamp customer portal to reduce support calls and increase conversion.",
+                "examples": ["Revamp customer portal to reduce support calls."],
+                "importanceWeight": 0.9,
+                "completionWeight": 0.8,
+                "aiPrompt": "Describe the project in one or two sentences.",
+                "followUpQuestions": ["What is the primary purpose of this project?"],
+                "editable": true,
+                "generated": false,
+                "lastUpdated": "2026-07-14T12:00:00Z",
+                "version": "1.0"
+              },
+              "required": ["id","title","type","lastUpdated","version"]
+            },
+            "value": { "type": "string" }
+          },
+          "required": ["meta","value"]
+        }
+      ]
+    },
+    "schemaVersion": {
+      "allOf": [
+        { "$ref": "common.json#/$defs/fieldWrapper" },
+        {
+          "properties": {
+            "meta": {
+              "properties": {
+                "id": { "$ref": "common.json#/$defs/uuid" },
+                "title": { "const": "schemaVersion" },
+                "description": { "const": "Version of the modular project brief schema" },
+                "type": { "const": "string" },
+                "required": { "const": true },
+                "example": "2026-07-14.v1",
+                "examples": ["2026-07-14.v1"],
+                "importanceWeight": 1.0,
+                "completionWeight": 1.0,
+                "editable": false,
+                "generated": true,
+                "generatedBy": "schema-generator",
+                "lastUpdated": "2026-07-14T12:00:00Z",
+                "version": "1.0"
+              },
+              "required": ["id","title","type","lastUpdated","version"]
+            },
+            "value": { "type": "string" }
+          },
+          "required": ["meta","value"]
+        }
+      ]
+    }
+  },
+  "required": ["projectId","title","description","schemaVersion"],
+  "additionalProperties": false
+}

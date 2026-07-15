@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "risks.json",
+  "title": "Risks",
+  "description": "Risk register with scoring, mitigations and owners.",
+  "type": "object",
+  "properties": {
+    "riskRegister": { "allOf": [ { "$ref": "common.json#/$defs/fieldWrapper" }, { "properties": { "meta": { "required": ["id","title","type","lastUpdated","version"] }, "value": { "type": "array", "items": { "type": "object", "properties": { "id": { "$ref": "common.json#/$defs/uuid" }, "title": { "type": "string" }, "description": { "type": "string" }, "likelihood": { "type": "number", "minimum": 0, "maximum": 1 }, "impact": { "type": "number", "minimum": 0, "maximum": 1 }, "score": { "type": "number", "minimum": 0, "maximum": 1 }, "mitigations": { "type": "array", "items": { "type": "string" } }, "owner": { "$ref": "common.json#/$defs/personRef" } }, "required": ["id","title"] } } } } ] }
+  },
+  "required": ["riskRegister"],
+  "additionalProperties": false
+}

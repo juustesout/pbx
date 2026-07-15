@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "scope.json",
+  "title": "Scope",
+  "description": "Scope definition and boundaries for the project brief.",
+  "type": "object",
+  "properties": {
+    "inScope": { "allOf": [ { "$ref": "common.json#/$defs/fieldWrapper" }, { "properties": { "meta": { "required": ["id","title","type","lastUpdated","version"] }, "value": { "type": "array", "items": { "type": "string" } } } } ] },
+    "outOfScope": { "allOf": [ { "$ref": "common.json#/$defs/fieldWrapper" }, { "properties": { "meta": { "required": ["id","title","type","lastUpdated","version"] }, "value": { "type": "array", "items": { "type": "string" } } } } ] }
+  },
+  "required": ["inScope"],
+  "additionalProperties": false
+}

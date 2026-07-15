@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "users.json",
+  "title": "Users",
+  "description": "Canonical user definitions and usage contexts.",
+  "type": "object",
+  "properties": {
+    "userList": {
+      "allOf": [ { "$ref": "common.json#/$defs/fieldWrapper" }, { "properties": { "meta": { "required": ["id","title","type","lastUpdated","version"] }, "value": { "type": "array", "items": { "$ref": "common.json#/$defs/personRef" } } } } ]
+    }
+  },
+  "required": ["userList"],
+  "additionalProperties": false
+}

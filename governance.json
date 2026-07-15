@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "governance.json",
+  "title": "Governance",
+  "description": "Decision rights, approvals and review cadence.",
+  "type": "object",
+  "properties": {
+    "rolesAndResponsibilities": { "allOf": [ { "$ref": "common.json#/$defs/fieldWrapper" }, { "properties": { "meta": { "required": ["id","title","type","lastUpdated","version"] }, "value": { "type": "array", "items": { "type": "object", "properties": { "role": { "type": "string" }, "responsible": { "$ref": "common.json#/$defs/personRef" }, "accountable": { "$ref": "common.json#/$defs/personRef" }, "consulted": { "type": "array", "items": { "$ref": "common.json#/$defs/personRef" } }, "informed": { "type": "array", "items": { "$ref": "common.json#/$defs/personRef" } } }, "required": ["role"] } } } } ] }
+  },
+  "required": ["rolesAndResponsibilities"],
+  "additionalProperties": false
+}

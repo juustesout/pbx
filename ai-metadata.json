@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "ai-metadata.json",
+  "title": "AI Metadata",
+  "description": "Top-level AI provenance and processing metadata for the project brief.",
+  "type": "object",
+  "properties": {
+    "processingHistory": { "type": "array", "items": { "type": "object", "properties": { "stepId": { "$ref": "common.json#/$defs/uuid" }, "timestamp": { "$ref": "common.json#/$defs/timestamp" }, "action": { "type": "string" }, "model": { "type": "string" }, "prompt": { "type": "string" }, "outputSummary": { "type": "string" } }, "required": ["stepId","timestamp","action"] } },
+    "vectorIndexing": { "type": "object", "properties": { "namespace": { "type": "string" }, "lastIndexed": { "$ref": "common.json#/$defs/timestamp" }, "embeddingModel": { "type": "string" } } }
+  },
+  "required": [],
+  "additionalProperties": false
+}

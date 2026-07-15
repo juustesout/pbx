@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "project-definition.json",
+  "title": "Project Definition",
+  "description": "High-level project definition: problem context, goals, and core boundaries.",
+  "type": "object",
+  "properties": {
+    "vision": {
+      "allOf": [
+        { "$ref": "common.json#/$defs/fieldWrapper" },
+        {
+          "properties": {
+            "meta": { "required": ["id","title","type","lastUpdated","version"] },
+            "value": { "type": "string", "examples": ["Become the market leader in digital customer service"] }
+          }
+        }
+      ]
+    },
+    "businessGoals": {
+      "allOf": [
+        { "$ref": "common.json#/$defs/fieldWrapper" },
+        {
+          "properties": {
+            "meta": { "required": ["id","title","type","lastUpdated","version"] },
+            "value": { "type": "array", "items": { "type": "string" }, "examples": [["Reduce support calls by 30%","Increase online conversion by 15%"]] }
+          }
+        }
+      ]
+    },
+    "problemStatement": {
+      "allOf": [
+        { "$ref": "common.json#/$defs/fieldWrapper" },
+        { "properties": { "meta": { "required": ["id","title","type","lastUpdated","version"] }, "value": { "type": "string" } } }
+      ]
+    },
+    "outcomes": {
+      "allOf": [
+        { "$ref": "common.json#/$defs/fieldWrapper" },
+        { "properties": { "meta": { "required": ["id","title","type","lastUpdated","version"] }, "value": { "type": "array", "items": { "$ref": "outcomes.json" } } } }
+      ]
+    },
+    "primaryStakeholders": {
+      "allOf": [
+        { "$ref": "common.json#/$defs/fieldWrapper" },
+        { "properties": { "meta": { "required": ["id","title","type","lastUpdated","version"] }, "value": { "type": "array", "items": { "$ref": "stakeholders.json" } } } }
+      ]
+    },
+    "scopeSummary": {
+      "allOf": [
+        { "$ref": "common.json#/$defs/fieldWrapper" },
+        { "properties": { "meta": { "required": ["id","title","type","lastUpdated","version"] }, "value": { "$ref": "scope.json" } } }
+      ]
+    }
+  },
+  "required": ["vision","businessGoals","problemStatement"],
+  "additionalProperties": false
+}

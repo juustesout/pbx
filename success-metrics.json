@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "success-metrics.json",
+  "title": "Success Metrics",
+  "description": "Definition of measurable success metrics and targets.",
+  "type": "object",
+  "properties": {
+    "metrics": { "allOf": [ { "$ref": "common.json#/$defs/fieldWrapper" }, { "properties": { "meta": { "required": ["id","title","type","lastUpdated","version"] }, "value": { "type": "array", "items": { "type": "object", "properties": { "id": { "$ref": "common.json#/$defs/uuid" }, "name": { "type": "string" }, "target": { "type": ["number","string"] }, "unit": { "type": "string" }, "baseline": { "type": ["number","string"] }, "dataSource": { "$ref": "common.json#/$defs/reference" }, "aggregation": { "type": "string", "enum": ["avg","sum","max","min","point-in-time"] } }, "required": ["id","name"] } } } } ] }
+  },
+  "required": ["metrics"],
+  "additionalProperties": false
+}

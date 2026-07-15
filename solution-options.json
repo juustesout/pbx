@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "solution-options.json",
+  "title": "Solution Options",
+  "description": "Candidate solution options, trade-offs and recommendation rationale.",
+  "type": "object",
+  "properties": {
+    "options": { "allOf": [ { "$ref": "common.json#/$defs/fieldWrapper" }, { "properties": { "meta": { "required": ["id","title","type","lastUpdated","version"] }, "value": { "type": "array", "items": { "type": "object", "properties": { "id": { "$ref": "common.json#/$defs/uuid" }, "name": { "type": "string" }, "description": { "type": "string" }, "pros": { "type": "array", "items": { "type": "string" } }, "cons": { "type": "array", "items": { "type": "string" } }, "estimatedEffort": { "type": "string" }, "risks": { "type": "array", "items": { "$ref": "risks.json" } } }, "required": ["id","name"] } } } } ] }
+  },
+  "required": ["options"],
+  "additionalProperties": false
+}
