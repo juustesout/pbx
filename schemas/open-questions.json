@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "open-questions.json",
+  "title": "Open Questions",
+  "description": "Questions remaining to clarify requirements and assumptions.",
+  "type": "object",
+  "properties": {
+    "questions": { "allOf": [ { "$ref": "common.json#/$defs/fieldWrapper" }, { "properties": { "meta": { "required": ["id","title","type","lastUpdated","version"] }, "value": { "type": "array", "items": { "type": "object", "properties": { "id": { "$ref": "common.json#/$defs/uuid" }, "question": { "type": "string" }, "askedBy": { "$ref": "common.json#/$defs/personRef" }, "status": { "type": "string", "enum": ["open","answered","deferred"] } }, "required": ["id","question"] } } } } ] }
+  },
+  "required": ["questions"],
+  "additionalProperties": false
+}

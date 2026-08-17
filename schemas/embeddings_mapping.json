@@ -1,0 +1,3922 @@
+[
+  {
+    "module": "acceptance",
+    "schema_file": "acceptance_expanded.json",
+    "json_pointer": "$/criteria",
+    "embedding_id": "73e085af-bdf7-592f-85ec-651f84ffd1cb",
+    "namespace": "project-brief-schema:acceptance"
+  },
+  {
+    "module": "acceptance",
+    "schema_file": "acceptance_expanded.json",
+    "json_pointer": "$/criteria/meta",
+    "embedding_id": "1aaefec7-be62-57fc-9dac-4970be3692dd",
+    "namespace": "project-brief-schema:acceptance"
+  },
+  {
+    "module": "acceptance",
+    "schema_file": "acceptance_expanded.json",
+    "json_pointer": "$/criteria/value",
+    "embedding_id": "1b252017-653a-5f58-ae18-95f933c563d1",
+    "namespace": "project-brief-schema:acceptance"
+  },
+  {
+    "module": "acceptance",
+    "schema_file": "acceptance_expanded.json",
+    "json_pointer": "$/criteria/value/id",
+    "embedding_id": "d1ff0525-55d3-5404-918e-60c55b5852ec",
+    "namespace": "project-brief-schema:acceptance"
+  },
+  {
+    "module": "acceptance",
+    "schema_file": "acceptance_expanded.json",
+    "json_pointer": "$/criteria/value/description",
+    "embedding_id": "9234b220-2e03-5618-bfee-fecb42ff3ed6",
+    "namespace": "project-brief-schema:acceptance"
+  },
+  {
+    "module": "acceptance",
+    "schema_file": "acceptance_expanded.json",
+    "json_pointer": "$/criteria/value/method",
+    "embedding_id": "f32b9877-1b29-5f54-9e85-5ddfb86a3a42",
+    "namespace": "project-brief-schema:acceptance"
+  },
+  {
+    "module": "acceptance",
+    "schema_file": "acceptance_expanded.json",
+    "json_pointer": "$/criteria/value/owner",
+    "embedding_id": "dae54896-c753-56e4-a180-a50f6eb22058",
+    "namespace": "project-brief-schema:acceptance"
+  },
+  {
+    "module": "acceptance",
+    "schema_file": "acceptance_expanded.json",
+    "json_pointer": "$/synthetic_field_0001",
+    "embedding_id": "9317e2f6-9e10-5ac9-8d6c-4e68e963d9f0",
+    "namespace": "project-brief-schema:acceptance"
+  },
+  {
+    "module": "acceptance",
+    "schema_file": "acceptance_expanded.json",
+    "json_pointer": "$/synthetic_field_0002",
+    "embedding_id": "12f0ecb2-d5cd-5635-a3bf-1b9c8e85a14a",
+    "namespace": "project-brief-schema:acceptance"
+  },
+  {
+    "module": "acceptance",
+    "schema_file": "acceptance_expanded.json",
+    "json_pointer": "$/synthetic_field_0003",
+    "embedding_id": "d17624ca-e47d-504b-9ff3-e21eb6cd62d2",
+    "namespace": "project-brief-schema:acceptance"
+  },
+  {
+    "module": "acceptance",
+    "schema_file": "acceptance_expanded.json",
+    "json_pointer": "$/synthetic_field_0091",
+    "embedding_id": "e2cf2f5b-7d5b-54fb-945c-b4e38364a83f",
+    "namespace": "project-brief-schema:acceptance"
+  },
+  {
+    "module": "acceptance",
+    "schema_file": "acceptance_expanded.json",
+    "json_pointer": "$/synthetic_field_0092",
+    "embedding_id": "7e0b7e63-f985-5773-b2f0-f0b66104f51f",
+    "namespace": "project-brief-schema:acceptance"
+  },
+  {
+    "module": "acceptance",
+    "schema_file": "acceptance_expanded.json",
+    "json_pointer": "$/synthetic_field_0093",
+    "embedding_id": "0cdf171b-bf59-5f9e-b32f-c4371807e81a",
+    "namespace": "project-brief-schema:acceptance"
+  },
+  {
+    "module": "acceptance",
+    "schema_file": "acceptance_expanded.json",
+    "json_pointer": "$/synthetic_field_0181",
+    "embedding_id": "2aac64aa-b3d4-54ce-a997-d2be1c6c40a1",
+    "namespace": "project-brief-schema:acceptance"
+  },
+  {
+    "module": "acceptance",
+    "schema_file": "acceptance_expanded.json",
+    "json_pointer": "$/synthetic_field_0182",
+    "embedding_id": "f9234c89-9999-5f15-b01a-b04b9b738b47",
+    "namespace": "project-brief-schema:acceptance"
+  },
+  {
+    "module": "acceptance",
+    "schema_file": "acceptance_expanded.json",
+    "json_pointer": "$/synthetic_field_0183",
+    "embedding_id": "e0788dd3-429b-5640-9a2b-0ad8aec60932",
+    "namespace": "project-brief-schema:acceptance"
+  },
+  {
+    "module": "acceptance",
+    "schema_file": "acceptance_expanded.json",
+    "json_pointer": "$/synthetic_field_0271",
+    "embedding_id": "11ec58c1-f345-51dc-8690-f464bb0c17f8",
+    "namespace": "project-brief-schema:acceptance"
+  },
+  {
+    "module": "acceptance",
+    "schema_file": "acceptance_expanded.json",
+    "json_pointer": "$/synthetic_field_0272",
+    "embedding_id": "42361a90-0fc5-5533-9a62-6aa9a8fe1e44",
+    "namespace": "project-brief-schema:acceptance"
+  },
+  {
+    "module": "acceptance",
+    "schema_file": "acceptance_expanded.json",
+    "json_pointer": "$/synthetic_field_0273",
+    "embedding_id": "7e62b922-574a-5396-b460-7be5968f90c2",
+    "namespace": "project-brief-schema:acceptance"
+  },
+  {
+    "module": "ai-metadata",
+    "schema_file": "ai-metadata_expanded.json",
+    "json_pointer": "$/processingHistory",
+    "embedding_id": "ac45b2f3-a932-51eb-8304-50691b13941d",
+    "namespace": "project-brief-schema:ai-metadata"
+  },
+  {
+    "module": "ai-metadata",
+    "schema_file": "ai-metadata_expanded.json",
+    "json_pointer": "$/processingHistory/meta",
+    "embedding_id": "14b8a165-e907-5012-991a-d7c7e9e53c18",
+    "namespace": "project-brief-schema:ai-metadata"
+  },
+  {
+    "module": "ai-metadata",
+    "schema_file": "ai-metadata_expanded.json",
+    "json_pointer": "$/processingHistory/value",
+    "embedding_id": "8c4c11c8-09db-5eba-8876-db0860a2cc2a",
+    "namespace": "project-brief-schema:ai-metadata"
+  },
+  {
+    "module": "ai-metadata",
+    "schema_file": "ai-metadata_expanded.json",
+    "json_pointer": "$/vectorIndexing",
+    "embedding_id": "4719c02f-e645-5e8e-8b20-abd71022918d",
+    "namespace": "project-brief-schema:ai-metadata"
+  },
+  {
+    "module": "ai-metadata",
+    "schema_file": "ai-metadata_expanded.json",
+    "json_pointer": "$/vectorIndexing/meta",
+    "embedding_id": "913b8253-08c3-5345-9327-47d71e34fc7b",
+    "namespace": "project-brief-schema:ai-metadata"
+  },
+  {
+    "module": "ai-metadata",
+    "schema_file": "ai-metadata_expanded.json",
+    "json_pointer": "$/vectorIndexing/value",
+    "embedding_id": "8d96e8b2-9713-58ca-a058-99e83d6d24c4",
+    "namespace": "project-brief-schema:ai-metadata"
+  },
+  {
+    "module": "ai-metadata",
+    "schema_file": "ai-metadata_expanded.json",
+    "json_pointer": "$/synthetic_field_0004",
+    "embedding_id": "c0b6ec50-41c8-57e0-8573-34fd0d2b1da1",
+    "namespace": "project-brief-schema:ai-metadata"
+  },
+  {
+    "module": "ai-metadata",
+    "schema_file": "ai-metadata_expanded.json",
+    "json_pointer": "$/synthetic_field_0005",
+    "embedding_id": "b95b61dd-2472-519c-9f97-6a738781a3f3",
+    "namespace": "project-brief-schema:ai-metadata"
+  },
+  {
+    "module": "ai-metadata",
+    "schema_file": "ai-metadata_expanded.json",
+    "json_pointer": "$/synthetic_field_0006",
+    "embedding_id": "d1f10e74-b160-592f-a9ed-bb113ab9460a",
+    "namespace": "project-brief-schema:ai-metadata"
+  },
+  {
+    "module": "ai-metadata",
+    "schema_file": "ai-metadata_expanded.json",
+    "json_pointer": "$/synthetic_field_0094",
+    "embedding_id": "e141a19e-1a15-5c2d-9783-179c2223fda3",
+    "namespace": "project-brief-schema:ai-metadata"
+  },
+  {
+    "module": "ai-metadata",
+    "schema_file": "ai-metadata_expanded.json",
+    "json_pointer": "$/synthetic_field_0095",
+    "embedding_id": "9551b7b4-1b35-5ab7-bdde-589a16993b87",
+    "namespace": "project-brief-schema:ai-metadata"
+  },
+  {
+    "module": "ai-metadata",
+    "schema_file": "ai-metadata_expanded.json",
+    "json_pointer": "$/synthetic_field_0096",
+    "embedding_id": "fed714fd-0a4e-56fe-a778-476578a2b12a",
+    "namespace": "project-brief-schema:ai-metadata"
+  },
+  {
+    "module": "ai-metadata",
+    "schema_file": "ai-metadata_expanded.json",
+    "json_pointer": "$/synthetic_field_0184",
+    "embedding_id": "795163ad-7120-5860-aff5-56e77455bac3",
+    "namespace": "project-brief-schema:ai-metadata"
+  },
+  {
+    "module": "ai-metadata",
+    "schema_file": "ai-metadata_expanded.json",
+    "json_pointer": "$/synthetic_field_0185",
+    "embedding_id": "34e85e9b-b02d-53e4-97bc-0c4120f14c88",
+    "namespace": "project-brief-schema:ai-metadata"
+  },
+  {
+    "module": "ai-metadata",
+    "schema_file": "ai-metadata_expanded.json",
+    "json_pointer": "$/synthetic_field_0186",
+    "embedding_id": "2e054fcd-19ac-51d9-b22f-c991ee10a974",
+    "namespace": "project-brief-schema:ai-metadata"
+  },
+  {
+    "module": "ai-metadata",
+    "schema_file": "ai-metadata_expanded.json",
+    "json_pointer": "$/synthetic_field_0274",
+    "embedding_id": "1fdb35ef-4aa0-50b3-92c2-69e1c797d5ff",
+    "namespace": "project-brief-schema:ai-metadata"
+  },
+  {
+    "module": "ai-metadata",
+    "schema_file": "ai-metadata_expanded.json",
+    "json_pointer": "$/synthetic_field_0275",
+    "embedding_id": "a9eb1561-fbba-57ee-ac47-8983de1aa1df",
+    "namespace": "project-brief-schema:ai-metadata"
+  },
+  {
+    "module": "ai-metadata",
+    "schema_file": "ai-metadata_expanded.json",
+    "json_pointer": "$/synthetic_field_0276",
+    "embedding_id": "af0576d4-c139-5d2f-ac83-f4bf633bd659",
+    "namespace": "project-brief-schema:ai-metadata"
+  },
+  {
+    "module": "assumptions",
+    "schema_file": "assumptions_expanded.json",
+    "json_pointer": "$/assumptions",
+    "embedding_id": "6451c30c-5c7b-5d8c-8549-dd4c3ca3b10f",
+    "namespace": "project-brief-schema:assumptions"
+  },
+  {
+    "module": "assumptions",
+    "schema_file": "assumptions_expanded.json",
+    "json_pointer": "$/assumptions/meta",
+    "embedding_id": "055b3645-2b6d-52e6-b1b4-6a97a999629a",
+    "namespace": "project-brief-schema:assumptions"
+  },
+  {
+    "module": "assumptions",
+    "schema_file": "assumptions_expanded.json",
+    "json_pointer": "$/assumptions/value",
+    "embedding_id": "4aabd33a-2a03-59da-9772-f3e619f204b8",
+    "namespace": "project-brief-schema:assumptions"
+  },
+  {
+    "module": "assumptions",
+    "schema_file": "assumptions_expanded.json",
+    "json_pointer": "$/assumptions/value/id",
+    "embedding_id": "6a4d53c3-2576-5850-aeb9-01f2709722c3",
+    "namespace": "project-brief-schema:assumptions"
+  },
+  {
+    "module": "assumptions",
+    "schema_file": "assumptions_expanded.json",
+    "json_pointer": "$/assumptions/value/statement",
+    "embedding_id": "9eea75a2-12e4-5e09-8d48-afb184c44eb9",
+    "namespace": "project-brief-schema:assumptions"
+  },
+  {
+    "module": "assumptions",
+    "schema_file": "assumptions_expanded.json",
+    "json_pointer": "$/assumptions/value/rationale",
+    "embedding_id": "2b16c152-c14a-5afc-99ee-8991cd972918",
+    "namespace": "project-brief-schema:assumptions"
+  },
+  {
+    "module": "assumptions",
+    "schema_file": "assumptions_expanded.json",
+    "json_pointer": "$/assumptions/value/confidence",
+    "embedding_id": "22d9d83b-2bf5-56ad-9dcc-a3c4af1cdc2c",
+    "namespace": "project-brief-schema:assumptions"
+  },
+  {
+    "module": "assumptions",
+    "schema_file": "assumptions_expanded.json",
+    "json_pointer": "$/synthetic_field_0007",
+    "embedding_id": "c9fc8901-c4be-569a-9c2d-64b0dd866c7b",
+    "namespace": "project-brief-schema:assumptions"
+  },
+  {
+    "module": "assumptions",
+    "schema_file": "assumptions_expanded.json",
+    "json_pointer": "$/synthetic_field_0008",
+    "embedding_id": "2f5cb533-41b2-51d0-9b41-f791728232da",
+    "namespace": "project-brief-schema:assumptions"
+  },
+  {
+    "module": "assumptions",
+    "schema_file": "assumptions_expanded.json",
+    "json_pointer": "$/synthetic_field_0009",
+    "embedding_id": "17ce7c5a-7607-5341-a51e-b1360a9e973f",
+    "namespace": "project-brief-schema:assumptions"
+  },
+  {
+    "module": "assumptions",
+    "schema_file": "assumptions_expanded.json",
+    "json_pointer": "$/synthetic_field_0097",
+    "embedding_id": "a60d2d4e-10d3-5007-960b-2fdac7ab435b",
+    "namespace": "project-brief-schema:assumptions"
+  },
+  {
+    "module": "assumptions",
+    "schema_file": "assumptions_expanded.json",
+    "json_pointer": "$/synthetic_field_0098",
+    "embedding_id": "88dda4ac-ae4b-5035-b81e-8482dac7980a",
+    "namespace": "project-brief-schema:assumptions"
+  },
+  {
+    "module": "assumptions",
+    "schema_file": "assumptions_expanded.json",
+    "json_pointer": "$/synthetic_field_0099",
+    "embedding_id": "c16a65f3-2222-50e7-a716-330b3142e34c",
+    "namespace": "project-brief-schema:assumptions"
+  },
+  {
+    "module": "assumptions",
+    "schema_file": "assumptions_expanded.json",
+    "json_pointer": "$/synthetic_field_0187",
+    "embedding_id": "39bcaa50-7ba2-5833-9a2c-a2cee5aaea7b",
+    "namespace": "project-brief-schema:assumptions"
+  },
+  {
+    "module": "assumptions",
+    "schema_file": "assumptions_expanded.json",
+    "json_pointer": "$/synthetic_field_0188",
+    "embedding_id": "e6a1b083-05ca-569d-9b46-6c1a1afdd205",
+    "namespace": "project-brief-schema:assumptions"
+  },
+  {
+    "module": "assumptions",
+    "schema_file": "assumptions_expanded.json",
+    "json_pointer": "$/synthetic_field_0189",
+    "embedding_id": "047e5554-eb53-5c9d-a5cb-d968d44d3233",
+    "namespace": "project-brief-schema:assumptions"
+  },
+  {
+    "module": "assumptions",
+    "schema_file": "assumptions_expanded.json",
+    "json_pointer": "$/synthetic_field_0277",
+    "embedding_id": "e10f3858-a5d1-52e9-80a9-516f1eb58a89",
+    "namespace": "project-brief-schema:assumptions"
+  },
+  {
+    "module": "assumptions",
+    "schema_file": "assumptions_expanded.json",
+    "json_pointer": "$/synthetic_field_0278",
+    "embedding_id": "f49b5e5e-cf83-5aa3-97a1-a32f4f8ea1bd",
+    "namespace": "project-brief-schema:assumptions"
+  },
+  {
+    "module": "assumptions",
+    "schema_file": "assumptions_expanded.json",
+    "json_pointer": "$/synthetic_field_0279",
+    "embedding_id": "c230a0fb-10ee-5d31-ad2b-391c24d513ca",
+    "namespace": "project-brief-schema:assumptions"
+  },
+  {
+    "module": "business-case",
+    "schema_file": "business-case_expanded.json",
+    "json_pointer": "$/executiveSummary",
+    "embedding_id": "d32e538c-9946-5dcf-9c33-5bae37cc6ef4",
+    "namespace": "project-brief-schema:business-case"
+  },
+  {
+    "module": "business-case",
+    "schema_file": "business-case_expanded.json",
+    "json_pointer": "$/executiveSummary/meta",
+    "embedding_id": "49bcbf3c-5111-54ed-ad00-2db82ea74630",
+    "namespace": "project-brief-schema:business-case"
+  },
+  {
+    "module": "business-case",
+    "schema_file": "business-case_expanded.json",
+    "json_pointer": "$/executiveSummary/value",
+    "embedding_id": "e88aa75e-42a1-5177-9f2b-fb470dfb77be",
+    "namespace": "project-brief-schema:business-case"
+  },
+  {
+    "module": "business-case",
+    "schema_file": "business-case_expanded.json",
+    "json_pointer": "$/benefits",
+    "embedding_id": "a98d2432-f6e7-5856-a6c4-d280ffd8500f",
+    "namespace": "project-brief-schema:business-case"
+  },
+  {
+    "module": "business-case",
+    "schema_file": "business-case_expanded.json",
+    "json_pointer": "$/benefits/meta",
+    "embedding_id": "d0ac6e20-44fa-50f7-b25c-55bc9be9ac07",
+    "namespace": "project-brief-schema:business-case"
+  },
+  {
+    "module": "business-case",
+    "schema_file": "business-case_expanded.json",
+    "json_pointer": "$/benefits/value",
+    "embedding_id": "a59f30e5-f50f-5451-8e92-0bb20d4def2e",
+    "namespace": "project-brief-schema:business-case"
+  },
+  {
+    "module": "business-case",
+    "schema_file": "business-case_expanded.json",
+    "json_pointer": "$/benefits/value/id",
+    "embedding_id": "a0032c0d-c6b0-5320-9bcd-8e005dad5adf",
+    "namespace": "project-brief-schema:business-case"
+  },
+  {
+    "module": "business-case",
+    "schema_file": "business-case_expanded.json",
+    "json_pointer": "$/benefits/value/title",
+    "embedding_id": "dc749d83-df29-5b35-8739-fee09da3f73c",
+    "namespace": "project-brief-schema:business-case"
+  },
+  {
+    "module": "business-case",
+    "schema_file": "business-case_expanded.json",
+    "json_pointer": "$/benefits/value/description",
+    "embedding_id": "199b714c-b8fe-5257-83da-2cd76d4f4b7d",
+    "namespace": "project-brief-schema:business-case"
+  },
+  {
+    "module": "business-case",
+    "schema_file": "business-case_expanded.json",
+    "json_pointer": "$/benefits/value/metric",
+    "embedding_id": "6d8de68a-488d-5933-b7ca-6167f84b9edf",
+    "namespace": "project-brief-schema:business-case"
+  },
+  {
+    "module": "business-case",
+    "schema_file": "business-case_expanded.json",
+    "json_pointer": "$/strategicAlignment",
+    "embedding_id": "dbc943fe-5e1e-5c48-9dc8-b56c7d284f6c",
+    "namespace": "project-brief-schema:business-case"
+  },
+  {
+    "module": "business-case",
+    "schema_file": "business-case_expanded.json",
+    "json_pointer": "$/strategicAlignment/meta",
+    "embedding_id": "82318533-9813-5f3d-942a-51149e4075ae",
+    "namespace": "project-brief-schema:business-case"
+  },
+  {
+    "module": "business-case",
+    "schema_file": "business-case_expanded.json",
+    "json_pointer": "$/strategicAlignment/value",
+    "embedding_id": "a3d01ea7-ca3e-5e10-9c66-bcc3c51e4468",
+    "namespace": "project-brief-schema:business-case"
+  },
+  {
+    "module": "business-case",
+    "schema_file": "business-case_expanded.json",
+    "json_pointer": "$/measures",
+    "embedding_id": "0826fd33-f305-5c04-9ff7-43052ce11744",
+    "namespace": "project-brief-schema:business-case"
+  },
+  {
+    "module": "business-case",
+    "schema_file": "business-case_expanded.json",
+    "json_pointer": "$/measures/meta",
+    "embedding_id": "4f41a3ec-4a4c-5e57-b7dc-f23ff8da238a",
+    "namespace": "project-brief-schema:business-case"
+  },
+  {
+    "module": "business-case",
+    "schema_file": "business-case_expanded.json",
+    "json_pointer": "$/measures/value",
+    "embedding_id": "addf84e2-7976-5ead-87f7-a6be9e2debf5",
+    "namespace": "project-brief-schema:business-case"
+  },
+  {
+    "module": "business-case",
+    "schema_file": "business-case_expanded.json",
+    "json_pointer": "$/assumptions",
+    "embedding_id": "a6978cde-cc87-5a03-ac03-8a074693ad75",
+    "namespace": "project-brief-schema:business-case"
+  },
+  {
+    "module": "business-case",
+    "schema_file": "business-case_expanded.json",
+    "json_pointer": "$/assumptions/meta",
+    "embedding_id": "e543828c-7935-5ac9-adbb-dfd0a3ed3e49",
+    "namespace": "project-brief-schema:business-case"
+  },
+  {
+    "module": "business-case",
+    "schema_file": "business-case_expanded.json",
+    "json_pointer": "$/assumptions/value",
+    "embedding_id": "ff9a1a11-5e1b-5f1e-8bee-98f2bb14b26f",
+    "namespace": "project-brief-schema:business-case"
+  },
+  {
+    "module": "business-case",
+    "schema_file": "business-case_expanded.json",
+    "json_pointer": "$/synthetic_field_0010",
+    "embedding_id": "c6f7149b-afe7-5459-a82b-696ee78f4984",
+    "namespace": "project-brief-schema:business-case"
+  },
+  {
+    "module": "business-case",
+    "schema_file": "business-case_expanded.json",
+    "json_pointer": "$/synthetic_field_0011",
+    "embedding_id": "8298e714-62ea-51fd-9cb1-fbb26d8c24dc",
+    "namespace": "project-brief-schema:business-case"
+  },
+  {
+    "module": "business-case",
+    "schema_file": "business-case_expanded.json",
+    "json_pointer": "$/synthetic_field_0012",
+    "embedding_id": "52ab5129-e0eb-56b9-a3e7-f956a8b8e1e7",
+    "namespace": "project-brief-schema:business-case"
+  },
+  {
+    "module": "business-case",
+    "schema_file": "business-case_expanded.json",
+    "json_pointer": "$/synthetic_field_0100",
+    "embedding_id": "8d9e8c04-4675-5ecc-80d5-97ce61fbb19d",
+    "namespace": "project-brief-schema:business-case"
+  },
+  {
+    "module": "business-case",
+    "schema_file": "business-case_expanded.json",
+    "json_pointer": "$/synthetic_field_0101",
+    "embedding_id": "f9018782-b868-514b-b0c9-ce8d30115428",
+    "namespace": "project-brief-schema:business-case"
+  },
+  {
+    "module": "business-case",
+    "schema_file": "business-case_expanded.json",
+    "json_pointer": "$/synthetic_field_0102",
+    "embedding_id": "009860b8-b9a2-5cf9-baa6-a182e8b2a399",
+    "namespace": "project-brief-schema:business-case"
+  },
+  {
+    "module": "business-case",
+    "schema_file": "business-case_expanded.json",
+    "json_pointer": "$/synthetic_field_0190",
+    "embedding_id": "d1afc7cd-7082-5449-b397-530a34ed8f13",
+    "namespace": "project-brief-schema:business-case"
+  },
+  {
+    "module": "business-case",
+    "schema_file": "business-case_expanded.json",
+    "json_pointer": "$/synthetic_field_0191",
+    "embedding_id": "73d3166d-ac08-5683-b920-b17dd98ce4a9",
+    "namespace": "project-brief-schema:business-case"
+  },
+  {
+    "module": "business-case",
+    "schema_file": "business-case_expanded.json",
+    "json_pointer": "$/synthetic_field_0192",
+    "embedding_id": "9f2a18b9-8415-5b6b-a0d7-f3d9fc9f32c4",
+    "namespace": "project-brief-schema:business-case"
+  },
+  {
+    "module": "business-case",
+    "schema_file": "business-case_expanded.json",
+    "json_pointer": "$/synthetic_field_0280",
+    "embedding_id": "00537743-56c9-5fc5-9dec-c1e97533eb80",
+    "namespace": "project-brief-schema:business-case"
+  },
+  {
+    "module": "business-case",
+    "schema_file": "business-case_expanded.json",
+    "json_pointer": "$/synthetic_field_0281",
+    "embedding_id": "7bdea722-d026-56e3-bdce-4a27447bafbe",
+    "namespace": "project-brief-schema:business-case"
+  },
+  {
+    "module": "business-case",
+    "schema_file": "business-case_expanded.json",
+    "json_pointer": "$/synthetic_field_0282",
+    "embedding_id": "d06cb5e1-19bc-56a0-8ed6-e58f91faf831",
+    "namespace": "project-brief-schema:business-case"
+  },
+  {
+    "module": "business-processes",
+    "schema_file": "business-processes_expanded.json",
+    "json_pointer": "$/processes",
+    "embedding_id": "90709c87-79ee-5acc-9a1b-8543a0ddec0e",
+    "namespace": "project-brief-schema:business-processes"
+  },
+  {
+    "module": "business-processes",
+    "schema_file": "business-processes_expanded.json",
+    "json_pointer": "$/processes/meta",
+    "embedding_id": "e5e0a1cf-e7a5-5b6b-8871-1bcda072951d",
+    "namespace": "project-brief-schema:business-processes"
+  },
+  {
+    "module": "business-processes",
+    "schema_file": "business-processes_expanded.json",
+    "json_pointer": "$/processes/value",
+    "embedding_id": "64eccfc1-181b-5b42-a66a-806083b3a066",
+    "namespace": "project-brief-schema:business-processes"
+  },
+  {
+    "module": "business-processes",
+    "schema_file": "business-processes_expanded.json",
+    "json_pointer": "$/processes/value/id",
+    "embedding_id": "1b626b27-e68c-597c-b454-393d1bc13854",
+    "namespace": "project-brief-schema:business-processes"
+  },
+  {
+    "module": "business-processes",
+    "schema_file": "business-processes_expanded.json",
+    "json_pointer": "$/processes/value/name",
+    "embedding_id": "53ecf76a-40c8-57b3-9e5e-15813a962ce0",
+    "namespace": "project-brief-schema:business-processes"
+  },
+  {
+    "module": "business-processes",
+    "schema_file": "business-processes_expanded.json",
+    "json_pointer": "$/processes/value/description",
+    "embedding_id": "eb5704d7-47a9-5e0a-b68b-e40c3b7f5714",
+    "namespace": "project-brief-schema:business-processes"
+  },
+  {
+    "module": "business-processes",
+    "schema_file": "business-processes_expanded.json",
+    "json_pointer": "$/processes/value/triggers",
+    "embedding_id": "3139470d-a245-5ef6-8030-77b951246d0d",
+    "namespace": "project-brief-schema:business-processes"
+  },
+  {
+    "module": "business-processes",
+    "schema_file": "business-processes_expanded.json",
+    "json_pointer": "$/processes/value/inputs",
+    "embedding_id": "f5782a65-c0cc-5d1f-9311-75524a45f28b",
+    "namespace": "project-brief-schema:business-processes"
+  },
+  {
+    "module": "business-processes",
+    "schema_file": "business-processes_expanded.json",
+    "json_pointer": "$/processes/value/outputs",
+    "embedding_id": "ba6fcaa2-0f9e-579c-9bd0-e5477b950af6",
+    "namespace": "project-brief-schema:business-processes"
+  },
+  {
+    "module": "business-processes",
+    "schema_file": "business-processes_expanded.json",
+    "json_pointer": "$/processes/value/steps",
+    "embedding_id": "9fb3fe42-594e-5383-bf91-4f3764eb0415",
+    "namespace": "project-brief-schema:business-processes"
+  },
+  {
+    "module": "business-processes",
+    "schema_file": "business-processes_expanded.json",
+    "json_pointer": "$/synthetic_field_0013",
+    "embedding_id": "5f62bb3b-10dc-56c7-8486-9a76b8b1325b",
+    "namespace": "project-brief-schema:business-processes"
+  },
+  {
+    "module": "business-processes",
+    "schema_file": "business-processes_expanded.json",
+    "json_pointer": "$/synthetic_field_0014",
+    "embedding_id": "51326e40-5ccf-5133-be1e-9221bd466267",
+    "namespace": "project-brief-schema:business-processes"
+  },
+  {
+    "module": "business-processes",
+    "schema_file": "business-processes_expanded.json",
+    "json_pointer": "$/synthetic_field_0015",
+    "embedding_id": "8355c34f-e869-5b36-8530-c40391278d1c",
+    "namespace": "project-brief-schema:business-processes"
+  },
+  {
+    "module": "business-processes",
+    "schema_file": "business-processes_expanded.json",
+    "json_pointer": "$/synthetic_field_0103",
+    "embedding_id": "5a6838f8-f785-5700-ab00-554274ed90df",
+    "namespace": "project-brief-schema:business-processes"
+  },
+  {
+    "module": "business-processes",
+    "schema_file": "business-processes_expanded.json",
+    "json_pointer": "$/synthetic_field_0104",
+    "embedding_id": "c60f5cf6-9845-5a0f-823c-fc97ec5296f0",
+    "namespace": "project-brief-schema:business-processes"
+  },
+  {
+    "module": "business-processes",
+    "schema_file": "business-processes_expanded.json",
+    "json_pointer": "$/synthetic_field_0105",
+    "embedding_id": "41039f0b-db54-51e3-aed0-04ba42a11e5e",
+    "namespace": "project-brief-schema:business-processes"
+  },
+  {
+    "module": "business-processes",
+    "schema_file": "business-processes_expanded.json",
+    "json_pointer": "$/synthetic_field_0193",
+    "embedding_id": "dc311a08-79c8-5851-ad0e-7c8a85ef3ce6",
+    "namespace": "project-brief-schema:business-processes"
+  },
+  {
+    "module": "business-processes",
+    "schema_file": "business-processes_expanded.json",
+    "json_pointer": "$/synthetic_field_0194",
+    "embedding_id": "95c8f8b6-bde8-574a-a1a7-dababbf31513",
+    "namespace": "project-brief-schema:business-processes"
+  },
+  {
+    "module": "business-processes",
+    "schema_file": "business-processes_expanded.json",
+    "json_pointer": "$/synthetic_field_0195",
+    "embedding_id": "02e36da9-88e5-5979-91d5-b67ae083d84d",
+    "namespace": "project-brief-schema:business-processes"
+  },
+  {
+    "module": "business-processes",
+    "schema_file": "business-processes_expanded.json",
+    "json_pointer": "$/synthetic_field_0283",
+    "embedding_id": "5187d524-4d42-5fc3-80bf-28b857456226",
+    "namespace": "project-brief-schema:business-processes"
+  },
+  {
+    "module": "business-processes",
+    "schema_file": "business-processes_expanded.json",
+    "json_pointer": "$/synthetic_field_0284",
+    "embedding_id": "3eb82de2-b54f-532d-9756-f6ad1d4dbdd5",
+    "namespace": "project-brief-schema:business-processes"
+  },
+  {
+    "module": "business-processes",
+    "schema_file": "business-processes_expanded.json",
+    "json_pointer": "$/synthetic_field_0285",
+    "embedding_id": "63899fb5-6782-581a-8d46-c9a1e855a45a",
+    "namespace": "project-brief-schema:business-processes"
+  },
+  {
+    "module": "constraints",
+    "schema_file": "constraints_expanded.json",
+    "json_pointer": "$/constraints",
+    "embedding_id": "34fd34fd-1814-5ed4-bb32-b30208a96697",
+    "namespace": "project-brief-schema:constraints"
+  },
+  {
+    "module": "constraints",
+    "schema_file": "constraints_expanded.json",
+    "json_pointer": "$/constraints/meta",
+    "embedding_id": "6686f89d-b81e-55ab-9f84-48d93ebeb164",
+    "namespace": "project-brief-schema:constraints"
+  },
+  {
+    "module": "constraints",
+    "schema_file": "constraints_expanded.json",
+    "json_pointer": "$/constraints/value",
+    "embedding_id": "084b9f11-7fa4-5580-bd93-1e506d8fb391",
+    "namespace": "project-brief-schema:constraints"
+  },
+  {
+    "module": "constraints",
+    "schema_file": "constraints_expanded.json",
+    "json_pointer": "$/constraints/value/id",
+    "embedding_id": "75d93e4a-bc1e-5a64-8f4f-a35ddc26a28c",
+    "namespace": "project-brief-schema:constraints"
+  },
+  {
+    "module": "constraints",
+    "schema_file": "constraints_expanded.json",
+    "json_pointer": "$/constraints/value/type",
+    "embedding_id": "2a7e71a1-ecca-51b1-a3d1-30a300a1a4b9",
+    "namespace": "project-brief-schema:constraints"
+  },
+  {
+    "module": "constraints",
+    "schema_file": "constraints_expanded.json",
+    "json_pointer": "$/constraints/value/description",
+    "embedding_id": "046e8dbc-c333-535a-be59-d589bbd2e81e",
+    "namespace": "project-brief-schema:constraints"
+  },
+  {
+    "module": "constraints",
+    "schema_file": "constraints_expanded.json",
+    "json_pointer": "$/constraints/value/impact",
+    "embedding_id": "a4503ba9-8bc8-51e8-a7f5-40ca8212ff9b",
+    "namespace": "project-brief-schema:constraints"
+  },
+  {
+    "module": "constraints",
+    "schema_file": "constraints_expanded.json",
+    "json_pointer": "$/synthetic_field_0016",
+    "embedding_id": "089a5a4b-409a-5818-94c6-73f03c084b62",
+    "namespace": "project-brief-schema:constraints"
+  },
+  {
+    "module": "constraints",
+    "schema_file": "constraints_expanded.json",
+    "json_pointer": "$/synthetic_field_0017",
+    "embedding_id": "96cefd91-4e34-5c3c-b8ae-dc6f1f32a135",
+    "namespace": "project-brief-schema:constraints"
+  },
+  {
+    "module": "constraints",
+    "schema_file": "constraints_expanded.json",
+    "json_pointer": "$/synthetic_field_0018",
+    "embedding_id": "a53beb9b-b80c-5bbb-9184-964fe83c2a52",
+    "namespace": "project-brief-schema:constraints"
+  },
+  {
+    "module": "constraints",
+    "schema_file": "constraints_expanded.json",
+    "json_pointer": "$/synthetic_field_0106",
+    "embedding_id": "22f4b6d9-8420-5665-be10-6f920e4eafbd",
+    "namespace": "project-brief-schema:constraints"
+  },
+  {
+    "module": "constraints",
+    "schema_file": "constraints_expanded.json",
+    "json_pointer": "$/synthetic_field_0107",
+    "embedding_id": "f417b945-cc5d-54a6-84ba-84b2ff9bb0ae",
+    "namespace": "project-brief-schema:constraints"
+  },
+  {
+    "module": "constraints",
+    "schema_file": "constraints_expanded.json",
+    "json_pointer": "$/synthetic_field_0108",
+    "embedding_id": "e14d2af8-34fd-5266-80a1-af128dd8cce7",
+    "namespace": "project-brief-schema:constraints"
+  },
+  {
+    "module": "constraints",
+    "schema_file": "constraints_expanded.json",
+    "json_pointer": "$/synthetic_field_0196",
+    "embedding_id": "715a77cd-9417-5886-a009-187f403f1570",
+    "namespace": "project-brief-schema:constraints"
+  },
+  {
+    "module": "constraints",
+    "schema_file": "constraints_expanded.json",
+    "json_pointer": "$/synthetic_field_0197",
+    "embedding_id": "a4d0404e-f5fd-59fc-9a4a-8953cbd38b4c",
+    "namespace": "project-brief-schema:constraints"
+  },
+  {
+    "module": "constraints",
+    "schema_file": "constraints_expanded.json",
+    "json_pointer": "$/synthetic_field_0198",
+    "embedding_id": "fef780e4-55b3-5955-97f9-607b578dfce9",
+    "namespace": "project-brief-schema:constraints"
+  },
+  {
+    "module": "constraints",
+    "schema_file": "constraints_expanded.json",
+    "json_pointer": "$/synthetic_field_0286",
+    "embedding_id": "b26d44b4-6814-54cd-b37a-4bf160085091",
+    "namespace": "project-brief-schema:constraints"
+  },
+  {
+    "module": "constraints",
+    "schema_file": "constraints_expanded.json",
+    "json_pointer": "$/synthetic_field_0287",
+    "embedding_id": "c7eeedbd-0765-53ac-9e15-809ec8e88d85",
+    "namespace": "project-brief-schema:constraints"
+  },
+  {
+    "module": "constraints",
+    "schema_file": "constraints_expanded.json",
+    "json_pointer": "$/synthetic_field_0288",
+    "embedding_id": "1e66ebee-dae0-5b99-95a1-dd36cb6bae30",
+    "namespace": "project-brief-schema:constraints"
+  },
+  {
+    "module": "decisions",
+    "schema_file": "decisions_expanded.json",
+    "json_pointer": "$/decisions",
+    "embedding_id": "be56e90e-c81d-54db-920d-aaf2825f5236",
+    "namespace": "project-brief-schema:decisions"
+  },
+  {
+    "module": "decisions",
+    "schema_file": "decisions_expanded.json",
+    "json_pointer": "$/decisions/meta",
+    "embedding_id": "5e035461-4715-58f7-bbe7-07fcb0136006",
+    "namespace": "project-brief-schema:decisions"
+  },
+  {
+    "module": "decisions",
+    "schema_file": "decisions_expanded.json",
+    "json_pointer": "$/decisions/value",
+    "embedding_id": "ab9df08d-a1b6-5d3a-bccf-ff34903d9399",
+    "namespace": "project-brief-schema:decisions"
+  },
+  {
+    "module": "decisions",
+    "schema_file": "decisions_expanded.json",
+    "json_pointer": "$/decisions/value/id",
+    "embedding_id": "f4a4bc6a-df30-5c04-8bc9-6132d89cb609",
+    "namespace": "project-brief-schema:decisions"
+  },
+  {
+    "module": "decisions",
+    "schema_file": "decisions_expanded.json",
+    "json_pointer": "$/decisions/value/title",
+    "embedding_id": "c4715138-2214-562c-ab9a-88521768292f",
+    "namespace": "project-brief-schema:decisions"
+  },
+  {
+    "module": "decisions",
+    "schema_file": "decisions_expanded.json",
+    "json_pointer": "$/decisions/value/rationale",
+    "embedding_id": "a1f5eff9-a4f1-5b13-846a-1255012d6697",
+    "namespace": "project-brief-schema:decisions"
+  },
+  {
+    "module": "decisions",
+    "schema_file": "decisions_expanded.json",
+    "json_pointer": "$/decisions/value/owner",
+    "embedding_id": "53d3b5c0-a928-5032-8e38-b95341f9a0f8",
+    "namespace": "project-brief-schema:decisions"
+  },
+  {
+    "module": "decisions",
+    "schema_file": "decisions_expanded.json",
+    "json_pointer": "$/decisions/value/date",
+    "embedding_id": "77f5156e-63fe-570b-bbd4-6d0d54927a95",
+    "namespace": "project-brief-schema:decisions"
+  },
+  {
+    "module": "decisions",
+    "schema_file": "decisions_expanded.json",
+    "json_pointer": "$/synthetic_field_0019",
+    "embedding_id": "c13abf1e-161a-5301-9ed0-99e8ee11ba43",
+    "namespace": "project-brief-schema:decisions"
+  },
+  {
+    "module": "decisions",
+    "schema_file": "decisions_expanded.json",
+    "json_pointer": "$/synthetic_field_0020",
+    "embedding_id": "35b1922b-68cc-5e7b-a84a-9d2cd53437e0",
+    "namespace": "project-brief-schema:decisions"
+  },
+  {
+    "module": "decisions",
+    "schema_file": "decisions_expanded.json",
+    "json_pointer": "$/synthetic_field_0021",
+    "embedding_id": "87f97991-a4da-5726-83bd-035580d8de95",
+    "namespace": "project-brief-schema:decisions"
+  },
+  {
+    "module": "decisions",
+    "schema_file": "decisions_expanded.json",
+    "json_pointer": "$/synthetic_field_0109",
+    "embedding_id": "fb3d7ebe-d1b6-5392-9f8c-21187431f7fa",
+    "namespace": "project-brief-schema:decisions"
+  },
+  {
+    "module": "decisions",
+    "schema_file": "decisions_expanded.json",
+    "json_pointer": "$/synthetic_field_0110",
+    "embedding_id": "1cc253b8-54d2-5586-aa65-39558d8b196a",
+    "namespace": "project-brief-schema:decisions"
+  },
+  {
+    "module": "decisions",
+    "schema_file": "decisions_expanded.json",
+    "json_pointer": "$/synthetic_field_0111",
+    "embedding_id": "1def42c4-295b-52b3-9772-69401c59c63d",
+    "namespace": "project-brief-schema:decisions"
+  },
+  {
+    "module": "decisions",
+    "schema_file": "decisions_expanded.json",
+    "json_pointer": "$/synthetic_field_0199",
+    "embedding_id": "f3ffcd43-db5a-5adb-9695-927e7f6a2bfa",
+    "namespace": "project-brief-schema:decisions"
+  },
+  {
+    "module": "decisions",
+    "schema_file": "decisions_expanded.json",
+    "json_pointer": "$/synthetic_field_0200",
+    "embedding_id": "c2afd2fc-8d31-5fde-97f1-8e1324d19877",
+    "namespace": "project-brief-schema:decisions"
+  },
+  {
+    "module": "decisions",
+    "schema_file": "decisions_expanded.json",
+    "json_pointer": "$/synthetic_field_0201",
+    "embedding_id": "621b5c23-aeed-59a0-8d08-18abacb924b5",
+    "namespace": "project-brief-schema:decisions"
+  },
+  {
+    "module": "decisions",
+    "schema_file": "decisions_expanded.json",
+    "json_pointer": "$/synthetic_field_0289",
+    "embedding_id": "10f6396e-474d-5159-89be-841b73735efa",
+    "namespace": "project-brief-schema:decisions"
+  },
+  {
+    "module": "decisions",
+    "schema_file": "decisions_expanded.json",
+    "json_pointer": "$/synthetic_field_0290",
+    "embedding_id": "bcba93b9-fb2b-5d7f-bfa3-1a687cfffbab",
+    "namespace": "project-brief-schema:decisions"
+  },
+  {
+    "module": "decisions",
+    "schema_file": "decisions_expanded.json",
+    "json_pointer": "$/synthetic_field_0291",
+    "embedding_id": "79b39ebc-e506-57f5-9300-55a761613f5d",
+    "namespace": "project-brief-schema:decisions"
+  },
+  {
+    "module": "dependencies",
+    "schema_file": "dependencies_expanded.json",
+    "json_pointer": "$/dependencies",
+    "embedding_id": "3fa9a1b4-73a3-53bf-a7f3-4cfcc1db106d",
+    "namespace": "project-brief-schema:dependencies"
+  },
+  {
+    "module": "dependencies",
+    "schema_file": "dependencies_expanded.json",
+    "json_pointer": "$/dependencies/meta",
+    "embedding_id": "d64695e9-e41f-518b-802a-f87683c1f628",
+    "namespace": "project-brief-schema:dependencies"
+  },
+  {
+    "module": "dependencies",
+    "schema_file": "dependencies_expanded.json",
+    "json_pointer": "$/dependencies/value",
+    "embedding_id": "a0791ebf-ed06-5f19-b281-8af87f44ceb9",
+    "namespace": "project-brief-schema:dependencies"
+  },
+  {
+    "module": "dependencies",
+    "schema_file": "dependencies_expanded.json",
+    "json_pointer": "$/dependencies/value/id",
+    "embedding_id": "8e04eb0d-1e32-5a93-a4c5-3981b3a2684b",
+    "namespace": "project-brief-schema:dependencies"
+  },
+  {
+    "module": "dependencies",
+    "schema_file": "dependencies_expanded.json",
+    "json_pointer": "$/dependencies/value/description",
+    "embedding_id": "cfb36c2b-50f1-56fe-84d0-7613eca80d77",
+    "namespace": "project-brief-schema:dependencies"
+  },
+  {
+    "module": "dependencies",
+    "schema_file": "dependencies_expanded.json",
+    "json_pointer": "$/dependencies/value/owner",
+    "embedding_id": "4894d914-eddc-51a3-ae2c-6ef06f59fcbf",
+    "namespace": "project-brief-schema:dependencies"
+  },
+  {
+    "module": "dependencies",
+    "schema_file": "dependencies_expanded.json",
+    "json_pointer": "$/dependencies/value/type",
+    "embedding_id": "533b9f8b-8f52-59d1-8ead-2171dfc313f6",
+    "namespace": "project-brief-schema:dependencies"
+  },
+  {
+    "module": "dependencies",
+    "schema_file": "dependencies_expanded.json",
+    "json_pointer": "$/dependencies/value/status",
+    "embedding_id": "bba7329c-5525-5def-a7ee-780cdc327016",
+    "namespace": "project-brief-schema:dependencies"
+  },
+  {
+    "module": "dependencies",
+    "schema_file": "dependencies_expanded.json",
+    "json_pointer": "$/synthetic_field_0022",
+    "embedding_id": "37802705-e352-5deb-9a24-a24da46876e5",
+    "namespace": "project-brief-schema:dependencies"
+  },
+  {
+    "module": "dependencies",
+    "schema_file": "dependencies_expanded.json",
+    "json_pointer": "$/synthetic_field_0023",
+    "embedding_id": "57b05db2-02a4-55d9-a5c1-e0b0c4f16da8",
+    "namespace": "project-brief-schema:dependencies"
+  },
+  {
+    "module": "dependencies",
+    "schema_file": "dependencies_expanded.json",
+    "json_pointer": "$/synthetic_field_0024",
+    "embedding_id": "334d5a1e-189a-5d31-8fc6-70b27e4c84b8",
+    "namespace": "project-brief-schema:dependencies"
+  },
+  {
+    "module": "dependencies",
+    "schema_file": "dependencies_expanded.json",
+    "json_pointer": "$/synthetic_field_0112",
+    "embedding_id": "a5ffa9c0-a309-59ea-b0db-63a5879636e6",
+    "namespace": "project-brief-schema:dependencies"
+  },
+  {
+    "module": "dependencies",
+    "schema_file": "dependencies_expanded.json",
+    "json_pointer": "$/synthetic_field_0113",
+    "embedding_id": "b96cb83b-ae1c-5baa-9e55-3239c2088a48",
+    "namespace": "project-brief-schema:dependencies"
+  },
+  {
+    "module": "dependencies",
+    "schema_file": "dependencies_expanded.json",
+    "json_pointer": "$/synthetic_field_0114",
+    "embedding_id": "302dfb1c-cc4a-52fd-b088-9e9a490412e9",
+    "namespace": "project-brief-schema:dependencies"
+  },
+  {
+    "module": "dependencies",
+    "schema_file": "dependencies_expanded.json",
+    "json_pointer": "$/synthetic_field_0202",
+    "embedding_id": "d19c8d72-4de8-5a71-be6e-11daf0c535b2",
+    "namespace": "project-brief-schema:dependencies"
+  },
+  {
+    "module": "dependencies",
+    "schema_file": "dependencies_expanded.json",
+    "json_pointer": "$/synthetic_field_0203",
+    "embedding_id": "c9094eaa-c0be-5dfe-88c6-b55f6cc98555",
+    "namespace": "project-brief-schema:dependencies"
+  },
+  {
+    "module": "dependencies",
+    "schema_file": "dependencies_expanded.json",
+    "json_pointer": "$/synthetic_field_0204",
+    "embedding_id": "67dbfdc1-0a47-5717-a305-1582418a6afa",
+    "namespace": "project-brief-schema:dependencies"
+  },
+  {
+    "module": "dependencies",
+    "schema_file": "dependencies_expanded.json",
+    "json_pointer": "$/synthetic_field_0292",
+    "embedding_id": "3002c1b1-5fb2-5b38-b249-7f3e4d401b7c",
+    "namespace": "project-brief-schema:dependencies"
+  },
+  {
+    "module": "dependencies",
+    "schema_file": "dependencies_expanded.json",
+    "json_pointer": "$/synthetic_field_0293",
+    "embedding_id": "f06de970-166b-5013-8b3b-fc34aaff0b34",
+    "namespace": "project-brief-schema:dependencies"
+  },
+  {
+    "module": "dependencies",
+    "schema_file": "dependencies_expanded.json",
+    "json_pointer": "$/synthetic_field_0294",
+    "embedding_id": "61d891df-52b3-5f73-853f-210dc8a2b8c0",
+    "namespace": "project-brief-schema:dependencies"
+  },
+  {
+    "module": "functional-requirements",
+    "schema_file": "functional-requirements_expanded.json",
+    "json_pointer": "$/requirements",
+    "embedding_id": "3a3feeb3-771c-5f8a-aa24-cb4b9e30ef7c",
+    "namespace": "project-brief-schema:functional-requirements"
+  },
+  {
+    "module": "functional-requirements",
+    "schema_file": "functional-requirements_expanded.json",
+    "json_pointer": "$/requirements/meta",
+    "embedding_id": "2eda130c-7403-5f59-a837-5042c082fd81",
+    "namespace": "project-brief-schema:functional-requirements"
+  },
+  {
+    "module": "functional-requirements",
+    "schema_file": "functional-requirements_expanded.json",
+    "json_pointer": "$/requirements/value",
+    "embedding_id": "d507c00f-8311-5ea6-b5e4-f1d66c57a3f6",
+    "namespace": "project-brief-schema:functional-requirements"
+  },
+  {
+    "module": "functional-requirements",
+    "schema_file": "functional-requirements_expanded.json",
+    "json_pointer": "$/requirements/value/id",
+    "embedding_id": "92bd03b4-3b25-5585-a3e4-1d6d5d530940",
+    "namespace": "project-brief-schema:functional-requirements"
+  },
+  {
+    "module": "functional-requirements",
+    "schema_file": "functional-requirements_expanded.json",
+    "json_pointer": "$/requirements/value/title",
+    "embedding_id": "29ed3319-8a9b-5c70-ac4f-ff1dcc71bd8f",
+    "namespace": "project-brief-schema:functional-requirements"
+  },
+  {
+    "module": "functional-requirements",
+    "schema_file": "functional-requirements_expanded.json",
+    "json_pointer": "$/requirements/value/description",
+    "embedding_id": "0f980307-4eba-5b8d-9f5c-5830e00ef4dc",
+    "namespace": "project-brief-schema:functional-requirements"
+  },
+  {
+    "module": "functional-requirements",
+    "schema_file": "functional-requirements_expanded.json",
+    "json_pointer": "$/requirements/value/priority",
+    "embedding_id": "36691bb4-9929-5bb2-8a1f-94926dfe7457",
+    "namespace": "project-brief-schema:functional-requirements"
+  },
+  {
+    "module": "functional-requirements",
+    "schema_file": "functional-requirements_expanded.json",
+    "json_pointer": "$/requirements/value/acceptanceCriteria",
+    "embedding_id": "360307b1-b6d7-57e9-8558-ad1874a74fdf",
+    "namespace": "project-brief-schema:functional-requirements"
+  },
+  {
+    "module": "functional-requirements",
+    "schema_file": "functional-requirements_expanded.json",
+    "json_pointer": "$/requirements/value/dependsOn",
+    "embedding_id": "e7511ddf-1126-5a3b-8184-b196dd2bbea1",
+    "namespace": "project-brief-schema:functional-requirements"
+  },
+  {
+    "module": "functional-requirements",
+    "schema_file": "functional-requirements_expanded.json",
+    "json_pointer": "$/requirements/value/relatedProcesses",
+    "embedding_id": "2e5a7167-7300-5bd4-836e-cfff72e585bd",
+    "namespace": "project-brief-schema:functional-requirements"
+  },
+  {
+    "module": "functional-requirements",
+    "schema_file": "functional-requirements_expanded.json",
+    "json_pointer": "$/synthetic_field_0025",
+    "embedding_id": "303293af-2dc9-5999-8398-14d86abe905c",
+    "namespace": "project-brief-schema:functional-requirements"
+  },
+  {
+    "module": "functional-requirements",
+    "schema_file": "functional-requirements_expanded.json",
+    "json_pointer": "$/synthetic_field_0026",
+    "embedding_id": "d9583c5f-5851-5793-b44d-56ff6ba5dcd0",
+    "namespace": "project-brief-schema:functional-requirements"
+  },
+  {
+    "module": "functional-requirements",
+    "schema_file": "functional-requirements_expanded.json",
+    "json_pointer": "$/synthetic_field_0027",
+    "embedding_id": "e2f78091-41c3-5062-b7c9-8957a686283a",
+    "namespace": "project-brief-schema:functional-requirements"
+  },
+  {
+    "module": "functional-requirements",
+    "schema_file": "functional-requirements_expanded.json",
+    "json_pointer": "$/synthetic_field_0115",
+    "embedding_id": "379ff87a-57d2-5045-981d-34823e49d4c2",
+    "namespace": "project-brief-schema:functional-requirements"
+  },
+  {
+    "module": "functional-requirements",
+    "schema_file": "functional-requirements_expanded.json",
+    "json_pointer": "$/synthetic_field_0116",
+    "embedding_id": "64eeb345-a6b9-5b9b-a49c-a34f6e799a27",
+    "namespace": "project-brief-schema:functional-requirements"
+  },
+  {
+    "module": "functional-requirements",
+    "schema_file": "functional-requirements_expanded.json",
+    "json_pointer": "$/synthetic_field_0117",
+    "embedding_id": "0c897fe8-09cf-5f8b-b88b-204e3a646b98",
+    "namespace": "project-brief-schema:functional-requirements"
+  },
+  {
+    "module": "functional-requirements",
+    "schema_file": "functional-requirements_expanded.json",
+    "json_pointer": "$/synthetic_field_0205",
+    "embedding_id": "1319db89-2512-5809-acb1-acef621d240d",
+    "namespace": "project-brief-schema:functional-requirements"
+  },
+  {
+    "module": "functional-requirements",
+    "schema_file": "functional-requirements_expanded.json",
+    "json_pointer": "$/synthetic_field_0206",
+    "embedding_id": "c750f216-9d80-54c5-98a0-0ec6ea0909d6",
+    "namespace": "project-brief-schema:functional-requirements"
+  },
+  {
+    "module": "functional-requirements",
+    "schema_file": "functional-requirements_expanded.json",
+    "json_pointer": "$/synthetic_field_0207",
+    "embedding_id": "c87f9676-303b-5b64-811f-861d8dafc4d5",
+    "namespace": "project-brief-schema:functional-requirements"
+  },
+  {
+    "module": "functional-requirements",
+    "schema_file": "functional-requirements_expanded.json",
+    "json_pointer": "$/synthetic_field_0295",
+    "embedding_id": "29fa6bf0-92a6-5628-9c36-5a5cdb312165",
+    "namespace": "project-brief-schema:functional-requirements"
+  },
+  {
+    "module": "functional-requirements",
+    "schema_file": "functional-requirements_expanded.json",
+    "json_pointer": "$/synthetic_field_0296",
+    "embedding_id": "0bd7a625-65dd-5d95-96ba-3d70d1b6f62d",
+    "namespace": "project-brief-schema:functional-requirements"
+  },
+  {
+    "module": "functional-requirements",
+    "schema_file": "functional-requirements_expanded.json",
+    "json_pointer": "$/synthetic_field_0297",
+    "embedding_id": "6410d447-f993-5b2a-a5a3-2ebb65ea24a3",
+    "namespace": "project-brief-schema:functional-requirements"
+  },
+  {
+    "module": "glossary",
+    "schema_file": "glossary_expanded.json",
+    "json_pointer": "$/terms",
+    "embedding_id": "80f0240d-a82a-5c18-82ea-6531e13f4442",
+    "namespace": "project-brief-schema:glossary"
+  },
+  {
+    "module": "glossary",
+    "schema_file": "glossary_expanded.json",
+    "json_pointer": "$/terms/meta",
+    "embedding_id": "6e58dd59-cbb1-51ed-8eed-0bd19009e48e",
+    "namespace": "project-brief-schema:glossary"
+  },
+  {
+    "module": "glossary",
+    "schema_file": "glossary_expanded.json",
+    "json_pointer": "$/terms/value",
+    "embedding_id": "ad8221cc-5eeb-565c-8e63-647f2aa5058d",
+    "namespace": "project-brief-schema:glossary"
+  },
+  {
+    "module": "glossary",
+    "schema_file": "glossary_expanded.json",
+    "json_pointer": "$/terms/value/term",
+    "embedding_id": "1c153ad8-4aee-5452-a124-23d6f2748204",
+    "namespace": "project-brief-schema:glossary"
+  },
+  {
+    "module": "glossary",
+    "schema_file": "glossary_expanded.json",
+    "json_pointer": "$/terms/value/definition",
+    "embedding_id": "0a28e262-3ee4-5822-a0fd-d3124f18fa2b",
+    "namespace": "project-brief-schema:glossary"
+  },
+  {
+    "module": "glossary",
+    "schema_file": "glossary_expanded.json",
+    "json_pointer": "$/terms/value/source",
+    "embedding_id": "43f0f51c-2410-53e6-98b6-da8a6b34d60e",
+    "namespace": "project-brief-schema:glossary"
+  },
+  {
+    "module": "glossary",
+    "schema_file": "glossary_expanded.json",
+    "json_pointer": "$/synthetic_field_0028",
+    "embedding_id": "26bdd768-7726-5fec-834a-e06788b7207a",
+    "namespace": "project-brief-schema:glossary"
+  },
+  {
+    "module": "glossary",
+    "schema_file": "glossary_expanded.json",
+    "json_pointer": "$/synthetic_field_0029",
+    "embedding_id": "9caaf373-cad0-56cf-bc72-1c5fc48aae73",
+    "namespace": "project-brief-schema:glossary"
+  },
+  {
+    "module": "glossary",
+    "schema_file": "glossary_expanded.json",
+    "json_pointer": "$/synthetic_field_0030",
+    "embedding_id": "a0681882-34f2-533c-8d6a-2c0710567514",
+    "namespace": "project-brief-schema:glossary"
+  },
+  {
+    "module": "glossary",
+    "schema_file": "glossary_expanded.json",
+    "json_pointer": "$/synthetic_field_0118",
+    "embedding_id": "7c16fae7-c715-577c-a3e0-6545226e8bd5",
+    "namespace": "project-brief-schema:glossary"
+  },
+  {
+    "module": "glossary",
+    "schema_file": "glossary_expanded.json",
+    "json_pointer": "$/synthetic_field_0119",
+    "embedding_id": "3e3c3786-5987-5ce3-b221-781a75f2e203",
+    "namespace": "project-brief-schema:glossary"
+  },
+  {
+    "module": "glossary",
+    "schema_file": "glossary_expanded.json",
+    "json_pointer": "$/synthetic_field_0120",
+    "embedding_id": "f11e5cb3-6ebb-5108-9af3-87df8a5fc1fa",
+    "namespace": "project-brief-schema:glossary"
+  },
+  {
+    "module": "glossary",
+    "schema_file": "glossary_expanded.json",
+    "json_pointer": "$/synthetic_field_0208",
+    "embedding_id": "c1053fd0-2db6-5bbe-8a48-294738965edf",
+    "namespace": "project-brief-schema:glossary"
+  },
+  {
+    "module": "glossary",
+    "schema_file": "glossary_expanded.json",
+    "json_pointer": "$/synthetic_field_0209",
+    "embedding_id": "d81f7fd0-a275-5fdd-8d22-b0c77ac3097c",
+    "namespace": "project-brief-schema:glossary"
+  },
+  {
+    "module": "glossary",
+    "schema_file": "glossary_expanded.json",
+    "json_pointer": "$/synthetic_field_0210",
+    "embedding_id": "8c19fc2e-71b3-59de-940e-3486cb7f0f79",
+    "namespace": "project-brief-schema:glossary"
+  },
+  {
+    "module": "glossary",
+    "schema_file": "glossary_expanded.json",
+    "json_pointer": "$/synthetic_field_0298",
+    "embedding_id": "bff938d7-86dc-5bb2-99fa-1db4c22e6458",
+    "namespace": "project-brief-schema:glossary"
+  },
+  {
+    "module": "glossary",
+    "schema_file": "glossary_expanded.json",
+    "json_pointer": "$/synthetic_field_0299",
+    "embedding_id": "dacc7be8-7b84-57f3-90b3-930eb4fd4fb6",
+    "namespace": "project-brief-schema:glossary"
+  },
+  {
+    "module": "glossary",
+    "schema_file": "glossary_expanded.json",
+    "json_pointer": "$/synthetic_field_0300",
+    "embedding_id": "c25ff4cf-a9ad-5a65-adde-325089747e57",
+    "namespace": "project-brief-schema:glossary"
+  },
+  {
+    "module": "governance",
+    "schema_file": "governance_expanded.json",
+    "json_pointer": "$/rolesAndResponsibilities",
+    "embedding_id": "def352c4-68b8-5ebd-b4c2-78d1b2e9268a",
+    "namespace": "project-brief-schema:governance"
+  },
+  {
+    "module": "governance",
+    "schema_file": "governance_expanded.json",
+    "json_pointer": "$/rolesAndResponsibilities/meta",
+    "embedding_id": "afc61e63-ea1f-5a2a-a71d-7f59f2a7f6bd",
+    "namespace": "project-brief-schema:governance"
+  },
+  {
+    "module": "governance",
+    "schema_file": "governance_expanded.json",
+    "json_pointer": "$/rolesAndResponsibilities/value",
+    "embedding_id": "7091a9ba-c8a0-595b-bfda-c7dd81d50827",
+    "namespace": "project-brief-schema:governance"
+  },
+  {
+    "module": "governance",
+    "schema_file": "governance_expanded.json",
+    "json_pointer": "$/rolesAndResponsibilities/value/role",
+    "embedding_id": "0377e7dd-ced2-51fe-a026-202f937acd72",
+    "namespace": "project-brief-schema:governance"
+  },
+  {
+    "module": "governance",
+    "schema_file": "governance_expanded.json",
+    "json_pointer": "$/rolesAndResponsibilities/value/responsible",
+    "embedding_id": "799a3e5e-558b-5fd6-aed8-677b2f8fd4a4",
+    "namespace": "project-brief-schema:governance"
+  },
+  {
+    "module": "governance",
+    "schema_file": "governance_expanded.json",
+    "json_pointer": "$/rolesAndResponsibilities/value/accountable",
+    "embedding_id": "e026caac-8ae2-5c6b-ba19-64d71961f6c0",
+    "namespace": "project-brief-schema:governance"
+  },
+  {
+    "module": "governance",
+    "schema_file": "governance_expanded.json",
+    "json_pointer": "$/rolesAndResponsibilities/value/consulted",
+    "embedding_id": "48dd7092-f61d-57f9-9712-102c81f882c6",
+    "namespace": "project-brief-schema:governance"
+  },
+  {
+    "module": "governance",
+    "schema_file": "governance_expanded.json",
+    "json_pointer": "$/rolesAndResponsibilities/value/informed",
+    "embedding_id": "cc766ce6-20cb-5716-b921-0118ca6997fe",
+    "namespace": "project-brief-schema:governance"
+  },
+  {
+    "module": "governance",
+    "schema_file": "governance_expanded.json",
+    "json_pointer": "$/synthetic_field_0031",
+    "embedding_id": "14eaa7b1-45f6-5a4a-b42f-be0d4ce362c0",
+    "namespace": "project-brief-schema:governance"
+  },
+  {
+    "module": "governance",
+    "schema_file": "governance_expanded.json",
+    "json_pointer": "$/synthetic_field_0032",
+    "embedding_id": "7c50baad-587c-50c3-a534-2b831f80d1d3",
+    "namespace": "project-brief-schema:governance"
+  },
+  {
+    "module": "governance",
+    "schema_file": "governance_expanded.json",
+    "json_pointer": "$/synthetic_field_0033",
+    "embedding_id": "6987a04c-4415-5203-9d17-e8f96b3e0c54",
+    "namespace": "project-brief-schema:governance"
+  },
+  {
+    "module": "governance",
+    "schema_file": "governance_expanded.json",
+    "json_pointer": "$/synthetic_field_0121",
+    "embedding_id": "055547b8-ff59-5026-a787-1688a8104ba1",
+    "namespace": "project-brief-schema:governance"
+  },
+  {
+    "module": "governance",
+    "schema_file": "governance_expanded.json",
+    "json_pointer": "$/synthetic_field_0122",
+    "embedding_id": "97bf79d3-0181-537e-8e5a-9e013bd922ef",
+    "namespace": "project-brief-schema:governance"
+  },
+  {
+    "module": "governance",
+    "schema_file": "governance_expanded.json",
+    "json_pointer": "$/synthetic_field_0123",
+    "embedding_id": "fb03459a-b14c-5025-9fc5-06e234a0e1a0",
+    "namespace": "project-brief-schema:governance"
+  },
+  {
+    "module": "governance",
+    "schema_file": "governance_expanded.json",
+    "json_pointer": "$/synthetic_field_0211",
+    "embedding_id": "0869f2bd-0a3b-58c7-a077-dcefdc32eedc",
+    "namespace": "project-brief-schema:governance"
+  },
+  {
+    "module": "governance",
+    "schema_file": "governance_expanded.json",
+    "json_pointer": "$/synthetic_field_0212",
+    "embedding_id": "df24b3e5-fe30-56d5-8569-a0311eeb37b9",
+    "namespace": "project-brief-schema:governance"
+  },
+  {
+    "module": "governance",
+    "schema_file": "governance_expanded.json",
+    "json_pointer": "$/synthetic_field_0213",
+    "embedding_id": "f3bd8e1f-f051-502e-ad18-d15ea3791015",
+    "namespace": "project-brief-schema:governance"
+  },
+  {
+    "module": "governance",
+    "schema_file": "governance_expanded.json",
+    "json_pointer": "$/synthetic_field_0301",
+    "embedding_id": "b15c2ad9-df59-5fec-b4f9-7e9f3ec07416",
+    "namespace": "project-brief-schema:governance"
+  },
+  {
+    "module": "governance",
+    "schema_file": "governance_expanded.json",
+    "json_pointer": "$/synthetic_field_0302",
+    "embedding_id": "9f165c90-73cf-5abf-ab28-6f02bf0eba48",
+    "namespace": "project-brief-schema:governance"
+  },
+  {
+    "module": "governance",
+    "schema_file": "governance_expanded.json",
+    "json_pointer": "$/synthetic_field_0303",
+    "embedding_id": "8914764f-9b8c-5421-99d2-c0ff60c4fd82",
+    "namespace": "project-brief-schema:governance"
+  },
+  {
+    "module": "interfaces",
+    "schema_file": "interfaces_expanded.json",
+    "json_pointer": "$/interfaces",
+    "embedding_id": "f15687e1-c112-5f51-b514-29c00ababa51",
+    "namespace": "project-brief-schema:interfaces"
+  },
+  {
+    "module": "interfaces",
+    "schema_file": "interfaces_expanded.json",
+    "json_pointer": "$/interfaces/meta",
+    "embedding_id": "cc2570df-c13e-5c30-9d5f-2ea8f2adf355",
+    "namespace": "project-brief-schema:interfaces"
+  },
+  {
+    "module": "interfaces",
+    "schema_file": "interfaces_expanded.json",
+    "json_pointer": "$/interfaces/value",
+    "embedding_id": "0b8eaca8-d6a2-5985-bb0f-34f054696d6c",
+    "namespace": "project-brief-schema:interfaces"
+  },
+  {
+    "module": "interfaces",
+    "schema_file": "interfaces_expanded.json",
+    "json_pointer": "$/interfaces/value/id",
+    "embedding_id": "845b54e9-fcf8-5aee-a4a7-0686b255430e",
+    "namespace": "project-brief-schema:interfaces"
+  },
+  {
+    "module": "interfaces",
+    "schema_file": "interfaces_expanded.json",
+    "json_pointer": "$/interfaces/value/name",
+    "embedding_id": "9af8e4f2-4ffd-513f-bbd7-90b82dca6f73",
+    "namespace": "project-brief-schema:interfaces"
+  },
+  {
+    "module": "interfaces",
+    "schema_file": "interfaces_expanded.json",
+    "json_pointer": "$/interfaces/value/type",
+    "embedding_id": "5930ed77-b07d-59e2-b4b2-07ec087da29a",
+    "namespace": "project-brief-schema:interfaces"
+  },
+  {
+    "module": "interfaces",
+    "schema_file": "interfaces_expanded.json",
+    "json_pointer": "$/interfaces/value/contract",
+    "embedding_id": "35448ca0-a3db-5591-b5b9-61571241031d",
+    "namespace": "project-brief-schema:interfaces"
+  },
+  {
+    "module": "interfaces",
+    "schema_file": "interfaces_expanded.json",
+    "json_pointer": "$/interfaces/value/security",
+    "embedding_id": "de4e1bfb-d165-5511-b649-cf846f421689",
+    "namespace": "project-brief-schema:interfaces"
+  },
+  {
+    "module": "interfaces",
+    "schema_file": "interfaces_expanded.json",
+    "json_pointer": "$/synthetic_field_0034",
+    "embedding_id": "49c4c6e7-23eb-5fe7-aec0-8a40fe118a00",
+    "namespace": "project-brief-schema:interfaces"
+  },
+  {
+    "module": "interfaces",
+    "schema_file": "interfaces_expanded.json",
+    "json_pointer": "$/synthetic_field_0035",
+    "embedding_id": "57dc7fac-9a9c-5a91-80a8-f790417639a7",
+    "namespace": "project-brief-schema:interfaces"
+  },
+  {
+    "module": "interfaces",
+    "schema_file": "interfaces_expanded.json",
+    "json_pointer": "$/synthetic_field_0036",
+    "embedding_id": "6be447f6-7c8f-5252-8925-d22b62d1c5e6",
+    "namespace": "project-brief-schema:interfaces"
+  },
+  {
+    "module": "interfaces",
+    "schema_file": "interfaces_expanded.json",
+    "json_pointer": "$/synthetic_field_0124",
+    "embedding_id": "67314aac-de80-579f-9028-85fa4d6ea721",
+    "namespace": "project-brief-schema:interfaces"
+  },
+  {
+    "module": "interfaces",
+    "schema_file": "interfaces_expanded.json",
+    "json_pointer": "$/synthetic_field_0125",
+    "embedding_id": "621b5792-115b-588f-9e70-21d7a08d227b",
+    "namespace": "project-brief-schema:interfaces"
+  },
+  {
+    "module": "interfaces",
+    "schema_file": "interfaces_expanded.json",
+    "json_pointer": "$/synthetic_field_0126",
+    "embedding_id": "cccc7191-776a-5112-8041-ae7e89c33054",
+    "namespace": "project-brief-schema:interfaces"
+  },
+  {
+    "module": "interfaces",
+    "schema_file": "interfaces_expanded.json",
+    "json_pointer": "$/synthetic_field_0214",
+    "embedding_id": "d8d13f12-8ba8-53a8-bd0f-e6be38a7257d",
+    "namespace": "project-brief-schema:interfaces"
+  },
+  {
+    "module": "interfaces",
+    "schema_file": "interfaces_expanded.json",
+    "json_pointer": "$/synthetic_field_0215",
+    "embedding_id": "e4777def-5218-54e0-939c-c0ce14a60594",
+    "namespace": "project-brief-schema:interfaces"
+  },
+  {
+    "module": "interfaces",
+    "schema_file": "interfaces_expanded.json",
+    "json_pointer": "$/synthetic_field_0216",
+    "embedding_id": "6b31c44c-3252-510d-a7cf-8d35272e6cc2",
+    "namespace": "project-brief-schema:interfaces"
+  },
+  {
+    "module": "interfaces",
+    "schema_file": "interfaces_expanded.json",
+    "json_pointer": "$/synthetic_field_0304",
+    "embedding_id": "df2ceb5d-a0ad-5bc9-877f-bc31cbc6daeb",
+    "namespace": "project-brief-schema:interfaces"
+  },
+  {
+    "module": "metadata",
+    "schema_file": "metadata_expanded.json",
+    "json_pointer": "$/projectId",
+    "embedding_id": "5ab3bd3c-a3fc-59ba-97cb-5941c386c21a",
+    "namespace": "project-brief-schema:metadata"
+  },
+  {
+    "module": "metadata",
+    "schema_file": "metadata_expanded.json",
+    "json_pointer": "$/projectId/meta",
+    "embedding_id": "c3de03dd-b0bc-500a-b606-0a6cda376cae",
+    "namespace": "project-brief-schema:metadata"
+  },
+  {
+    "module": "metadata",
+    "schema_file": "metadata_expanded.json",
+    "json_pointer": "$/projectId/value",
+    "embedding_id": "484ccab8-f30b-52cd-be20-2bcff8b9ff10",
+    "namespace": "project-brief-schema:metadata"
+  },
+  {
+    "module": "metadata",
+    "schema_file": "metadata_expanded.json",
+    "json_pointer": "$/title",
+    "embedding_id": "748f772a-b4f9-580e-a6c0-258157825e81",
+    "namespace": "project-brief-schema:metadata"
+  },
+  {
+    "module": "metadata",
+    "schema_file": "metadata_expanded.json",
+    "json_pointer": "$/title/meta",
+    "embedding_id": "87077bfd-46f8-5656-a22c-774f8230d18e",
+    "namespace": "project-brief-schema:metadata"
+  },
+  {
+    "module": "metadata",
+    "schema_file": "metadata_expanded.json",
+    "json_pointer": "$/title/value",
+    "embedding_id": "562f5aff-be0a-59a3-82ca-a36142a5faa8",
+    "namespace": "project-brief-schema:metadata"
+  },
+  {
+    "module": "metadata",
+    "schema_file": "metadata_expanded.json",
+    "json_pointer": "$/description",
+    "embedding_id": "83c33d0d-1c30-5593-9cdd-b8f571ca7c41",
+    "namespace": "project-brief-schema:metadata"
+  },
+  {
+    "module": "metadata",
+    "schema_file": "metadata_expanded.json",
+    "json_pointer": "$/description/meta",
+    "embedding_id": "eec8e7ba-fd41-52ab-87e4-3f9a20938405",
+    "namespace": "project-brief-schema:metadata"
+  },
+  {
+    "module": "metadata",
+    "schema_file": "metadata_expanded.json",
+    "json_pointer": "$/description/value",
+    "embedding_id": "cb02adf8-db42-5dbf-a00a-3eea2f39fbea",
+    "namespace": "project-brief-schema:metadata"
+  },
+  {
+    "module": "metadata",
+    "schema_file": "metadata_expanded.json",
+    "json_pointer": "$/schemaVersion",
+    "embedding_id": "ba270916-c349-581f-bd61-7f25075137fb",
+    "namespace": "project-brief-schema:metadata"
+  },
+  {
+    "module": "metadata",
+    "schema_file": "metadata_expanded.json",
+    "json_pointer": "$/schemaVersion/meta",
+    "embedding_id": "0966b850-7128-5e23-a354-81ef2ce9b79f",
+    "namespace": "project-brief-schema:metadata"
+  },
+  {
+    "module": "metadata",
+    "schema_file": "metadata_expanded.json",
+    "json_pointer": "$/schemaVersion/value",
+    "embedding_id": "79f86849-3107-527b-a1a0-671d9dc80aa4",
+    "namespace": "project-brief-schema:metadata"
+  },
+  {
+    "module": "metadata",
+    "schema_file": "metadata_expanded.json",
+    "json_pointer": "$/synthetic_field_0037",
+    "embedding_id": "25864486-8468-5c8c-ad5a-05793100a4c8",
+    "namespace": "project-brief-schema:metadata"
+  },
+  {
+    "module": "metadata",
+    "schema_file": "metadata_expanded.json",
+    "json_pointer": "$/synthetic_field_0038",
+    "embedding_id": "a4d3b195-ecf0-5fcb-9530-79fcd1d31eed",
+    "namespace": "project-brief-schema:metadata"
+  },
+  {
+    "module": "metadata",
+    "schema_file": "metadata_expanded.json",
+    "json_pointer": "$/synthetic_field_0039",
+    "embedding_id": "e8fbdafe-cc7e-5179-81f7-d7d98204f8d7",
+    "namespace": "project-brief-schema:metadata"
+  },
+  {
+    "module": "metadata",
+    "schema_file": "metadata_expanded.json",
+    "json_pointer": "$/synthetic_field_0127",
+    "embedding_id": "01e46f59-1e9a-5d53-a07e-bfd7a702e57c",
+    "namespace": "project-brief-schema:metadata"
+  },
+  {
+    "module": "metadata",
+    "schema_file": "metadata_expanded.json",
+    "json_pointer": "$/synthetic_field_0128",
+    "embedding_id": "73776744-e2fe-5364-8eb0-55b2fa3bb87a",
+    "namespace": "project-brief-schema:metadata"
+  },
+  {
+    "module": "metadata",
+    "schema_file": "metadata_expanded.json",
+    "json_pointer": "$/synthetic_field_0129",
+    "embedding_id": "ba68be80-01dc-5d76-8aae-133be6127348",
+    "namespace": "project-brief-schema:metadata"
+  },
+  {
+    "module": "metadata",
+    "schema_file": "metadata_expanded.json",
+    "json_pointer": "$/synthetic_field_0217",
+    "embedding_id": "187f0e5e-743e-50cf-8f8e-8353f5b92a5c",
+    "namespace": "project-brief-schema:metadata"
+  },
+  {
+    "module": "metadata",
+    "schema_file": "metadata_expanded.json",
+    "json_pointer": "$/synthetic_field_0218",
+    "embedding_id": "f7861211-a6e4-581e-8278-4bdf5e2ef6ee",
+    "namespace": "project-brief-schema:metadata"
+  },
+  {
+    "module": "metadata",
+    "schema_file": "metadata_expanded.json",
+    "json_pointer": "$/synthetic_field_0219",
+    "embedding_id": "43a8dced-ad43-5e29-a2d3-1e3cd8eb4d9d",
+    "namespace": "project-brief-schema:metadata"
+  },
+  {
+    "module": "non-functional-requirements",
+    "schema_file": "non-functional-requirements_expanded.json",
+    "json_pointer": "$/nonFunctionalRequirements",
+    "embedding_id": "2b0d850e-1ce2-5af1-b00a-b9ff8a337f9c",
+    "namespace": "project-brief-schema:non-functional-requirements"
+  },
+  {
+    "module": "non-functional-requirements",
+    "schema_file": "non-functional-requirements_expanded.json",
+    "json_pointer": "$/nonFunctionalRequirements/meta",
+    "embedding_id": "7a515b10-5cc5-55fd-91b3-80294530d2b7",
+    "namespace": "project-brief-schema:non-functional-requirements"
+  },
+  {
+    "module": "non-functional-requirements",
+    "schema_file": "non-functional-requirements_expanded.json",
+    "json_pointer": "$/nonFunctionalRequirements/value",
+    "embedding_id": "f5b4f64d-b9e3-5280-bea2-b4aa0eaccfa6",
+    "namespace": "project-brief-schema:non-functional-requirements"
+  },
+  {
+    "module": "non-functional-requirements",
+    "schema_file": "non-functional-requirements_expanded.json",
+    "json_pointer": "$/nonFunctionalRequirements/value/id",
+    "embedding_id": "dd04ef8d-6a61-5a6d-afbd-522dd7ee2c23",
+    "namespace": "project-brief-schema:non-functional-requirements"
+  },
+  {
+    "module": "non-functional-requirements",
+    "schema_file": "non-functional-requirements_expanded.json",
+    "json_pointer": "$/nonFunctionalRequirements/value/category",
+    "embedding_id": "ea58a0c3-3495-581f-acd0-d62da462f722",
+    "namespace": "project-brief-schema:non-functional-requirements"
+  },
+  {
+    "module": "non-functional-requirements",
+    "schema_file": "non-functional-requirements_expanded.json",
+    "json_pointer": "$/nonFunctionalRequirements/value/description",
+    "embedding_id": "58d13832-a58f-5494-9294-6f3381dc294e",
+    "namespace": "project-brief-schema:non-functional-requirements"
+  },
+  {
+    "module": "non-functional-requirements",
+    "schema_file": "non-functional-requirements_expanded.json",
+    "json_pointer": "$/nonFunctionalRequirements/value/metric",
+    "embedding_id": "0a1fdb06-ed91-5247-b4bc-f38c2a3d29c3",
+    "namespace": "project-brief-schema:non-functional-requirements"
+  },
+  {
+    "module": "non-functional-requirements",
+    "schema_file": "non-functional-requirements_expanded.json",
+    "json_pointer": "$/nonFunctionalRequirements/value/target",
+    "embedding_id": "0101682b-d335-5b73-9359-786cb3ee7d58",
+    "namespace": "project-brief-schema:non-functional-requirements"
+  },
+  {
+    "module": "non-functional-requirements",
+    "schema_file": "non-functional-requirements_expanded.json",
+    "json_pointer": "$/synthetic_field_0040",
+    "embedding_id": "befb0865-7195-5a23-ac54-aa4728fdacef",
+    "namespace": "project-brief-schema:non-functional-requirements"
+  },
+  {
+    "module": "non-functional-requirements",
+    "schema_file": "non-functional-requirements_expanded.json",
+    "json_pointer": "$/synthetic_field_0041",
+    "embedding_id": "41214573-0188-5104-a904-0972af6dbaa8",
+    "namespace": "project-brief-schema:non-functional-requirements"
+  },
+  {
+    "module": "non-functional-requirements",
+    "schema_file": "non-functional-requirements_expanded.json",
+    "json_pointer": "$/synthetic_field_0042",
+    "embedding_id": "59984b13-edc7-5acc-b0ef-bc20f0abb4b6",
+    "namespace": "project-brief-schema:non-functional-requirements"
+  },
+  {
+    "module": "non-functional-requirements",
+    "schema_file": "non-functional-requirements_expanded.json",
+    "json_pointer": "$/synthetic_field_0130",
+    "embedding_id": "71d01d3c-f3ed-559f-884f-7b01cf48657a",
+    "namespace": "project-brief-schema:non-functional-requirements"
+  },
+  {
+    "module": "non-functional-requirements",
+    "schema_file": "non-functional-requirements_expanded.json",
+    "json_pointer": "$/synthetic_field_0131",
+    "embedding_id": "9853737e-63e0-5c9e-bf19-b6040fb37467",
+    "namespace": "project-brief-schema:non-functional-requirements"
+  },
+  {
+    "module": "non-functional-requirements",
+    "schema_file": "non-functional-requirements_expanded.json",
+    "json_pointer": "$/synthetic_field_0132",
+    "embedding_id": "ac568b04-2218-5bb2-b668-e1dff4efa010",
+    "namespace": "project-brief-schema:non-functional-requirements"
+  },
+  {
+    "module": "non-functional-requirements",
+    "schema_file": "non-functional-requirements_expanded.json",
+    "json_pointer": "$/synthetic_field_0220",
+    "embedding_id": "4ad195ee-ea70-58e2-8bcf-5ec2e0b9ea80",
+    "namespace": "project-brief-schema:non-functional-requirements"
+  },
+  {
+    "module": "non-functional-requirements",
+    "schema_file": "non-functional-requirements_expanded.json",
+    "json_pointer": "$/synthetic_field_0221",
+    "embedding_id": "324a4f37-1ee4-510b-9cd4-887e5a913225",
+    "namespace": "project-brief-schema:non-functional-requirements"
+  },
+  {
+    "module": "non-functional-requirements",
+    "schema_file": "non-functional-requirements_expanded.json",
+    "json_pointer": "$/synthetic_field_0222",
+    "embedding_id": "5e5af8c1-b1ae-5a56-ac42-0187bbcd8ec6",
+    "namespace": "project-brief-schema:non-functional-requirements"
+  },
+  {
+    "module": "open-questions",
+    "schema_file": "open-questions_expanded.json",
+    "json_pointer": "$/questions",
+    "embedding_id": "cc6c1790-ca5d-5780-b255-f987b78fb792",
+    "namespace": "project-brief-schema:open-questions"
+  },
+  {
+    "module": "open-questions",
+    "schema_file": "open-questions_expanded.json",
+    "json_pointer": "$/questions/meta",
+    "embedding_id": "d7c17e51-08df-515a-b2ef-5f32c9d5817a",
+    "namespace": "project-brief-schema:open-questions"
+  },
+  {
+    "module": "open-questions",
+    "schema_file": "open-questions_expanded.json",
+    "json_pointer": "$/questions/value",
+    "embedding_id": "40b11241-4f14-5981-89b2-a9a16a4a7410",
+    "namespace": "project-brief-schema:open-questions"
+  },
+  {
+    "module": "open-questions",
+    "schema_file": "open-questions_expanded.json",
+    "json_pointer": "$/questions/value/id",
+    "embedding_id": "1ac55a3c-f84f-5722-ae01-f91bc85ad2ea",
+    "namespace": "project-brief-schema:open-questions"
+  },
+  {
+    "module": "open-questions",
+    "schema_file": "open-questions_expanded.json",
+    "json_pointer": "$/questions/value/question",
+    "embedding_id": "f83323cf-d2e0-56b1-b775-6ed0fc98d422",
+    "namespace": "project-brief-schema:open-questions"
+  },
+  {
+    "module": "open-questions",
+    "schema_file": "open-questions_expanded.json",
+    "json_pointer": "$/questions/value/askedBy",
+    "embedding_id": "52fdd5d5-be1f-5901-9143-eb472cd038b1",
+    "namespace": "project-brief-schema:open-questions"
+  },
+  {
+    "module": "open-questions",
+    "schema_file": "open-questions_expanded.json",
+    "json_pointer": "$/questions/value/status",
+    "embedding_id": "8cb87f69-4169-5f34-965a-a85135ce592c",
+    "namespace": "project-brief-schema:open-questions"
+  },
+  {
+    "module": "open-questions",
+    "schema_file": "open-questions_expanded.json",
+    "json_pointer": "$/synthetic_field_0043",
+    "embedding_id": "1e2dc83e-8a8c-56c6-a55a-7a2a956d7f96",
+    "namespace": "project-brief-schema:open-questions"
+  },
+  {
+    "module": "open-questions",
+    "schema_file": "open-questions_expanded.json",
+    "json_pointer": "$/synthetic_field_0044",
+    "embedding_id": "263ccf9a-c643-55b9-bbe2-f0994b49d53b",
+    "namespace": "project-brief-schema:open-questions"
+  },
+  {
+    "module": "open-questions",
+    "schema_file": "open-questions_expanded.json",
+    "json_pointer": "$/synthetic_field_0045",
+    "embedding_id": "7f4b6323-f45d-542c-ae43-58a8cd952727",
+    "namespace": "project-brief-schema:open-questions"
+  },
+  {
+    "module": "open-questions",
+    "schema_file": "open-questions_expanded.json",
+    "json_pointer": "$/synthetic_field_0133",
+    "embedding_id": "ee370ab8-3f7e-5a08-b776-2295abaceb0a",
+    "namespace": "project-brief-schema:open-questions"
+  },
+  {
+    "module": "open-questions",
+    "schema_file": "open-questions_expanded.json",
+    "json_pointer": "$/synthetic_field_0134",
+    "embedding_id": "7d3a7369-7733-58c7-b068-fed3c7dbde3d",
+    "namespace": "project-brief-schema:open-questions"
+  },
+  {
+    "module": "open-questions",
+    "schema_file": "open-questions_expanded.json",
+    "json_pointer": "$/synthetic_field_0135",
+    "embedding_id": "d864692c-283d-5067-a76a-9b1d1fe088a7",
+    "namespace": "project-brief-schema:open-questions"
+  },
+  {
+    "module": "open-questions",
+    "schema_file": "open-questions_expanded.json",
+    "json_pointer": "$/synthetic_field_0223",
+    "embedding_id": "f34bbae3-3425-5c95-a8ab-995b2a7bfd80",
+    "namespace": "project-brief-schema:open-questions"
+  },
+  {
+    "module": "open-questions",
+    "schema_file": "open-questions_expanded.json",
+    "json_pointer": "$/synthetic_field_0224",
+    "embedding_id": "13e039c8-cb31-554f-bd87-8e0eae060e46",
+    "namespace": "project-brief-schema:open-questions"
+  },
+  {
+    "module": "open-questions",
+    "schema_file": "open-questions_expanded.json",
+    "json_pointer": "$/synthetic_field_0225",
+    "embedding_id": "1cd654a8-b7f7-5ea5-9780-6d81f7883b73",
+    "namespace": "project-brief-schema:open-questions"
+  },
+  {
+    "module": "opportunities",
+    "schema_file": "opportunities_expanded.json",
+    "json_pointer": "$/opportunities",
+    "embedding_id": "776fe701-5380-5874-9e28-bd924abf9d95",
+    "namespace": "project-brief-schema:opportunities"
+  },
+  {
+    "module": "opportunities",
+    "schema_file": "opportunities_expanded.json",
+    "json_pointer": "$/opportunities/meta",
+    "embedding_id": "fe0eb785-a9c7-57c0-be41-59b04846a99e",
+    "namespace": "project-brief-schema:opportunities"
+  },
+  {
+    "module": "opportunities",
+    "schema_file": "opportunities_expanded.json",
+    "json_pointer": "$/opportunities/value",
+    "embedding_id": "abf8554c-985b-5686-92ef-07d2379f22b4",
+    "namespace": "project-brief-schema:opportunities"
+  },
+  {
+    "module": "opportunities",
+    "schema_file": "opportunities_expanded.json",
+    "json_pointer": "$/opportunities/value/id",
+    "embedding_id": "362353e6-5c6c-54fe-91ac-63bb90b9b596",
+    "namespace": "project-brief-schema:opportunities"
+  },
+  {
+    "module": "opportunities",
+    "schema_file": "opportunities_expanded.json",
+    "json_pointer": "$/opportunities/value/title",
+    "embedding_id": "3fb4004d-908e-5929-87b7-35006a788470",
+    "namespace": "project-brief-schema:opportunities"
+  },
+  {
+    "module": "opportunities",
+    "schema_file": "opportunities_expanded.json",
+    "json_pointer": "$/opportunities/value/description",
+    "embedding_id": "ace88a5f-5707-5018-b650-7ce6c59f0368",
+    "namespace": "project-brief-schema:opportunities"
+  },
+  {
+    "module": "opportunities",
+    "schema_file": "opportunities_expanded.json",
+    "json_pointer": "$/opportunities/value/estimatedValue",
+    "embedding_id": "07bb0c45-162c-5885-b69c-5db1f597ccaf",
+    "namespace": "project-brief-schema:opportunities"
+  },
+  {
+    "module": "opportunities",
+    "schema_file": "opportunities_expanded.json",
+    "json_pointer": "$/opportunities/value/confidence",
+    "embedding_id": "c7108340-5a33-59ca-b253-585de7eb140c",
+    "namespace": "project-brief-schema:opportunities"
+  },
+  {
+    "module": "opportunities",
+    "schema_file": "opportunities_expanded.json",
+    "json_pointer": "$/synthetic_field_0046",
+    "embedding_id": "9ee1bbf2-504d-5b72-9b73-e32852e667a1",
+    "namespace": "project-brief-schema:opportunities"
+  },
+  {
+    "module": "opportunities",
+    "schema_file": "opportunities_expanded.json",
+    "json_pointer": "$/synthetic_field_0047",
+    "embedding_id": "a35e5663-3eef-5610-aced-81525d584887",
+    "namespace": "project-brief-schema:opportunities"
+  },
+  {
+    "module": "opportunities",
+    "schema_file": "opportunities_expanded.json",
+    "json_pointer": "$/synthetic_field_0048",
+    "embedding_id": "7d135a2a-8c17-54f5-9ca7-56b58f10b1de",
+    "namespace": "project-brief-schema:opportunities"
+  },
+  {
+    "module": "opportunities",
+    "schema_file": "opportunities_expanded.json",
+    "json_pointer": "$/synthetic_field_0136",
+    "embedding_id": "09f52b7c-76d0-54f1-b2cd-c45bda7e3940",
+    "namespace": "project-brief-schema:opportunities"
+  },
+  {
+    "module": "opportunities",
+    "schema_file": "opportunities_expanded.json",
+    "json_pointer": "$/synthetic_field_0137",
+    "embedding_id": "7c64defb-b7d1-5a0e-9d42-fa4589faf3a7",
+    "namespace": "project-brief-schema:opportunities"
+  },
+  {
+    "module": "opportunities",
+    "schema_file": "opportunities_expanded.json",
+    "json_pointer": "$/synthetic_field_0138",
+    "embedding_id": "092c24f7-f8a1-5af1-a064-05fddba56e58",
+    "namespace": "project-brief-schema:opportunities"
+  },
+  {
+    "module": "opportunities",
+    "schema_file": "opportunities_expanded.json",
+    "json_pointer": "$/synthetic_field_0226",
+    "embedding_id": "092597f0-8d44-5f50-a97b-4e764768a396",
+    "namespace": "project-brief-schema:opportunities"
+  },
+  {
+    "module": "opportunities",
+    "schema_file": "opportunities_expanded.json",
+    "json_pointer": "$/synthetic_field_0227",
+    "embedding_id": "561458f0-7b40-55c8-93b2-976ea8e822f7",
+    "namespace": "project-brief-schema:opportunities"
+  },
+  {
+    "module": "opportunities",
+    "schema_file": "opportunities_expanded.json",
+    "json_pointer": "$/synthetic_field_0228",
+    "embedding_id": "84dd98f0-2623-5f18-bd51-73e13ec8c377",
+    "namespace": "project-brief-schema:opportunities"
+  },
+  {
+    "module": "outcomes",
+    "schema_file": "outcomes_expanded.json",
+    "json_pointer": "$/items",
+    "embedding_id": "f3069ebd-d36d-57f5-8f4d-0ff2faba5471",
+    "namespace": "project-brief-schema:outcomes"
+  },
+  {
+    "module": "outcomes",
+    "schema_file": "outcomes_expanded.json",
+    "json_pointer": "$/items/meta",
+    "embedding_id": "caab4f29-8c72-5ad4-b4cd-eef285c9422b",
+    "namespace": "project-brief-schema:outcomes"
+  },
+  {
+    "module": "outcomes",
+    "schema_file": "outcomes_expanded.json",
+    "json_pointer": "$/items/value",
+    "embedding_id": "5ebe26bd-f05e-5e58-a688-fed551328a6f",
+    "namespace": "project-brief-schema:outcomes"
+  },
+  {
+    "module": "outcomes",
+    "schema_file": "outcomes_expanded.json",
+    "json_pointer": "$/items/value/id",
+    "embedding_id": "811010a1-f7af-5785-9e80-ad452a4a52b4",
+    "namespace": "project-brief-schema:outcomes"
+  },
+  {
+    "module": "outcomes",
+    "schema_file": "outcomes_expanded.json",
+    "json_pointer": "$/items/value/description",
+    "embedding_id": "77838dc3-82fb-5400-aefb-fe5a3e2b5d57",
+    "namespace": "project-brief-schema:outcomes"
+  },
+  {
+    "module": "outcomes",
+    "schema_file": "outcomes_expanded.json",
+    "json_pointer": "$/items/value/acceptanceCriteria",
+    "embedding_id": "db3f6b0e-f90c-5ec7-a4e6-03920b9f8047",
+    "namespace": "project-brief-schema:outcomes"
+  },
+  {
+    "module": "outcomes",
+    "schema_file": "outcomes_expanded.json",
+    "json_pointer": "$/items/value/successMetric",
+    "embedding_id": "6c5f55ec-cfbb-59d6-9879-1b5e52409449",
+    "namespace": "project-brief-schema:outcomes"
+  },
+  {
+    "module": "outcomes",
+    "schema_file": "outcomes_expanded.json",
+    "json_pointer": "$/synthetic_field_0049",
+    "embedding_id": "2bff1d9c-a448-55a1-9b81-eb73eb9ece84",
+    "namespace": "project-brief-schema:outcomes"
+  },
+  {
+    "module": "outcomes",
+    "schema_file": "outcomes_expanded.json",
+    "json_pointer": "$/synthetic_field_0050",
+    "embedding_id": "ffb4ae77-6838-5656-a3c4-fad6d3dae744",
+    "namespace": "project-brief-schema:outcomes"
+  },
+  {
+    "module": "outcomes",
+    "schema_file": "outcomes_expanded.json",
+    "json_pointer": "$/synthetic_field_0051",
+    "embedding_id": "ecc46264-172d-5065-9727-24452094f3c9",
+    "namespace": "project-brief-schema:outcomes"
+  },
+  {
+    "module": "outcomes",
+    "schema_file": "outcomes_expanded.json",
+    "json_pointer": "$/synthetic_field_0139",
+    "embedding_id": "9e10435a-5e17-5752-80f9-bb0724a89b3a",
+    "namespace": "project-brief-schema:outcomes"
+  },
+  {
+    "module": "outcomes",
+    "schema_file": "outcomes_expanded.json",
+    "json_pointer": "$/synthetic_field_0140",
+    "embedding_id": "bcac31e5-4559-54aa-a449-b8e1757cd069",
+    "namespace": "project-brief-schema:outcomes"
+  },
+  {
+    "module": "outcomes",
+    "schema_file": "outcomes_expanded.json",
+    "json_pointer": "$/synthetic_field_0141",
+    "embedding_id": "97327bf3-eab4-5243-8ccb-94ff0b25deec",
+    "namespace": "project-brief-schema:outcomes"
+  },
+  {
+    "module": "outcomes",
+    "schema_file": "outcomes_expanded.json",
+    "json_pointer": "$/synthetic_field_0229",
+    "embedding_id": "f826135f-3ccc-5768-80b4-9e1d94f18f3d",
+    "namespace": "project-brief-schema:outcomes"
+  },
+  {
+    "module": "outcomes",
+    "schema_file": "outcomes_expanded.json",
+    "json_pointer": "$/synthetic_field_0230",
+    "embedding_id": "0096b8c9-8961-534c-82d9-c712091bbaaf",
+    "namespace": "project-brief-schema:outcomes"
+  },
+  {
+    "module": "outcomes",
+    "schema_file": "outcomes_expanded.json",
+    "json_pointer": "$/synthetic_field_0231",
+    "embedding_id": "fd70d050-a5e1-5d67-bfdc-4a218e22b462",
+    "namespace": "project-brief-schema:outcomes"
+  },
+  {
+    "module": "personas",
+    "schema_file": "personas_expanded.json",
+    "json_pointer": "$/personas",
+    "embedding_id": "71b632d8-e6c2-5732-81a6-9f1ad543894c",
+    "namespace": "project-brief-schema:personas"
+  },
+  {
+    "module": "personas",
+    "schema_file": "personas_expanded.json",
+    "json_pointer": "$/personas/meta",
+    "embedding_id": "783cbd64-eff2-5909-881b-42e82b20b299",
+    "namespace": "project-brief-schema:personas"
+  },
+  {
+    "module": "personas",
+    "schema_file": "personas_expanded.json",
+    "json_pointer": "$/personas/value",
+    "embedding_id": "b80021b3-240d-5ffc-9ce4-2f197e572541",
+    "namespace": "project-brief-schema:personas"
+  },
+  {
+    "module": "personas",
+    "schema_file": "personas_expanded.json",
+    "json_pointer": "$/personas/value/id",
+    "embedding_id": "0c69ee98-729a-5be9-9ee2-4a433452bb0f",
+    "namespace": "project-brief-schema:personas"
+  },
+  {
+    "module": "personas",
+    "schema_file": "personas_expanded.json",
+    "json_pointer": "$/personas/value/name",
+    "embedding_id": "8ec0dc75-5f17-5bff-847b-5078c6d9f2fa",
+    "namespace": "project-brief-schema:personas"
+  },
+  {
+    "module": "personas",
+    "schema_file": "personas_expanded.json",
+    "json_pointer": "$/personas/value/summary",
+    "embedding_id": "e9d127af-1720-539e-9d03-2c74d0fa4b2a",
+    "namespace": "project-brief-schema:personas"
+  },
+  {
+    "module": "personas",
+    "schema_file": "personas_expanded.json",
+    "json_pointer": "$/personas/value/goals",
+    "embedding_id": "830b7cb4-4d2c-55b4-ba4b-ac13a189a5b9",
+    "namespace": "project-brief-schema:personas"
+  },
+  {
+    "module": "personas",
+    "schema_file": "personas_expanded.json",
+    "json_pointer": "$/personas/value/painPoints",
+    "embedding_id": "2dc85811-75c6-5f58-bb55-d18f4e4c293e",
+    "namespace": "project-brief-schema:personas"
+  },
+  {
+    "module": "personas",
+    "schema_file": "personas_expanded.json",
+    "json_pointer": "$/personas/value/scenarios",
+    "embedding_id": "abd06b48-142e-5e01-9c78-aa40e35f296e",
+    "namespace": "project-brief-schema:personas"
+  },
+  {
+    "module": "personas",
+    "schema_file": "personas_expanded.json",
+    "json_pointer": "$/synthetic_field_0052",
+    "embedding_id": "cdfac644-6403-5968-9260-8e10e8002480",
+    "namespace": "project-brief-schema:personas"
+  },
+  {
+    "module": "personas",
+    "schema_file": "personas_expanded.json",
+    "json_pointer": "$/synthetic_field_0053",
+    "embedding_id": "274bbe6a-4b40-57e2-bc1a-e8692f097f5b",
+    "namespace": "project-brief-schema:personas"
+  },
+  {
+    "module": "personas",
+    "schema_file": "personas_expanded.json",
+    "json_pointer": "$/synthetic_field_0054",
+    "embedding_id": "21fdc08a-2394-5d84-8646-738a5dd74b63",
+    "namespace": "project-brief-schema:personas"
+  },
+  {
+    "module": "personas",
+    "schema_file": "personas_expanded.json",
+    "json_pointer": "$/synthetic_field_0142",
+    "embedding_id": "66639d75-c26e-5d24-ba12-a6fc9929fe34",
+    "namespace": "project-brief-schema:personas"
+  },
+  {
+    "module": "personas",
+    "schema_file": "personas_expanded.json",
+    "json_pointer": "$/synthetic_field_0143",
+    "embedding_id": "d43aab5c-1402-5353-a606-9b9e30564f06",
+    "namespace": "project-brief-schema:personas"
+  },
+  {
+    "module": "personas",
+    "schema_file": "personas_expanded.json",
+    "json_pointer": "$/synthetic_field_0144",
+    "embedding_id": "47f5501d-1eda-5e23-965a-856494c771f0",
+    "namespace": "project-brief-schema:personas"
+  },
+  {
+    "module": "personas",
+    "schema_file": "personas_expanded.json",
+    "json_pointer": "$/synthetic_field_0232",
+    "embedding_id": "700b5a0e-1fb7-5904-9988-e4a584e28a42",
+    "namespace": "project-brief-schema:personas"
+  },
+  {
+    "module": "personas",
+    "schema_file": "personas_expanded.json",
+    "json_pointer": "$/synthetic_field_0233",
+    "embedding_id": "9e4f5d71-7be5-5ffd-981a-e0273cb7e4de",
+    "namespace": "project-brief-schema:personas"
+  },
+  {
+    "module": "personas",
+    "schema_file": "personas_expanded.json",
+    "json_pointer": "$/synthetic_field_0234",
+    "embedding_id": "e91023fa-dc6d-520d-8994-f87db4a8cfd7",
+    "namespace": "project-brief-schema:personas"
+  },
+  {
+    "module": "problem-domain",
+    "schema_file": "problem-domain_expanded.json",
+    "json_pointer": "$/domainSummary",
+    "embedding_id": "f8e3e8ec-af5d-59b7-8675-61c6a9e8d15f",
+    "namespace": "project-brief-schema:problem-domain"
+  },
+  {
+    "module": "problem-domain",
+    "schema_file": "problem-domain_expanded.json",
+    "json_pointer": "$/domainSummary/meta",
+    "embedding_id": "3b7fd06a-aa74-5257-ad09-73d83cfdda8c",
+    "namespace": "project-brief-schema:problem-domain"
+  },
+  {
+    "module": "problem-domain",
+    "schema_file": "problem-domain_expanded.json",
+    "json_pointer": "$/domainSummary/value",
+    "embedding_id": "ad52c984-03c1-539e-adda-b6c3d4fcda88",
+    "namespace": "project-brief-schema:problem-domain"
+  },
+  {
+    "module": "problem-domain",
+    "schema_file": "problem-domain_expanded.json",
+    "json_pointer": "$/businessRules",
+    "embedding_id": "8f194847-6179-5c31-ac99-471586d86f5d",
+    "namespace": "project-brief-schema:problem-domain"
+  },
+  {
+    "module": "problem-domain",
+    "schema_file": "problem-domain_expanded.json",
+    "json_pointer": "$/businessRules/meta",
+    "embedding_id": "de728f0a-5442-5093-9f17-b7c5ea350d93",
+    "namespace": "project-brief-schema:problem-domain"
+  },
+  {
+    "module": "problem-domain",
+    "schema_file": "problem-domain_expanded.json",
+    "json_pointer": "$/businessRules/value",
+    "embedding_id": "df3ff028-d58e-5d0f-ac84-0d2090675425",
+    "namespace": "project-brief-schema:problem-domain"
+  },
+  {
+    "module": "problem-domain",
+    "schema_file": "problem-domain_expanded.json",
+    "json_pointer": "$/businessRules/value/id",
+    "embedding_id": "b60bd206-bbb6-5367-aa0d-f90b0d0b9f4e",
+    "namespace": "project-brief-schema:problem-domain"
+  },
+  {
+    "module": "problem-domain",
+    "schema_file": "problem-domain_expanded.json",
+    "json_pointer": "$/businessRules/value/rule",
+    "embedding_id": "d2c5ee05-c3a4-56c7-abd1-aa2bb51f35ae",
+    "namespace": "project-brief-schema:problem-domain"
+  },
+  {
+    "module": "problem-domain",
+    "schema_file": "problem-domain_expanded.json",
+    "json_pointer": "$/businessRules/value/description",
+    "embedding_id": "7c9f0ad3-0737-5d18-a5e2-66fc5e73d17e",
+    "namespace": "project-brief-schema:problem-domain"
+  },
+  {
+    "module": "problem-domain",
+    "schema_file": "problem-domain_expanded.json",
+    "json_pointer": "$/synthetic_field_0055",
+    "embedding_id": "2fd77a07-7e0d-5ac1-afac-40510431764e",
+    "namespace": "project-brief-schema:problem-domain"
+  },
+  {
+    "module": "problem-domain",
+    "schema_file": "problem-domain_expanded.json",
+    "json_pointer": "$/synthetic_field_0056",
+    "embedding_id": "2135f71d-bf67-55c8-bd9d-2aca20a53b44",
+    "namespace": "project-brief-schema:problem-domain"
+  },
+  {
+    "module": "problem-domain",
+    "schema_file": "problem-domain_expanded.json",
+    "json_pointer": "$/synthetic_field_0057",
+    "embedding_id": "35fa5784-a311-586e-8516-e493a1d9aa25",
+    "namespace": "project-brief-schema:problem-domain"
+  },
+  {
+    "module": "problem-domain",
+    "schema_file": "problem-domain_expanded.json",
+    "json_pointer": "$/synthetic_field_0145",
+    "embedding_id": "384d769c-5370-5c2e-9158-8b829920cea8",
+    "namespace": "project-brief-schema:problem-domain"
+  },
+  {
+    "module": "problem-domain",
+    "schema_file": "problem-domain_expanded.json",
+    "json_pointer": "$/synthetic_field_0146",
+    "embedding_id": "01b063d9-d030-5b2a-ae48-cd82c6eaa312",
+    "namespace": "project-brief-schema:problem-domain"
+  },
+  {
+    "module": "problem-domain",
+    "schema_file": "problem-domain_expanded.json",
+    "json_pointer": "$/synthetic_field_0147",
+    "embedding_id": "df13618f-9972-5aae-9b44-c86f5e025883",
+    "namespace": "project-brief-schema:problem-domain"
+  },
+  {
+    "module": "problem-domain",
+    "schema_file": "problem-domain_expanded.json",
+    "json_pointer": "$/synthetic_field_0235",
+    "embedding_id": "d1771ad2-96ba-5aec-891e-984c22bf0802",
+    "namespace": "project-brief-schema:problem-domain"
+  },
+  {
+    "module": "problem-domain",
+    "schema_file": "problem-domain_expanded.json",
+    "json_pointer": "$/synthetic_field_0236",
+    "embedding_id": "783d38a3-e1d9-5c8d-a3b9-e3bc9a2cd690",
+    "namespace": "project-brief-schema:problem-domain"
+  },
+  {
+    "module": "problem-domain",
+    "schema_file": "problem-domain_expanded.json",
+    "json_pointer": "$/synthetic_field_0237",
+    "embedding_id": "5faad085-9370-5204-a15a-fb2db0f0eb31",
+    "namespace": "project-brief-schema:problem-domain"
+  },
+  {
+    "module": "product-description",
+    "schema_file": "product-description_expanded.json",
+    "json_pointer": "$/overview",
+    "embedding_id": "92f3cca5-cf06-5dbb-9aa4-58c7ce7faa09",
+    "namespace": "project-brief-schema:product-description"
+  },
+  {
+    "module": "product-description",
+    "schema_file": "product-description_expanded.json",
+    "json_pointer": "$/overview/meta",
+    "embedding_id": "bfc48758-2a36-5129-9fd8-8fa24ed288c1",
+    "namespace": "project-brief-schema:product-description"
+  },
+  {
+    "module": "product-description",
+    "schema_file": "product-description_expanded.json",
+    "json_pointer": "$/overview/value",
+    "embedding_id": "73eb00db-cf0a-5ce4-a2fe-27012ad5bd5b",
+    "namespace": "project-brief-schema:product-description"
+  },
+  {
+    "module": "product-description",
+    "schema_file": "product-description_expanded.json",
+    "json_pointer": "$/components",
+    "embedding_id": "79d44d1c-dda2-58f7-a79f-80a0c876c23d",
+    "namespace": "project-brief-schema:product-description"
+  },
+  {
+    "module": "product-description",
+    "schema_file": "product-description_expanded.json",
+    "json_pointer": "$/components/meta",
+    "embedding_id": "4872efb1-ddb9-52f4-a558-d492d46fce9e",
+    "namespace": "project-brief-schema:product-description"
+  },
+  {
+    "module": "product-description",
+    "schema_file": "product-description_expanded.json",
+    "json_pointer": "$/components/value",
+    "embedding_id": "e4eddf0e-cec6-5bb0-bcb5-f9b75a6d4038",
+    "namespace": "project-brief-schema:product-description"
+  },
+  {
+    "module": "product-description",
+    "schema_file": "product-description_expanded.json",
+    "json_pointer": "$/components/value/id",
+    "embedding_id": "87f5e42e-0189-5c78-9f05-f60d9b08c052",
+    "namespace": "project-brief-schema:product-description"
+  },
+  {
+    "module": "product-description",
+    "schema_file": "product-description_expanded.json",
+    "json_pointer": "$/components/value/name",
+    "embedding_id": "d43879c5-c30d-595c-bc64-fc9d0f836b04",
+    "namespace": "project-brief-schema:product-description"
+  },
+  {
+    "module": "product-description",
+    "schema_file": "product-description_expanded.json",
+    "json_pointer": "$/components/value/description",
+    "embedding_id": "6b518f0f-dfc6-5ea8-97ba-2aa0d2e9005a",
+    "namespace": "project-brief-schema:product-description"
+  },
+  {
+    "module": "product-description",
+    "schema_file": "product-description_expanded.json",
+    "json_pointer": "$/components/value/interfaces",
+    "embedding_id": "50622934-e5f2-5ed1-9998-b835da62a0ba",
+    "namespace": "project-brief-schema:product-description"
+  },
+  {
+    "module": "product-description",
+    "schema_file": "product-description_expanded.json",
+    "json_pointer": "$/synthetic_field_0058",
+    "embedding_id": "e612f8d1-0e34-5053-90e3-2aa52e6ed31d",
+    "namespace": "project-brief-schema:product-description"
+  },
+  {
+    "module": "product-description",
+    "schema_file": "product-description_expanded.json",
+    "json_pointer": "$/synthetic_field_0059",
+    "embedding_id": "2a648d75-8788-54e2-9546-2089be0e8a19",
+    "namespace": "project-brief-schema:product-description"
+  },
+  {
+    "module": "product-description",
+    "schema_file": "product-description_expanded.json",
+    "json_pointer": "$/synthetic_field_0060",
+    "embedding_id": "f3e6d148-60bf-5970-a87a-58d95d129b64",
+    "namespace": "project-brief-schema:product-description"
+  },
+  {
+    "module": "product-description",
+    "schema_file": "product-description_expanded.json",
+    "json_pointer": "$/synthetic_field_0148",
+    "embedding_id": "048f5014-33d2-54b4-b4ba-499980776112",
+    "namespace": "project-brief-schema:product-description"
+  },
+  {
+    "module": "product-description",
+    "schema_file": "product-description_expanded.json",
+    "json_pointer": "$/synthetic_field_0149",
+    "embedding_id": "ab944b02-29aa-537f-9ce4-4c9e18aef132",
+    "namespace": "project-brief-schema:product-description"
+  },
+  {
+    "module": "product-description",
+    "schema_file": "product-description_expanded.json",
+    "json_pointer": "$/synthetic_field_0150",
+    "embedding_id": "407ee937-e83a-527f-b459-f810f9ad8d43",
+    "namespace": "project-brief-schema:product-description"
+  },
+  {
+    "module": "product-description",
+    "schema_file": "product-description_expanded.json",
+    "json_pointer": "$/synthetic_field_0238",
+    "embedding_id": "786c9842-8f75-5608-b5e2-c41dfc36858a",
+    "namespace": "project-brief-schema:product-description"
+  },
+  {
+    "module": "product-description",
+    "schema_file": "product-description_expanded.json",
+    "json_pointer": "$/synthetic_field_0239",
+    "embedding_id": "fac833c3-1602-5148-9453-ab4fe7de3d0e",
+    "namespace": "project-brief-schema:product-description"
+  },
+  {
+    "module": "product-description",
+    "schema_file": "product-description_expanded.json",
+    "json_pointer": "$/synthetic_field_0240",
+    "embedding_id": "4234b3ae-9531-5a5c-93a8-8bad0f7e0b7a",
+    "namespace": "project-brief-schema:product-description"
+  },
+  {
+    "module": "project-definition",
+    "schema_file": "project-definition_expanded.json",
+    "json_pointer": "$/vision",
+    "embedding_id": "15452b61-4da4-5981-9c32-28687bc46d23",
+    "namespace": "project-brief-schema:project-definition"
+  },
+  {
+    "module": "project-definition",
+    "schema_file": "project-definition_expanded.json",
+    "json_pointer": "$/vision/meta",
+    "embedding_id": "07fecc1d-0924-5ba0-ae72-d64f0778f41c",
+    "namespace": "project-brief-schema:project-definition"
+  },
+  {
+    "module": "project-definition",
+    "schema_file": "project-definition_expanded.json",
+    "json_pointer": "$/vision/value",
+    "embedding_id": "a15a58a3-6dd7-5cd3-a3f6-7ec9bc4000e0",
+    "namespace": "project-brief-schema:project-definition"
+  },
+  {
+    "module": "project-definition",
+    "schema_file": "project-definition_expanded.json",
+    "json_pointer": "$/businessGoals",
+    "embedding_id": "d486abf7-beaf-5a3e-b4bd-c73e6018efca",
+    "namespace": "project-brief-schema:project-definition"
+  },
+  {
+    "module": "project-definition",
+    "schema_file": "project-definition_expanded.json",
+    "json_pointer": "$/businessGoals/meta",
+    "embedding_id": "ea559109-e32b-56c1-a97e-ebd3ea53b27a",
+    "namespace": "project-brief-schema:project-definition"
+  },
+  {
+    "module": "project-definition",
+    "schema_file": "project-definition_expanded.json",
+    "json_pointer": "$/businessGoals/value",
+    "embedding_id": "5c9e868d-474d-543e-a5c4-0150a92c32ed",
+    "namespace": "project-brief-schema:project-definition"
+  },
+  {
+    "module": "project-definition",
+    "schema_file": "project-definition_expanded.json",
+    "json_pointer": "$/problemStatement",
+    "embedding_id": "ba25f16b-dc1f-5782-a304-17e262be87fe",
+    "namespace": "project-brief-schema:project-definition"
+  },
+  {
+    "module": "project-definition",
+    "schema_file": "project-definition_expanded.json",
+    "json_pointer": "$/problemStatement/meta",
+    "embedding_id": "c55005fa-723f-5191-b0bc-54543a280190",
+    "namespace": "project-brief-schema:project-definition"
+  },
+  {
+    "module": "project-definition",
+    "schema_file": "project-definition_expanded.json",
+    "json_pointer": "$/problemStatement/value",
+    "embedding_id": "8a2aec0b-d5af-5d45-9f2f-61499d521aa6",
+    "namespace": "project-brief-schema:project-definition"
+  },
+  {
+    "module": "project-definition",
+    "schema_file": "project-definition_expanded.json",
+    "json_pointer": "$/outcomes",
+    "embedding_id": "52a30fc1-db68-5b08-bd71-2e7883b5928b",
+    "namespace": "project-brief-schema:project-definition"
+  },
+  {
+    "module": "project-definition",
+    "schema_file": "project-definition_expanded.json",
+    "json_pointer": "$/outcomes/meta",
+    "embedding_id": "03bc4428-790a-5aa5-9d8e-943a9e67925a",
+    "namespace": "project-brief-schema:project-definition"
+  },
+  {
+    "module": "project-definition",
+    "schema_file": "project-definition_expanded.json",
+    "json_pointer": "$/outcomes/value",
+    "embedding_id": "3673259e-8112-594f-90c1-d12cb077c605",
+    "namespace": "project-brief-schema:project-definition"
+  },
+  {
+    "module": "project-definition",
+    "schema_file": "project-definition_expanded.json",
+    "json_pointer": "$/primaryStakeholders",
+    "embedding_id": "1c132a9c-b5f7-527e-8b0c-0f1cadc0d220",
+    "namespace": "project-brief-schema:project-definition"
+  },
+  {
+    "module": "project-definition",
+    "schema_file": "project-definition_expanded.json",
+    "json_pointer": "$/primaryStakeholders/meta",
+    "embedding_id": "620df02a-92cc-53c8-873d-924e5f14e27d",
+    "namespace": "project-brief-schema:project-definition"
+  },
+  {
+    "module": "project-definition",
+    "schema_file": "project-definition_expanded.json",
+    "json_pointer": "$/primaryStakeholders/value",
+    "embedding_id": "453e98f1-9a7b-59a3-9aaf-cc3d9d1c78fa",
+    "namespace": "project-brief-schema:project-definition"
+  },
+  {
+    "module": "project-definition",
+    "schema_file": "project-definition_expanded.json",
+    "json_pointer": "$/scopeSummary",
+    "embedding_id": "7fd588db-f1f4-5089-a469-19ac12642d5f",
+    "namespace": "project-brief-schema:project-definition"
+  },
+  {
+    "module": "project-definition",
+    "schema_file": "project-definition_expanded.json",
+    "json_pointer": "$/scopeSummary/meta",
+    "embedding_id": "f166d060-bfff-5310-a0c3-c5bbdfd61855",
+    "namespace": "project-brief-schema:project-definition"
+  },
+  {
+    "module": "project-definition",
+    "schema_file": "project-definition_expanded.json",
+    "json_pointer": "$/scopeSummary/value",
+    "embedding_id": "2825be3c-7cb2-5b79-aeb3-cce6b58d905d",
+    "namespace": "project-brief-schema:project-definition"
+  },
+  {
+    "module": "project-definition",
+    "schema_file": "project-definition_expanded.json",
+    "json_pointer": "$/synthetic_field_0061",
+    "embedding_id": "179080fc-a74c-5fd2-8466-3eebe2eaa3c0",
+    "namespace": "project-brief-schema:project-definition"
+  },
+  {
+    "module": "project-definition",
+    "schema_file": "project-definition_expanded.json",
+    "json_pointer": "$/synthetic_field_0062",
+    "embedding_id": "58ac60c8-566e-5f5e-b984-efe6802b5543",
+    "namespace": "project-brief-schema:project-definition"
+  },
+  {
+    "module": "project-definition",
+    "schema_file": "project-definition_expanded.json",
+    "json_pointer": "$/synthetic_field_0063",
+    "embedding_id": "5f0eff5c-ffe7-5759-be59-401fb1709696",
+    "namespace": "project-brief-schema:project-definition"
+  },
+  {
+    "module": "project-definition",
+    "schema_file": "project-definition_expanded.json",
+    "json_pointer": "$/synthetic_field_0151",
+    "embedding_id": "446c19d2-9dd5-5872-9b4f-87f17e5cad02",
+    "namespace": "project-brief-schema:project-definition"
+  },
+  {
+    "module": "project-definition",
+    "schema_file": "project-definition_expanded.json",
+    "json_pointer": "$/synthetic_field_0152",
+    "embedding_id": "7b128fec-094c-5e31-9f1e-bfcea6a3924d",
+    "namespace": "project-brief-schema:project-definition"
+  },
+  {
+    "module": "project-definition",
+    "schema_file": "project-definition_expanded.json",
+    "json_pointer": "$/synthetic_field_0153",
+    "embedding_id": "86e95116-80fa-5ac0-8fa1-d8e2649e5c43",
+    "namespace": "project-brief-schema:project-definition"
+  },
+  {
+    "module": "project-definition",
+    "schema_file": "project-definition_expanded.json",
+    "json_pointer": "$/synthetic_field_0241",
+    "embedding_id": "d2ce3329-59f2-566a-bbdc-e32931fa16f4",
+    "namespace": "project-brief-schema:project-definition"
+  },
+  {
+    "module": "project-definition",
+    "schema_file": "project-definition_expanded.json",
+    "json_pointer": "$/synthetic_field_0242",
+    "embedding_id": "0dc10700-2e34-5fa7-8714-736fc49ffca6",
+    "namespace": "project-brief-schema:project-definition"
+  },
+  {
+    "module": "project-definition",
+    "schema_file": "project-definition_expanded.json",
+    "json_pointer": "$/synthetic_field_0243",
+    "embedding_id": "949faced-22ed-50f6-bfb1-f5d394f83dfd",
+    "namespace": "project-brief-schema:project-definition"
+  },
+  {
+    "module": "quality",
+    "schema_file": "quality_expanded.json",
+    "json_pointer": "$/qualityGates",
+    "embedding_id": "0cba763d-0988-54fa-878d-097452dd35b7",
+    "namespace": "project-brief-schema:quality"
+  },
+  {
+    "module": "quality",
+    "schema_file": "quality_expanded.json",
+    "json_pointer": "$/qualityGates/meta",
+    "embedding_id": "18a44c85-b895-5d59-8698-76b7878387b6",
+    "namespace": "project-brief-schema:quality"
+  },
+  {
+    "module": "quality",
+    "schema_file": "quality_expanded.json",
+    "json_pointer": "$/qualityGates/value",
+    "embedding_id": "a57174dd-bbb8-54f9-9734-4bcf94de8352",
+    "namespace": "project-brief-schema:quality"
+  },
+  {
+    "module": "quality",
+    "schema_file": "quality_expanded.json",
+    "json_pointer": "$/qualityGates/value/id",
+    "embedding_id": "42d685e4-288d-5ab5-aa55-db0cc22211a4",
+    "namespace": "project-brief-schema:quality"
+  },
+  {
+    "module": "quality",
+    "schema_file": "quality_expanded.json",
+    "json_pointer": "$/qualityGates/value/name",
+    "embedding_id": "ea9b9f7b-2cd7-5367-b82b-117ffe8c6dc7",
+    "namespace": "project-brief-schema:quality"
+  },
+  {
+    "module": "quality",
+    "schema_file": "quality_expanded.json",
+    "json_pointer": "$/qualityGates/value/criteria",
+    "embedding_id": "dd95ba63-8ca7-541e-9787-01278290a35e",
+    "namespace": "project-brief-schema:quality"
+  },
+  {
+    "module": "quality",
+    "schema_file": "quality_expanded.json",
+    "json_pointer": "$/synthetic_field_0064",
+    "embedding_id": "3f5ae86a-5a69-5f15-8aca-9525bc2d06de",
+    "namespace": "project-brief-schema:quality"
+  },
+  {
+    "module": "quality",
+    "schema_file": "quality_expanded.json",
+    "json_pointer": "$/synthetic_field_0065",
+    "embedding_id": "3afaa97b-de3b-55f4-b1f9-c0a381225473",
+    "namespace": "project-brief-schema:quality"
+  },
+  {
+    "module": "quality",
+    "schema_file": "quality_expanded.json",
+    "json_pointer": "$/synthetic_field_0066",
+    "embedding_id": "dad022f5-616d-542d-bddb-4ee55110f2b0",
+    "namespace": "project-brief-schema:quality"
+  },
+  {
+    "module": "quality",
+    "schema_file": "quality_expanded.json",
+    "json_pointer": "$/synthetic_field_0154",
+    "embedding_id": "3d7c341a-be5c-5455-b8f3-f26bb3bcf3dc",
+    "namespace": "project-brief-schema:quality"
+  },
+  {
+    "module": "quality",
+    "schema_file": "quality_expanded.json",
+    "json_pointer": "$/synthetic_field_0155",
+    "embedding_id": "ebaeb5e6-9894-5d4e-998d-febbb4d0f47c",
+    "namespace": "project-brief-schema:quality"
+  },
+  {
+    "module": "quality",
+    "schema_file": "quality_expanded.json",
+    "json_pointer": "$/synthetic_field_0156",
+    "embedding_id": "fadc77a5-cf41-58a5-a7d8-4c692815bf4c",
+    "namespace": "project-brief-schema:quality"
+  },
+  {
+    "module": "quality",
+    "schema_file": "quality_expanded.json",
+    "json_pointer": "$/synthetic_field_0244",
+    "embedding_id": "9de10d64-6db3-52f0-92aa-08a976a3ce40",
+    "namespace": "project-brief-schema:quality"
+  },
+  {
+    "module": "quality",
+    "schema_file": "quality_expanded.json",
+    "json_pointer": "$/synthetic_field_0245",
+    "embedding_id": "2cbf210a-f3dc-5c49-aead-abdaea0e1b5f",
+    "namespace": "project-brief-schema:quality"
+  },
+  {
+    "module": "quality",
+    "schema_file": "quality_expanded.json",
+    "json_pointer": "$/synthetic_field_0246",
+    "embedding_id": "fe7d58f9-744a-5258-9263-edba9de134f6",
+    "namespace": "project-brief-schema:quality"
+  },
+  {
+    "module": "references",
+    "schema_file": "references_expanded.json",
+    "json_pointer": "$/references",
+    "embedding_id": "d1b56fb0-726b-5999-b41b-73dd4b8a44cd",
+    "namespace": "project-brief-schema:references"
+  },
+  {
+    "module": "references",
+    "schema_file": "references_expanded.json",
+    "json_pointer": "$/references/meta",
+    "embedding_id": "29dec68f-352f-5194-8b20-a09c9069c53d",
+    "namespace": "project-brief-schema:references"
+  },
+  {
+    "module": "references",
+    "schema_file": "references_expanded.json",
+    "json_pointer": "$/references/value",
+    "embedding_id": "63cc483e-d378-5d26-b365-9f6e423867f4",
+    "namespace": "project-brief-schema:references"
+  },
+  {
+    "module": "references",
+    "schema_file": "references_expanded.json",
+    "json_pointer": "$/synthetic_field_0067",
+    "embedding_id": "74ece049-e868-5678-9a88-2783281cce95",
+    "namespace": "project-brief-schema:references"
+  },
+  {
+    "module": "references",
+    "schema_file": "references_expanded.json",
+    "json_pointer": "$/synthetic_field_0068",
+    "embedding_id": "0430b17d-f7a6-5694-9a18-0185a007cad8",
+    "namespace": "project-brief-schema:references"
+  },
+  {
+    "module": "references",
+    "schema_file": "references_expanded.json",
+    "json_pointer": "$/synthetic_field_0069",
+    "embedding_id": "d9dad849-3ed2-5394-950d-d4e65bba0368",
+    "namespace": "project-brief-schema:references"
+  },
+  {
+    "module": "references",
+    "schema_file": "references_expanded.json",
+    "json_pointer": "$/synthetic_field_0157",
+    "embedding_id": "2955e2db-510a-5780-88dc-d4d09db9a98d",
+    "namespace": "project-brief-schema:references"
+  },
+  {
+    "module": "references",
+    "schema_file": "references_expanded.json",
+    "json_pointer": "$/synthetic_field_0158",
+    "embedding_id": "27aa970b-cbc2-5bdb-a52b-eb4b2f9c1ddb",
+    "namespace": "project-brief-schema:references"
+  },
+  {
+    "module": "references",
+    "schema_file": "references_expanded.json",
+    "json_pointer": "$/synthetic_field_0159",
+    "embedding_id": "d122faa4-6122-55e9-85f8-9ef326b7ca30",
+    "namespace": "project-brief-schema:references"
+  },
+  {
+    "module": "references",
+    "schema_file": "references_expanded.json",
+    "json_pointer": "$/synthetic_field_0247",
+    "embedding_id": "58cac817-bb67-5cbd-a7ed-aa245667154b",
+    "namespace": "project-brief-schema:references"
+  },
+  {
+    "module": "references",
+    "schema_file": "references_expanded.json",
+    "json_pointer": "$/synthetic_field_0248",
+    "embedding_id": "820594bb-118b-5400-a0fc-173cc7909762",
+    "namespace": "project-brief-schema:references"
+  },
+  {
+    "module": "references",
+    "schema_file": "references_expanded.json",
+    "json_pointer": "$/synthetic_field_0249",
+    "embedding_id": "8e3ed40a-2874-544e-baa1-7426080c7158",
+    "namespace": "project-brief-schema:references"
+  },
+  {
+    "module": "risks",
+    "schema_file": "risks_expanded.json",
+    "json_pointer": "$/riskRegister",
+    "embedding_id": "135b9023-c4bc-5808-a0bf-bd7d4cbd3c5d",
+    "namespace": "project-brief-schema:risks"
+  },
+  {
+    "module": "risks",
+    "schema_file": "risks_expanded.json",
+    "json_pointer": "$/riskRegister/meta",
+    "embedding_id": "dc3d21ee-6622-5ae2-b69b-f4ce91321b30",
+    "namespace": "project-brief-schema:risks"
+  },
+  {
+    "module": "risks",
+    "schema_file": "risks_expanded.json",
+    "json_pointer": "$/riskRegister/value",
+    "embedding_id": "5b0f54ef-520c-5363-b0f4-57e45fa91e90",
+    "namespace": "project-brief-schema:risks"
+  },
+  {
+    "module": "risks",
+    "schema_file": "risks_expanded.json",
+    "json_pointer": "$/riskRegister/value/id",
+    "embedding_id": "6c5fc694-5b87-5fca-b8e1-bb8a552d39ec",
+    "namespace": "project-brief-schema:risks"
+  },
+  {
+    "module": "risks",
+    "schema_file": "risks_expanded.json",
+    "json_pointer": "$/riskRegister/value/title",
+    "embedding_id": "e0bd6352-60bf-5018-ad27-328a2ef00c77",
+    "namespace": "project-brief-schema:risks"
+  },
+  {
+    "module": "risks",
+    "schema_file": "risks_expanded.json",
+    "json_pointer": "$/riskRegister/value/description",
+    "embedding_id": "018beaea-8bc2-52f9-8112-aef4594ab9e6",
+    "namespace": "project-brief-schema:risks"
+  },
+  {
+    "module": "risks",
+    "schema_file": "risks_expanded.json",
+    "json_pointer": "$/riskRegister/value/likelihood",
+    "embedding_id": "798621b2-4b1a-55cc-8316-eb6239eb18f0",
+    "namespace": "project-brief-schema:risks"
+  },
+  {
+    "module": "risks",
+    "schema_file": "risks_expanded.json",
+    "json_pointer": "$/riskRegister/value/impact",
+    "embedding_id": "043fdd32-3856-5616-93bf-3e79b67d6b6b",
+    "namespace": "project-brief-schema:risks"
+  },
+  {
+    "module": "risks",
+    "schema_file": "risks_expanded.json",
+    "json_pointer": "$/riskRegister/value/score",
+    "embedding_id": "20aaabad-3abe-5cfa-baf7-6dd0806595c7",
+    "namespace": "project-brief-schema:risks"
+  },
+  {
+    "module": "risks",
+    "schema_file": "risks_expanded.json",
+    "json_pointer": "$/riskRegister/value/mitigations",
+    "embedding_id": "b823e12d-cd48-5253-bac5-b9f3224626b8",
+    "namespace": "project-brief-schema:risks"
+  },
+  {
+    "module": "risks",
+    "schema_file": "risks_expanded.json",
+    "json_pointer": "$/riskRegister/value/owner",
+    "embedding_id": "fe804e54-c824-54c5-b5a2-703c75d9b4e6",
+    "namespace": "project-brief-schema:risks"
+  },
+  {
+    "module": "risks",
+    "schema_file": "risks_expanded.json",
+    "json_pointer": "$/synthetic_field_0070",
+    "embedding_id": "9105b090-b3b6-5d3a-a8be-3a03875db6ce",
+    "namespace": "project-brief-schema:risks"
+  },
+  {
+    "module": "risks",
+    "schema_file": "risks_expanded.json",
+    "json_pointer": "$/synthetic_field_0071",
+    "embedding_id": "a1b60e55-b104-55bf-8177-af6a9dbdc1e1",
+    "namespace": "project-brief-schema:risks"
+  },
+  {
+    "module": "risks",
+    "schema_file": "risks_expanded.json",
+    "json_pointer": "$/synthetic_field_0072",
+    "embedding_id": "3f4c8408-9608-5dcb-9525-979af6002292",
+    "namespace": "project-brief-schema:risks"
+  },
+  {
+    "module": "risks",
+    "schema_file": "risks_expanded.json",
+    "json_pointer": "$/synthetic_field_0160",
+    "embedding_id": "209962a0-afe7-596e-ae8b-097903a01e9b",
+    "namespace": "project-brief-schema:risks"
+  },
+  {
+    "module": "risks",
+    "schema_file": "risks_expanded.json",
+    "json_pointer": "$/synthetic_field_0161",
+    "embedding_id": "55d4233c-33ab-5331-91b5-c549745226f3",
+    "namespace": "project-brief-schema:risks"
+  },
+  {
+    "module": "risks",
+    "schema_file": "risks_expanded.json",
+    "json_pointer": "$/synthetic_field_0162",
+    "embedding_id": "e1c6bd0e-40d7-5d94-ade1-859a2bd93fad",
+    "namespace": "project-brief-schema:risks"
+  },
+  {
+    "module": "risks",
+    "schema_file": "risks_expanded.json",
+    "json_pointer": "$/synthetic_field_0250",
+    "embedding_id": "94937fe0-3d50-5a57-9e86-a41ee80d047b",
+    "namespace": "project-brief-schema:risks"
+  },
+  {
+    "module": "risks",
+    "schema_file": "risks_expanded.json",
+    "json_pointer": "$/synthetic_field_0251",
+    "embedding_id": "01a08f4e-3210-51f9-8ebe-16102071a8d0",
+    "namespace": "project-brief-schema:risks"
+  },
+  {
+    "module": "risks",
+    "schema_file": "risks_expanded.json",
+    "json_pointer": "$/synthetic_field_0252",
+    "embedding_id": "dcbca574-fc19-5db3-a119-5f9f7cd272ad",
+    "namespace": "project-brief-schema:risks"
+  },
+  {
+    "module": "scope",
+    "schema_file": "scope_expanded.json",
+    "json_pointer": "$/inScope",
+    "embedding_id": "c4807af9-1027-5992-9136-39a3425f1759",
+    "namespace": "project-brief-schema:scope"
+  },
+  {
+    "module": "scope",
+    "schema_file": "scope_expanded.json",
+    "json_pointer": "$/inScope/meta",
+    "embedding_id": "21830b11-fda2-5118-a061-b7d141d423be",
+    "namespace": "project-brief-schema:scope"
+  },
+  {
+    "module": "scope",
+    "schema_file": "scope_expanded.json",
+    "json_pointer": "$/inScope/value",
+    "embedding_id": "aadf2385-53d1-538d-beda-7d6927400ef0",
+    "namespace": "project-brief-schema:scope"
+  },
+  {
+    "module": "scope",
+    "schema_file": "scope_expanded.json",
+    "json_pointer": "$/outOfScope",
+    "embedding_id": "41ada29e-b314-5eeb-96b6-d347eba941a3",
+    "namespace": "project-brief-schema:scope"
+  },
+  {
+    "module": "scope",
+    "schema_file": "scope_expanded.json",
+    "json_pointer": "$/outOfScope/meta",
+    "embedding_id": "d9be7214-3ead-5371-b623-bdb23cc276fb",
+    "namespace": "project-brief-schema:scope"
+  },
+  {
+    "module": "scope",
+    "schema_file": "scope_expanded.json",
+    "json_pointer": "$/outOfScope/value",
+    "embedding_id": "e4d2602d-4281-58ad-a9c7-a0995f05d5a2",
+    "namespace": "project-brief-schema:scope"
+  },
+  {
+    "module": "scope",
+    "schema_file": "scope_expanded.json",
+    "json_pointer": "$/synthetic_field_0073",
+    "embedding_id": "d0ca73b4-10fc-5443-bfc7-de87171d8c60",
+    "namespace": "project-brief-schema:scope"
+  },
+  {
+    "module": "scope",
+    "schema_file": "scope_expanded.json",
+    "json_pointer": "$/synthetic_field_0074",
+    "embedding_id": "895b2a5f-38ea-5fc8-8b68-9ffecb16c9cf",
+    "namespace": "project-brief-schema:scope"
+  },
+  {
+    "module": "scope",
+    "schema_file": "scope_expanded.json",
+    "json_pointer": "$/synthetic_field_0075",
+    "embedding_id": "9c39fa39-fff6-570d-9ecd-9fd5510550c4",
+    "namespace": "project-brief-schema:scope"
+  },
+  {
+    "module": "scope",
+    "schema_file": "scope_expanded.json",
+    "json_pointer": "$/synthetic_field_0163",
+    "embedding_id": "ca189f31-5013-5831-b204-126c9e2e7cc9",
+    "namespace": "project-brief-schema:scope"
+  },
+  {
+    "module": "scope",
+    "schema_file": "scope_expanded.json",
+    "json_pointer": "$/synthetic_field_0164",
+    "embedding_id": "0c121c1c-a740-58c4-b57b-9ca81fbed6ed",
+    "namespace": "project-brief-schema:scope"
+  },
+  {
+    "module": "scope",
+    "schema_file": "scope_expanded.json",
+    "json_pointer": "$/synthetic_field_0165",
+    "embedding_id": "6ef99438-db4e-5e36-b0cd-a0f5ed2af17e",
+    "namespace": "project-brief-schema:scope"
+  },
+  {
+    "module": "scope",
+    "schema_file": "scope_expanded.json",
+    "json_pointer": "$/synthetic_field_0253",
+    "embedding_id": "0fc1de85-6550-5f96-b5f5-60acf076e866",
+    "namespace": "project-brief-schema:scope"
+  },
+  {
+    "module": "scope",
+    "schema_file": "scope_expanded.json",
+    "json_pointer": "$/synthetic_field_0254",
+    "embedding_id": "81a3e67e-88c5-5e77-a8fa-68018b6b0c75",
+    "namespace": "project-brief-schema:scope"
+  },
+  {
+    "module": "scope",
+    "schema_file": "scope_expanded.json",
+    "json_pointer": "$/synthetic_field_0255",
+    "embedding_id": "743b92ff-b035-5072-9c2d-38703779434d",
+    "namespace": "project-brief-schema:scope"
+  },
+  {
+    "module": "solution-options",
+    "schema_file": "solution-options_expanded.json",
+    "json_pointer": "$/options",
+    "embedding_id": "706591f1-7d0d-53d0-8bf5-8662525fd5c4",
+    "namespace": "project-brief-schema:solution-options"
+  },
+  {
+    "module": "solution-options",
+    "schema_file": "solution-options_expanded.json",
+    "json_pointer": "$/options/meta",
+    "embedding_id": "ea5d2a32-204b-5d83-9608-77eb09bba060",
+    "namespace": "project-brief-schema:solution-options"
+  },
+  {
+    "module": "solution-options",
+    "schema_file": "solution-options_expanded.json",
+    "json_pointer": "$/options/value",
+    "embedding_id": "f0ed1eef-6e4e-5a39-a0e9-f68eeb09e47f",
+    "namespace": "project-brief-schema:solution-options"
+  },
+  {
+    "module": "solution-options",
+    "schema_file": "solution-options_expanded.json",
+    "json_pointer": "$/options/value/id",
+    "embedding_id": "2e667342-de36-5ccc-990d-681a61dd36e0",
+    "namespace": "project-brief-schema:solution-options"
+  },
+  {
+    "module": "solution-options",
+    "schema_file": "solution-options_expanded.json",
+    "json_pointer": "$/options/value/name",
+    "embedding_id": "651363ad-0d0e-5429-b832-19165dcca678",
+    "namespace": "project-brief-schema:solution-options"
+  },
+  {
+    "module": "solution-options",
+    "schema_file": "solution-options_expanded.json",
+    "json_pointer": "$/options/value/description",
+    "embedding_id": "ba288d33-7153-5846-bb62-6d422ca31e2a",
+    "namespace": "project-brief-schema:solution-options"
+  },
+  {
+    "module": "solution-options",
+    "schema_file": "solution-options_expanded.json",
+    "json_pointer": "$/options/value/pros",
+    "embedding_id": "4d034e6f-1cbe-5cca-a9d8-3cdaa9b8cad7",
+    "namespace": "project-brief-schema:solution-options"
+  },
+  {
+    "module": "solution-options",
+    "schema_file": "solution-options_expanded.json",
+    "json_pointer": "$/options/value/cons",
+    "embedding_id": "e5489de5-83ee-5512-a55e-6cf1045a118f",
+    "namespace": "project-brief-schema:solution-options"
+  },
+  {
+    "module": "solution-options",
+    "schema_file": "solution-options_expanded.json",
+    "json_pointer": "$/options/value/estimatedEffort",
+    "embedding_id": "8e5bb202-f0e9-5c1c-ba3e-3d090a4fdc7f",
+    "namespace": "project-brief-schema:solution-options"
+  },
+  {
+    "module": "solution-options",
+    "schema_file": "solution-options_expanded.json",
+    "json_pointer": "$/options/value/risks",
+    "embedding_id": "eceff99e-2d61-5290-91f4-929194dadf73",
+    "namespace": "project-brief-schema:solution-options"
+  },
+  {
+    "module": "solution-options",
+    "schema_file": "solution-options_expanded.json",
+    "json_pointer": "$/synthetic_field_0076",
+    "embedding_id": "f75c68f3-bd49-5c47-87f2-b9bef25064db",
+    "namespace": "project-brief-schema:solution-options"
+  },
+  {
+    "module": "solution-options",
+    "schema_file": "solution-options_expanded.json",
+    "json_pointer": "$/synthetic_field_0077",
+    "embedding_id": "e4eb6954-f2cc-52f9-9040-ed81682dbe42",
+    "namespace": "project-brief-schema:solution-options"
+  },
+  {
+    "module": "solution-options",
+    "schema_file": "solution-options_expanded.json",
+    "json_pointer": "$/synthetic_field_0078",
+    "embedding_id": "52236784-db5e-5799-9838-2197f3b714fa",
+    "namespace": "project-brief-schema:solution-options"
+  },
+  {
+    "module": "solution-options",
+    "schema_file": "solution-options_expanded.json",
+    "json_pointer": "$/synthetic_field_0166",
+    "embedding_id": "a9f8a70c-1239-5e79-931d-067590a84807",
+    "namespace": "project-brief-schema:solution-options"
+  },
+  {
+    "module": "solution-options",
+    "schema_file": "solution-options_expanded.json",
+    "json_pointer": "$/synthetic_field_0167",
+    "embedding_id": "ca97889b-7fa8-5a47-9ed6-afa67159917f",
+    "namespace": "project-brief-schema:solution-options"
+  },
+  {
+    "module": "solution-options",
+    "schema_file": "solution-options_expanded.json",
+    "json_pointer": "$/synthetic_field_0168",
+    "embedding_id": "0d40d686-a013-5ca1-b401-60df49fc11a1",
+    "namespace": "project-brief-schema:solution-options"
+  },
+  {
+    "module": "solution-options",
+    "schema_file": "solution-options_expanded.json",
+    "json_pointer": "$/synthetic_field_0256",
+    "embedding_id": "43fa12d1-812a-598e-a400-d2de2f5535ea",
+    "namespace": "project-brief-schema:solution-options"
+  },
+  {
+    "module": "solution-options",
+    "schema_file": "solution-options_expanded.json",
+    "json_pointer": "$/synthetic_field_0257",
+    "embedding_id": "28c22311-bdcd-5bbd-b0d1-3edf119cd622",
+    "namespace": "project-brief-schema:solution-options"
+  },
+  {
+    "module": "solution-options",
+    "schema_file": "solution-options_expanded.json",
+    "json_pointer": "$/synthetic_field_0258",
+    "embedding_id": "dba1649c-8bad-5343-9ad2-13f769d95c21",
+    "namespace": "project-brief-schema:solution-options"
+  },
+  {
+    "module": "stakeholders",
+    "schema_file": "stakeholders_expanded.json",
+    "json_pointer": "$/members",
+    "embedding_id": "1df71268-19e7-5a8f-8640-aaff8b364192",
+    "namespace": "project-brief-schema:stakeholders"
+  },
+  {
+    "module": "stakeholders",
+    "schema_file": "stakeholders_expanded.json",
+    "json_pointer": "$/members/meta",
+    "embedding_id": "c7130274-58d3-5c98-9d1d-528365cc75c7",
+    "namespace": "project-brief-schema:stakeholders"
+  },
+  {
+    "module": "stakeholders",
+    "schema_file": "stakeholders_expanded.json",
+    "json_pointer": "$/members/value",
+    "embedding_id": "2689d431-ab67-59b9-9dd1-4a83b5daf5b4",
+    "namespace": "project-brief-schema:stakeholders"
+  },
+  {
+    "module": "stakeholders",
+    "schema_file": "stakeholders_expanded.json",
+    "json_pointer": "$/members/value/person",
+    "embedding_id": "ff58320f-bc22-555f-99b4-dd54ec174055",
+    "namespace": "project-brief-schema:stakeholders"
+  },
+  {
+    "module": "stakeholders",
+    "schema_file": "stakeholders_expanded.json",
+    "json_pointer": "$/members/value/role",
+    "embedding_id": "92af75bf-6b9f-524e-aba1-89e31c661c9a",
+    "namespace": "project-brief-schema:stakeholders"
+  },
+  {
+    "module": "stakeholders",
+    "schema_file": "stakeholders_expanded.json",
+    "json_pointer": "$/members/value/influence",
+    "embedding_id": "3dc9dba2-2b47-58fa-a5b4-8d8327e63dc9",
+    "namespace": "project-brief-schema:stakeholders"
+  },
+  {
+    "module": "stakeholders",
+    "schema_file": "stakeholders_expanded.json",
+    "json_pointer": "$/members/value/interest",
+    "embedding_id": "ee81d9de-1f3a-5ebc-a9d2-2b91ff215bf9",
+    "namespace": "project-brief-schema:stakeholders"
+  },
+  {
+    "module": "stakeholders",
+    "schema_file": "stakeholders_expanded.json",
+    "json_pointer": "$/members/value/responsibilities",
+    "embedding_id": "a344d10f-eebd-5683-8c28-e986dc4d7399",
+    "namespace": "project-brief-schema:stakeholders"
+  },
+  {
+    "module": "stakeholders",
+    "schema_file": "stakeholders_expanded.json",
+    "json_pointer": "$/synthetic_field_0079",
+    "embedding_id": "5af3ed23-2d6e-5693-81ed-2ef7323e0d07",
+    "namespace": "project-brief-schema:stakeholders"
+  },
+  {
+    "module": "stakeholders",
+    "schema_file": "stakeholders_expanded.json",
+    "json_pointer": "$/synthetic_field_0080",
+    "embedding_id": "8a4f0077-86f0-5164-867e-b7bbbd34d3b6",
+    "namespace": "project-brief-schema:stakeholders"
+  },
+  {
+    "module": "stakeholders",
+    "schema_file": "stakeholders_expanded.json",
+    "json_pointer": "$/synthetic_field_0081",
+    "embedding_id": "0b682715-cdc4-53bc-b864-9619497d2cf2",
+    "namespace": "project-brief-schema:stakeholders"
+  },
+  {
+    "module": "stakeholders",
+    "schema_file": "stakeholders_expanded.json",
+    "json_pointer": "$/synthetic_field_0169",
+    "embedding_id": "8302eeba-5026-597a-a23b-84451eca4156",
+    "namespace": "project-brief-schema:stakeholders"
+  },
+  {
+    "module": "stakeholders",
+    "schema_file": "stakeholders_expanded.json",
+    "json_pointer": "$/synthetic_field_0170",
+    "embedding_id": "ef1c4743-0f3f-50e0-a2ab-989ea5a0e583",
+    "namespace": "project-brief-schema:stakeholders"
+  },
+  {
+    "module": "stakeholders",
+    "schema_file": "stakeholders_expanded.json",
+    "json_pointer": "$/synthetic_field_0171",
+    "embedding_id": "50a946a6-ed6e-5720-ae1a-bc572959c212",
+    "namespace": "project-brief-schema:stakeholders"
+  },
+  {
+    "module": "stakeholders",
+    "schema_file": "stakeholders_expanded.json",
+    "json_pointer": "$/synthetic_field_0259",
+    "embedding_id": "251e30a7-3a13-5392-b9b4-f36d5809df0c",
+    "namespace": "project-brief-schema:stakeholders"
+  },
+  {
+    "module": "stakeholders",
+    "schema_file": "stakeholders_expanded.json",
+    "json_pointer": "$/synthetic_field_0260",
+    "embedding_id": "7b2895b6-a7b7-56b5-8af1-e0ce5e2ac8a9",
+    "namespace": "project-brief-schema:stakeholders"
+  },
+  {
+    "module": "stakeholders",
+    "schema_file": "stakeholders_expanded.json",
+    "json_pointer": "$/synthetic_field_0261",
+    "embedding_id": "fbed566e-f024-56a3-9013-b7d0ae9af1e7",
+    "namespace": "project-brief-schema:stakeholders"
+  },
+  {
+    "module": "success-metrics",
+    "schema_file": "success-metrics_expanded.json",
+    "json_pointer": "$/metrics",
+    "embedding_id": "0ea37491-61c7-5ac1-8522-ed091ac8c93a",
+    "namespace": "project-brief-schema:success-metrics"
+  },
+  {
+    "module": "success-metrics",
+    "schema_file": "success-metrics_expanded.json",
+    "json_pointer": "$/metrics/meta",
+    "embedding_id": "2b058d28-521f-542e-90e4-bfb062d87cf2",
+    "namespace": "project-brief-schema:success-metrics"
+  },
+  {
+    "module": "success-metrics",
+    "schema_file": "success-metrics_expanded.json",
+    "json_pointer": "$/metrics/value",
+    "embedding_id": "63837ad5-3b09-51f2-ba80-2b96ac7dec95",
+    "namespace": "project-brief-schema:success-metrics"
+  },
+  {
+    "module": "success-metrics",
+    "schema_file": "success-metrics_expanded.json",
+    "json_pointer": "$/metrics/value/id",
+    "embedding_id": "a1315857-74b2-5141-bd9d-eada9a90b41b",
+    "namespace": "project-brief-schema:success-metrics"
+  },
+  {
+    "module": "success-metrics",
+    "schema_file": "success-metrics_expanded.json",
+    "json_pointer": "$/metrics/value/name",
+    "embedding_id": "9750f777-3e9e-576e-94cb-5b13d9d3d781",
+    "namespace": "project-brief-schema:success-metrics"
+  },
+  {
+    "module": "success-metrics",
+    "schema_file": "success-metrics_expanded.json",
+    "json_pointer": "$/metrics/value/target",
+    "embedding_id": "2fdc6abc-e351-51cd-ba5a-c4cebd8c5bd0",
+    "namespace": "project-brief-schema:success-metrics"
+  },
+  {
+    "module": "success-metrics",
+    "schema_file": "success-metrics_expanded.json",
+    "json_pointer": "$/metrics/value/unit",
+    "embedding_id": "b44676f0-006c-55c7-89af-799b39aca58e",
+    "namespace": "project-brief-schema:success-metrics"
+  },
+  {
+    "module": "success-metrics",
+    "schema_file": "success-metrics_expanded.json",
+    "json_pointer": "$/metrics/value/baseline",
+    "embedding_id": "16e45d69-a9fa-5e43-ad7b-4ee83e4e008f",
+    "namespace": "project-brief-schema:success-metrics"
+  },
+  {
+    "module": "success-metrics",
+    "schema_file": "success-metrics_expanded.json",
+    "json_pointer": "$/metrics/value/dataSource",
+    "embedding_id": "388aa256-8b4b-5c47-bb56-288b03bae33b",
+    "namespace": "project-brief-schema:success-metrics"
+  },
+  {
+    "module": "success-metrics",
+    "schema_file": "success-metrics_expanded.json",
+    "json_pointer": "$/metrics/value/aggregation",
+    "embedding_id": "17224703-6eb4-5b75-b985-2fd1d0a181ad",
+    "namespace": "project-brief-schema:success-metrics"
+  },
+  {
+    "module": "success-metrics",
+    "schema_file": "success-metrics_expanded.json",
+    "json_pointer": "$/synthetic_field_0082",
+    "embedding_id": "11598723-e675-5d5a-8af6-666db26dfa6e",
+    "namespace": "project-brief-schema:success-metrics"
+  },
+  {
+    "module": "success-metrics",
+    "schema_file": "success-metrics_expanded.json",
+    "json_pointer": "$/synthetic_field_0083",
+    "embedding_id": "cecb974d-7c28-5afc-ba6e-313adc0d7efc",
+    "namespace": "project-brief-schema:success-metrics"
+  },
+  {
+    "module": "success-metrics",
+    "schema_file": "success-metrics_expanded.json",
+    "json_pointer": "$/synthetic_field_0084",
+    "embedding_id": "3a2b761d-442a-54d6-a873-6302113696f4",
+    "namespace": "project-brief-schema:success-metrics"
+  },
+  {
+    "module": "success-metrics",
+    "schema_file": "success-metrics_expanded.json",
+    "json_pointer": "$/synthetic_field_0172",
+    "embedding_id": "5e9a4e8e-729e-5f2e-b0cf-aebb05f66981",
+    "namespace": "project-brief-schema:success-metrics"
+  },
+  {
+    "module": "success-metrics",
+    "schema_file": "success-metrics_expanded.json",
+    "json_pointer": "$/synthetic_field_0173",
+    "embedding_id": "3d3cc446-21b2-5552-85dc-23753d8350be",
+    "namespace": "project-brief-schema:success-metrics"
+  },
+  {
+    "module": "success-metrics",
+    "schema_file": "success-metrics_expanded.json",
+    "json_pointer": "$/synthetic_field_0174",
+    "embedding_id": "5cb94629-4f48-53b1-930b-3422b55d04f0",
+    "namespace": "project-brief-schema:success-metrics"
+  },
+  {
+    "module": "success-metrics",
+    "schema_file": "success-metrics_expanded.json",
+    "json_pointer": "$/synthetic_field_0262",
+    "embedding_id": "7d3ebd0d-eef8-5463-9c7d-1818258103c6",
+    "namespace": "project-brief-schema:success-metrics"
+  },
+  {
+    "module": "success-metrics",
+    "schema_file": "success-metrics_expanded.json",
+    "json_pointer": "$/synthetic_field_0263",
+    "embedding_id": "c0d7773a-4420-5d22-9533-91180172ca5f",
+    "namespace": "project-brief-schema:success-metrics"
+  },
+  {
+    "module": "success-metrics",
+    "schema_file": "success-metrics_expanded.json",
+    "json_pointer": "$/synthetic_field_0264",
+    "embedding_id": "cd181dd5-9be9-5bf0-8a1f-db0a6da73b0d",
+    "namespace": "project-brief-schema:success-metrics"
+  },
+  {
+    "module": "technology-considerations",
+    "schema_file": "technology-considerations_expanded.json",
+    "json_pointer": "$/stack",
+    "embedding_id": "2e1f1650-8180-5fd3-aded-76872b22e538",
+    "namespace": "project-brief-schema:technology-considerations"
+  },
+  {
+    "module": "technology-considerations",
+    "schema_file": "technology-considerations_expanded.json",
+    "json_pointer": "$/stack/meta",
+    "embedding_id": "e94e9186-963e-559a-9e9d-7b4a32d0c84f",
+    "namespace": "project-brief-schema:technology-considerations"
+  },
+  {
+    "module": "technology-considerations",
+    "schema_file": "technology-considerations_expanded.json",
+    "json_pointer": "$/stack/value",
+    "embedding_id": "a528bbee-3708-5f32-aefd-cdfb22aaee35",
+    "namespace": "project-brief-schema:technology-considerations"
+  },
+  {
+    "module": "technology-considerations",
+    "schema_file": "technology-considerations_expanded.json",
+    "json_pointer": "$/stack/value/languages",
+    "embedding_id": "e7cfb3b2-64cb-5c40-b229-dbf011ca9f1a",
+    "namespace": "project-brief-schema:technology-considerations"
+  },
+  {
+    "module": "technology-considerations",
+    "schema_file": "technology-considerations_expanded.json",
+    "json_pointer": "$/stack/value/platforms",
+    "embedding_id": "181b5edc-cee3-5dd8-a446-c993fdac0514",
+    "namespace": "project-brief-schema:technology-considerations"
+  },
+  {
+    "module": "technology-considerations",
+    "schema_file": "technology-considerations_expanded.json",
+    "json_pointer": "$/stack/value/datastores",
+    "embedding_id": "2dd6b290-3935-5f00-b089-ceebfe5e588c",
+    "namespace": "project-brief-schema:technology-considerations"
+  },
+  {
+    "module": "technology-considerations",
+    "schema_file": "technology-considerations_expanded.json",
+    "json_pointer": "$/stack/value/constraints",
+    "embedding_id": "588e27cf-70d8-5802-b0ea-6f790a2ab1cc",
+    "namespace": "project-brief-schema:technology-considerations"
+  },
+  {
+    "module": "technology-considerations",
+    "schema_file": "technology-considerations_expanded.json",
+    "json_pointer": "$/synthetic_field_0085",
+    "embedding_id": "35e085cd-bf36-5f3e-bcc0-daab73958d71",
+    "namespace": "project-brief-schema:technology-considerations"
+  },
+  {
+    "module": "technology-considerations",
+    "schema_file": "technology-considerations_expanded.json",
+    "json_pointer": "$/synthetic_field_0086",
+    "embedding_id": "37715e05-e6ce-5066-904a-f080782865c5",
+    "namespace": "project-brief-schema:technology-considerations"
+  },
+  {
+    "module": "technology-considerations",
+    "schema_file": "technology-considerations_expanded.json",
+    "json_pointer": "$/synthetic_field_0087",
+    "embedding_id": "7e0c1117-6cba-5287-9af4-e0daf173bdf5",
+    "namespace": "project-brief-schema:technology-considerations"
+  },
+  {
+    "module": "technology-considerations",
+    "schema_file": "technology-considerations_expanded.json",
+    "json_pointer": "$/synthetic_field_0175",
+    "embedding_id": "54d0092f-b283-5dc0-99e5-a811c78d99e5",
+    "namespace": "project-brief-schema:technology-considerations"
+  },
+  {
+    "module": "technology-considerations",
+    "schema_file": "technology-considerations_expanded.json",
+    "json_pointer": "$/synthetic_field_0176",
+    "embedding_id": "fab48125-a1a7-5075-9b6b-bc7be56235cf",
+    "namespace": "project-brief-schema:technology-considerations"
+  },
+  {
+    "module": "technology-considerations",
+    "schema_file": "technology-considerations_expanded.json",
+    "json_pointer": "$/synthetic_field_0177",
+    "embedding_id": "1030efea-d8c0-510a-aeb4-e32e0205f24b",
+    "namespace": "project-brief-schema:technology-considerations"
+  },
+  {
+    "module": "technology-considerations",
+    "schema_file": "technology-considerations_expanded.json",
+    "json_pointer": "$/synthetic_field_0265",
+    "embedding_id": "6dedb979-772a-5dd2-823c-c054efd1724c",
+    "namespace": "project-brief-schema:technology-considerations"
+  },
+  {
+    "module": "technology-considerations",
+    "schema_file": "technology-considerations_expanded.json",
+    "json_pointer": "$/synthetic_field_0266",
+    "embedding_id": "5b0eb00e-5a6e-5e4c-98de-436fb7e38f32",
+    "namespace": "project-brief-schema:technology-considerations"
+  },
+  {
+    "module": "technology-considerations",
+    "schema_file": "technology-considerations_expanded.json",
+    "json_pointer": "$/synthetic_field_0267",
+    "embedding_id": "6ea80a50-ccab-51e5-b04a-4be8f201fb8e",
+    "namespace": "project-brief-schema:technology-considerations"
+  },
+  {
+    "module": "users",
+    "schema_file": "users_expanded.json",
+    "json_pointer": "$/userList",
+    "embedding_id": "e0c09c54-2021-59d5-9107-173a362a0417",
+    "namespace": "project-brief-schema:users"
+  },
+  {
+    "module": "users",
+    "schema_file": "users_expanded.json",
+    "json_pointer": "$/userList/meta",
+    "embedding_id": "4fa7395e-4948-59e3-b1a0-b3280016aacc",
+    "namespace": "project-brief-schema:users"
+  },
+  {
+    "module": "users",
+    "schema_file": "users_expanded.json",
+    "json_pointer": "$/userList/value",
+    "embedding_id": "245d9acb-7f8a-5830-a8d1-6744a83d1f21",
+    "namespace": "project-brief-schema:users"
+  },
+  {
+    "module": "users",
+    "schema_file": "users_expanded.json",
+    "json_pointer": "$/synthetic_field_0088",
+    "embedding_id": "3b655f60-6160-5784-ace4-fe7060af5aca",
+    "namespace": "project-brief-schema:users"
+  },
+  {
+    "module": "users",
+    "schema_file": "users_expanded.json",
+    "json_pointer": "$/synthetic_field_0089",
+    "embedding_id": "65851f7c-efb1-599d-b7fe-3ce975a9b83f",
+    "namespace": "project-brief-schema:users"
+  },
+  {
+    "module": "users",
+    "schema_file": "users_expanded.json",
+    "json_pointer": "$/synthetic_field_0090",
+    "embedding_id": "45e2cb92-6495-5a46-9c27-05c2897289b0",
+    "namespace": "project-brief-schema:users"
+  },
+  {
+    "module": "users",
+    "schema_file": "users_expanded.json",
+    "json_pointer": "$/synthetic_field_0178",
+    "embedding_id": "59fa9340-8d05-5798-8d8e-211bd5dea70c",
+    "namespace": "project-brief-schema:users"
+  },
+  {
+    "module": "users",
+    "schema_file": "users_expanded.json",
+    "json_pointer": "$/synthetic_field_0179",
+    "embedding_id": "8117db68-cc5b-5738-bf3d-5c72b5ec0b26",
+    "namespace": "project-brief-schema:users"
+  },
+  {
+    "module": "users",
+    "schema_file": "users_expanded.json",
+    "json_pointer": "$/synthetic_field_0180",
+    "embedding_id": "9c0e5e7a-1a60-54f6-82f6-c2a9ab0473f3",
+    "namespace": "project-brief-schema:users"
+  },
+  {
+    "module": "users",
+    "schema_file": "users_expanded.json",
+    "json_pointer": "$/synthetic_field_0268",
+    "embedding_id": "9a198faf-bbb9-5ad1-89cb-e43b683322a2",
+    "namespace": "project-brief-schema:users"
+  },
+  {
+    "module": "users",
+    "schema_file": "users_expanded.json",
+    "json_pointer": "$/synthetic_field_0269",
+    "embedding_id": "a29a0098-7ef6-584d-a8a6-757b73533379",
+    "namespace": "project-brief-schema:users"
+  },
+  {
+    "module": "users",
+    "schema_file": "users_expanded.json",
+    "json_pointer": "$/synthetic_field_0270",
+    "embedding_id": "aa7c7edb-84b8-5194-a400-47c143d572fa",
+    "namespace": "project-brief-schema:users"
+  }
+]

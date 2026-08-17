@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "opportunities.json",
+  "title": "Opportunities",
+  "description": "Potential opportunities unlocked by the project.",
+  "type": "object",
+  "properties": {
+    "opportunities": { "allOf": [ { "$ref": "common.json#/$defs/fieldWrapper" }, { "properties": { "meta": { "required": ["id","title","type","lastUpdated","version"] }, "value": { "type": "array", "items": { "type": "object", "properties": { "id": { "$ref": "common.json#/$defs/uuid" }, "title": { "type": "string" }, "description": { "type": "string" }, "estimatedValue": { "type": "number" }, "confidence": { "type": "number", "minimum": 0, "maximum": 1 } }, "required": ["id","title"] } } } } ] }
+  },
+  "required": ["opportunities"],
+  "additionalProperties": false
+}

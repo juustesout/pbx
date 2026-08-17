@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "product-description.json",
+  "title": "Product Description",
+  "description": "High-level product description, components and interfaces.",
+  "type": "object",
+  "properties": {
+    "overview": { "allOf": [ { "$ref": "common.json#/$defs/fieldWrapper" }, { "properties": { "meta": { "required": ["id","title","type","lastUpdated","version"] }, "value": { "type": "string" } } } ] },
+    "components": { "allOf": [ { "$ref": "common.json#/$defs/fieldWrapper" }, { "properties": { "meta": { "required": ["id","title","type","lastUpdated","version"] }, "value": { "type": "array", "items": { "type": "object", "properties": { "id": { "$ref": "common.json#/$defs/uuid" }, "name": { "type": "string" }, "description": { "type": "string" }, "interfaces": { "type": "array", "items": { "$ref": "interfaces.json" } } }, "required": ["id","name"] } } } } ] }
+  },
+  "required": ["overview"],
+  "additionalProperties": false
+}

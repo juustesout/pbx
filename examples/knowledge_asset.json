@@ -1,0 +1,50 @@
+{
+  "format": "knowledge_asset",
+  "status": "draft",
+  "pbx_doc": {
+    "metadata": {
+      "version": "1.0.0",
+      "value": {
+        "title": "Example title"
+      }
+    },
+    "productDescription": {
+      "version": "1.0.0",
+      "value": {
+        "tagline": "Example one-line pitch",
+        "description": "Example preview (public markdown)"
+      }
+    },
+    "personas": {
+      "version": "1.0.0",
+      "value": {
+        "jurisdiction": [
+          "example jurisdiction"
+        ],
+        "company_size": [
+          "example company size"
+        ],
+        "languages": [
+          "example languages"
+        ]
+      }
+    },
+    "businessCase": {
+      "version": "1.0.0",
+      "value": {
+        "pricing": {
+          "sku": "Example sku",
+          "regularPrice": "Example price",
+          "currency": "Example currency"
+        }
+      }
+    },
+    "constraints": {
+      "version": "1.0.0",
+      "value": {
+        "contract_template": "Example full document (markdown, unlock-gated)"
+      }
+    }
+  },
+  "pbx_ext": null
+}

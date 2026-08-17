@@ -1,0 +1,35 @@
+{
+  "format": "challenge",
+  "status": "draft",
+  "pbx_doc": {
+    "metadata": {
+      "version": "1.0.0",
+      "value": {
+        "title": "Example challenge title"
+      }
+    },
+    "productDescription": {
+      "version": "1.0.0",
+      "value": {
+        "tagline": "Example one-line hook",
+        "description": "Example intro (shown before questions)"
+      }
+    },
+    "personas": {
+      "version": "1.0.0",
+      "value": {
+        "target_audience": "Example who it's for",
+        "languages": [
+          "example languages"
+        ]
+      }
+    },
+    "constraints": {
+      "version": "1.0.0",
+      "value": {
+        "share_title": "Example share message template"
+      }
+    }
+  },
+  "pbx_ext": null
+}

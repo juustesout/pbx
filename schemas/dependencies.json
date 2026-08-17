@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "dependencies.json",
+  "title": "Dependencies",
+  "description": "External and internal dependencies required for project success.",
+  "type": "object",
+  "properties": {
+    "dependencies": { "allOf": [ { "$ref": "common.json#/$defs/fieldWrapper" }, { "properties": { "meta": { "required": ["id","title","type","lastUpdated","version"] }, "value": { "type": "array", "items": { "type": "object", "properties": { "id": { "$ref": "common.json#/$defs/uuid" }, "description": { "type": "string" }, "owner": { "$ref": "common.json#/$defs/personRef" }, "type": { "type": "string", "enum": ["internal","external","third-party"] }, "status": { "type": "string", "enum": ["unknown","confirmed","blocked","at-risk"] } }, "required": ["id","description"] } } } } ] }
+  },
+  "required": ["dependencies"],
+  "additionalProperties": false
+}

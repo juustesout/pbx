@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "functional-requirements.json",
+  "title": "Functional Requirements",
+  "description": "Canonical functional requirements register with traceability.",
+  "type": "object",
+  "properties": {
+    "requirements": { "allOf": [ { "$ref": "common.json#/$defs/fieldWrapper" }, { "properties": { "meta": { "required": ["id","title","type","lastUpdated","version"] }, "value": { "type": "array", "items": { "type": "object", "properties": { "id": { "$ref": "common.json#/$defs/uuid" }, "title": { "type": "string" }, "description": { "type": "string" }, "priority": { "type": "string", "enum": ["low","medium","high","must"] }, "acceptanceCriteria": { "type": "array", "items": { "$ref": "acceptance.json" } }, "dependsOn": { "type": "array", "items": { "$ref": "common.json#/$defs/requirementRef" } }, "relatedProcesses": { "type": "array", "items": { "type": "string" } } }, "required": ["id","title"] } } } } ] }
+  },
+  "required": ["requirements"],
+  "additionalProperties": false
+}

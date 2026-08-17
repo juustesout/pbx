@@ -1,0 +1,28 @@
+{
+  "format": "company",
+  "status": "draft",
+  "pbx_doc": {
+    "metadata": {
+      "version": "1.0.0",
+      "value": {
+        "title": "Example company name",
+        "website": "https://example.com",
+        "sector": "Example sector / industry",
+        "size": "1",
+        "founded": "Example founded (year)"
+      }
+    },
+    "productDescription": {
+      "version": "1.0.0",
+      "value": {
+        "tagline": "Example one-line pitch",
+        "description": "Example about",
+        "target_audience": "Example we serve",
+        "services": [
+          "example services / offerings"
+        ]
+      }
+    }
+  },
+  "pbx_ext": null
+}

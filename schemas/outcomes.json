@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "outcomes.json",
+  "title": "Outcomes",
+  "description": "Expected outcomes and their acceptance conditions.",
+  "type": "object",
+  "properties": {
+    "items": { "allOf": [ { "$ref": "common.json#/$defs/fieldWrapper" }, { "properties": { "meta": { "required": ["id","title","type","lastUpdated","version"] }, "value": { "type": "array", "items": { "type": "object", "properties": { "id": { "$ref": "common.json#/$defs/uuid" }, "description": { "type": "string" }, "acceptanceCriteria": { "type": "array", "items": { "$ref": "acceptance.json" } }, "successMetric": { "$ref": "success-metrics.json" } }, "required": ["id","description"] } } } } ] }
+  },
+  "required": ["items"],
+  "additionalProperties": false
+}

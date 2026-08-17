@@ -1,0 +1,46 @@
+{
+  "format": "product",
+  "status": "draft",
+  "pbx_doc": {
+    "metadata": {
+      "version": "1.0.0",
+      "value": {
+        "title": "Example product name"
+      }
+    },
+    "productDescription": {
+      "version": "1.0.0",
+      "value": {
+        "tagline": "Example short pitch",
+        "description": "Example description",
+        "target_audience": "Example ideal buyer",
+        "key_features": [
+          "example key features"
+        ],
+        "use_cases": [
+          "example use cases"
+        ]
+      }
+    },
+    "businessCase": {
+      "version": "1.0.0",
+      "value": {
+        "pricing": {
+          "regularPrice": "Example regular price",
+          "salePrice": "Example sale price",
+          "currency": "Example currency"
+        }
+      }
+    },
+    "constraints": {
+      "version": "1.0.0",
+      "value": {
+        "inventory": {
+          "sku": "Example sku",
+          "stockStatus": "instock"
+        }
+      }
+    }
+  },
+  "pbx_ext": null
+}

@@ -1,0 +1,48 @@
+{
+  "format": "micro_app",
+  "status": "draft",
+  "pbx_doc": {
+    "metadata": {
+      "version": "1.0.0",
+      "value": {
+        "title": "Example app name"
+      }
+    },
+    "productDescription": {
+      "version": "1.0.0",
+      "value": {
+        "tagline": "Example one-line pitch",
+        "description": "Example what it does",
+        "use_cases": [
+          "example example use cases"
+        ]
+      }
+    },
+    "personas": {
+      "version": "1.0.0",
+      "value": {
+        "target_audience": "Example who it's for",
+        "languages": [
+          "example languages"
+        ]
+      }
+    },
+    "constraints": {
+      "version": "1.0.0",
+      "value": {
+        "flavor": "deterministic"
+      }
+    },
+    "businessCase": {
+      "version": "1.0.0",
+      "value": {
+        "pricing": {
+          "sku": "Example unlock sku",
+          "regularPrice": "Example price",
+          "currency": "Example currency"
+        }
+      }
+    }
+  },
+  "pbx_ext": null
+}

@@ -1,0 +1,238 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "dependencies.json",
+  "title": "Dependencies",
+  "description": "External and internal dependencies required for project success.",
+  "type": "object",
+  "properties": {
+    "dependencies": {
+      "allOf": [
+        {
+          "$ref": "common_expanded.json#/$defs/fieldWrapper"
+        },
+        {
+          "properties": {
+            "meta": {
+              "$ref": "common_expanded.json#/$defs/fieldMeta"
+            },
+            "value": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "$ref": "common_expanded.json#/$defs/uuid"
+                  },
+                  "description": {
+                    "type": "string"
+                  },
+                  "owner": {
+                    "$ref": "common_expanded.json#/$defs/personRef"
+                  },
+                  "type": {
+                    "type": "string",
+                    "enum": [
+                      "internal",
+                      "external",
+                      "third-party"
+                    ]
+                  },
+                  "status": {
+                    "type": "string",
+                    "enum": [
+                      "unknown",
+                      "confirmed",
+                      "blocked",
+                      "at-risk"
+                    ]
+                  }
+                },
+                "required": [
+                  "id",
+                  "description"
+                ]
+              }
+            }
+          },
+          "required": [
+            "meta",
+            "value"
+          ]
+        }
+      ]
+    },
+    "synthetic_field_0022": {
+      "allOf": [
+        {
+          "$ref": "common_expanded.json#/$defs/fieldWrapper"
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "common_expanded.json#/$defs/entity_def_023"
+            }
+          ]
+        }
+      ]
+    },
+    "synthetic_field_0023": {
+      "allOf": [
+        {
+          "$ref": "common_expanded.json#/$defs/fieldWrapper"
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "common_expanded.json#/$defs/entity_def_024"
+            }
+          ]
+        }
+      ]
+    },
+    "synthetic_field_0024": {
+      "allOf": [
+        {
+          "$ref": "common_expanded.json#/$defs/fieldWrapper"
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "common_expanded.json#/$defs/entity_def_025"
+            }
+          ]
+        }
+      ]
+    },
+    "synthetic_field_0112": {
+      "allOf": [
+        {
+          "$ref": "common_expanded.json#/$defs/fieldWrapper"
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "common_expanded.json#/$defs/entity_def_113"
+            }
+          ]
+        }
+      ]
+    },
+    "synthetic_field_0113": {
+      "allOf": [
+        {
+          "$ref": "common_expanded.json#/$defs/fieldWrapper"
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "common_expanded.json#/$defs/entity_def_114"
+            }
+          ]
+        }
+      ]
+    },
+    "synthetic_field_0114": {
+      "allOf": [
+        {
+          "$ref": "common_expanded.json#/$defs/fieldWrapper"
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "common_expanded.json#/$defs/entity_def_115"
+            }
+          ]
+        }
+      ]
+    },
+    "synthetic_field_0202": {
+      "allOf": [
+        {
+          "$ref": "common_expanded.json#/$defs/fieldWrapper"
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "common_expanded.json#/$defs/entity_def_203"
+            }
+          ]
+        }
+      ]
+    },
+    "synthetic_field_0203": {
+      "allOf": [
+        {
+          "$ref": "common_expanded.json#/$defs/fieldWrapper"
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "common_expanded.json#/$defs/entity_def_204"
+            }
+          ]
+        }
+      ]
+    },
+    "synthetic_field_0204": {
+      "allOf": [
+        {
+          "$ref": "common_expanded.json#/$defs/fieldWrapper"
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "common_expanded.json#/$defs/entity_def_205"
+            }
+          ]
+        }
+      ]
+    },
+    "synthetic_field_0292": {
+      "allOf": [
+        {
+          "$ref": "common_expanded.json#/$defs/fieldWrapper"
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "common_expanded.json#/$defs/entity_def_293"
+            }
+          ]
+        }
+      ]
+    },
+    "synthetic_field_0293": {
+      "allOf": [
+        {
+          "$ref": "common_expanded.json#/$defs/fieldWrapper"
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "common_expanded.json#/$defs/entity_def_294"
+            }
+          ]
+        }
+      ]
+    },
+    "synthetic_field_0294": {
+      "allOf": [
+        {
+          "$ref": "common_expanded.json#/$defs/fieldWrapper"
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "common_expanded.json#/$defs/entity_def_295"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "dependencies"
+  ],
+  "additionalProperties": false,
+  "$comment": "meta fields normalized to $ref to common_expanded.json#/$defs/fieldMeta"
+}

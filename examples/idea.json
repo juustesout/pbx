@@ -1,0 +1,47 @@
+{
+  "format": "idea",
+  "status": "draft",
+  "pbx_doc": {
+    "metadata": {
+      "version": "1.0.0",
+      "value": {
+        "title": "Example title"
+      }
+    },
+    "productDescription": {
+      "version": "1.0.0",
+      "value": {
+        "tagline": "Example tagline",
+        "description": "Example the idea",
+        "use_cases": [
+          "example example use cases"
+        ]
+      }
+    },
+    "scope": {
+      "version": "1.0.0",
+      "value": {
+        "problem": "Example problem it solves"
+      }
+    },
+    "personas": {
+      "version": "1.0.0",
+      "value": {
+        "target_audience": "Example who it's for"
+      }
+    },
+    "businessCase": {
+      "version": "1.0.0",
+      "value": {
+        "value": {
+          "willingness_to_pay": "Example willingness to pay (eur)",
+          "revenue_model": "Example revenue model",
+          "competitors": [
+            "example competitors"
+          ]
+        }
+      }
+    }
+  },
+  "pbx_ext": null
+}

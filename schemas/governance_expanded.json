@@ -1,0 +1,232 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "governance.json",
+  "title": "Governance",
+  "description": "Decision rights, approvals and review cadence.",
+  "type": "object",
+  "properties": {
+    "rolesAndResponsibilities": {
+      "allOf": [
+        {
+          "$ref": "common_expanded.json#/$defs/fieldWrapper"
+        },
+        {
+          "properties": {
+            "meta": {
+              "$ref": "common_expanded.json#/$defs/fieldMeta"
+            },
+            "value": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "role": {
+                    "type": "string"
+                  },
+                  "responsible": {
+                    "$ref": "common_expanded.json#/$defs/personRef"
+                  },
+                  "accountable": {
+                    "$ref": "common_expanded.json#/$defs/personRef"
+                  },
+                  "consulted": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "common_expanded.json#/$defs/personRef"
+                    }
+                  },
+                  "informed": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "common_expanded.json#/$defs/personRef"
+                    }
+                  }
+                },
+                "required": [
+                  "role"
+                ]
+              }
+            }
+          },
+          "required": [
+            "meta",
+            "value"
+          ]
+        }
+      ]
+    },
+    "synthetic_field_0031": {
+      "allOf": [
+        {
+          "$ref": "common_expanded.json#/$defs/fieldWrapper"
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "common_expanded.json#/$defs/entity_def_032"
+            }
+          ]
+        }
+      ]
+    },
+    "synthetic_field_0032": {
+      "allOf": [
+        {
+          "$ref": "common_expanded.json#/$defs/fieldWrapper"
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "common_expanded.json#/$defs/entity_def_033"
+            }
+          ]
+        }
+      ]
+    },
+    "synthetic_field_0033": {
+      "allOf": [
+        {
+          "$ref": "common_expanded.json#/$defs/fieldWrapper"
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "common_expanded.json#/$defs/entity_def_034"
+            }
+          ]
+        }
+      ]
+    },
+    "synthetic_field_0121": {
+      "allOf": [
+        {
+          "$ref": "common_expanded.json#/$defs/fieldWrapper"
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "common_expanded.json#/$defs/entity_def_122"
+            }
+          ]
+        }
+      ]
+    },
+    "synthetic_field_0122": {
+      "allOf": [
+        {
+          "$ref": "common_expanded.json#/$defs/fieldWrapper"
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "common_expanded.json#/$defs/entity_def_123"
+            }
+          ]
+        }
+      ]
+    },
+    "synthetic_field_0123": {
+      "allOf": [
+        {
+          "$ref": "common_expanded.json#/$defs/fieldWrapper"
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "common_expanded.json#/$defs/entity_def_124"
+            }
+          ]
+        }
+      ]
+    },
+    "synthetic_field_0211": {
+      "allOf": [
+        {
+          "$ref": "common_expanded.json#/$defs/fieldWrapper"
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "common_expanded.json#/$defs/entity_def_212"
+            }
+          ]
+        }
+      ]
+    },
+    "synthetic_field_0212": {
+      "allOf": [
+        {
+          "$ref": "common_expanded.json#/$defs/fieldWrapper"
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "common_expanded.json#/$defs/entity_def_213"
+            }
+          ]
+        }
+      ]
+    },
+    "synthetic_field_0213": {
+      "allOf": [
+        {
+          "$ref": "common_expanded.json#/$defs/fieldWrapper"
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "common_expanded.json#/$defs/entity_def_214"
+            }
+          ]
+        }
+      ]
+    },
+    "synthetic_field_0301": {
+      "allOf": [
+        {
+          "$ref": "common_expanded.json#/$defs/fieldWrapper"
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "common_expanded.json#/$defs/entity_def_302"
+            }
+          ]
+        }
+      ]
+    },
+    "synthetic_field_0302": {
+      "allOf": [
+        {
+          "$ref": "common_expanded.json#/$defs/fieldWrapper"
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "common_expanded.json#/$defs/entity_def_303"
+            }
+          ]
+        }
+      ]
+    },
+    "synthetic_field_0303": {
+      "allOf": [
+        {
+          "$ref": "common_expanded.json#/$defs/fieldWrapper"
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "common_expanded.json#/$defs/entity_def_304"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "rolesAndResponsibilities"
+  ],
+  "additionalProperties": false,
+  "$comment": "meta fields normalized to $ref to common_expanded.json#/$defs/fieldMeta"
+}

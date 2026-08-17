@@ -1,0 +1,204 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "success-metrics.json",
+  "title": "Success Metrics",
+  "description": "Definition of measurable success metrics and targets.",
+  "type": "object",
+  "properties": {
+    "metrics": {
+      "allOf": [
+        {
+          "$ref": "common_expanded.json#/$defs/fieldWrapper"
+        },
+        {
+          "properties": {
+            "meta": {
+              "$ref": "common_expanded.json#/$defs/fieldMeta"
+            },
+            "value": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "$ref": "common_expanded.json#/$defs/uuid"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "target": {
+                    "type": [
+                      "number",
+                      "string"
+                    ]
+                  },
+                  "unit": {
+                    "type": "string"
+                  },
+                  "baseline": {
+                    "type": [
+                      "number",
+                      "string"
+                    ]
+                  },
+                  "dataSource": {
+                    "$ref": "common_expanded.json#/$defs/reference"
+                  },
+                  "aggregation": {
+                    "type": "string",
+                    "enum": [
+                      "avg",
+                      "sum",
+                      "max",
+                      "min",
+                      "point-in-time"
+                    ]
+                  }
+                },
+                "required": [
+                  "id",
+                  "name"
+                ]
+              }
+            }
+          },
+          "required": [
+            "meta",
+            "value"
+          ]
+        }
+      ]
+    },
+    "synthetic_field_0082": {
+      "allOf": [
+        {
+          "$ref": "common_expanded.json#/$defs/fieldWrapper"
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "common_expanded.json#/$defs/entity_def_083"
+            }
+          ]
+        }
+      ]
+    },
+    "synthetic_field_0083": {
+      "allOf": [
+        {
+          "$ref": "common_expanded.json#/$defs/fieldWrapper"
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "common_expanded.json#/$defs/entity_def_084"
+            }
+          ]
+        }
+      ]
+    },
+    "synthetic_field_0084": {
+      "allOf": [
+        {
+          "$ref": "common_expanded.json#/$defs/fieldWrapper"
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "common_expanded.json#/$defs/entity_def_085"
+            }
+          ]
+        }
+      ]
+    },
+    "synthetic_field_0172": {
+      "allOf": [
+        {
+          "$ref": "common_expanded.json#/$defs/fieldWrapper"
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "common_expanded.json#/$defs/entity_def_173"
+            }
+          ]
+        }
+      ]
+    },
+    "synthetic_field_0173": {
+      "allOf": [
+        {
+          "$ref": "common_expanded.json#/$defs/fieldWrapper"
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "common_expanded.json#/$defs/entity_def_174"
+            }
+          ]
+        }
+      ]
+    },
+    "synthetic_field_0174": {
+      "allOf": [
+        {
+          "$ref": "common_expanded.json#/$defs/fieldWrapper"
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "common_expanded.json#/$defs/entity_def_175"
+            }
+          ]
+        }
+      ]
+    },
+    "synthetic_field_0262": {
+      "allOf": [
+        {
+          "$ref": "common_expanded.json#/$defs/fieldWrapper"
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "common_expanded.json#/$defs/entity_def_263"
+            }
+          ]
+        }
+      ]
+    },
+    "synthetic_field_0263": {
+      "allOf": [
+        {
+          "$ref": "common_expanded.json#/$defs/fieldWrapper"
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "common_expanded.json#/$defs/entity_def_264"
+            }
+          ]
+        }
+      ]
+    },
+    "synthetic_field_0264": {
+      "allOf": [
+        {
+          "$ref": "common_expanded.json#/$defs/fieldWrapper"
+        },
+        {
+          "allOf": [
+            {
+              "$ref": "common_expanded.json#/$defs/entity_def_265"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "metrics"
+  ],
+  "additionalProperties": false,
+  "$comment": "meta fields normalized to $ref to common_expanded.json#/$defs/fieldMeta"
+}

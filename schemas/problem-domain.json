@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "problem-domain.json",
+  "title": "Problem Domain",
+  "description": "Detailed description of the problem domain, boundaries and business rules.",
+  "type": "object",
+  "properties": {
+    "domainSummary": { "allOf": [ { "$ref": "common.json#/$defs/fieldWrapper" }, { "properties": { "meta": { "required": ["id","title","type","lastUpdated","version"] }, "value": { "type": "string" } } } ] },
+    "businessRules": { "allOf": [ { "$ref": "common.json#/$defs/fieldWrapper" }, { "properties": { "meta": { "required": ["id","title","type","lastUpdated","version"] }, "value": { "type": "array", "items": { "type": "object", "properties": { "id": { "$ref": "common.json#/$defs/uuid" }, "rule": { "type": "string" }, "description": { "type": "string" } }, "required": ["id","rule"] } } } } ] }
+  },
+  "required": ["domainSummary"],
+  "additionalProperties": false
+}

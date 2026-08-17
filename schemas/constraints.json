@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "constraints.json",
+  "title": "Constraints",
+  "description": "Constraints and regulatory or organisational limits affecting the project.",
+  "type": "object",
+  "properties": {
+    "constraints": { "allOf": [ { "$ref": "common.json#/$defs/fieldWrapper" }, { "properties": { "meta": { "required": ["id","title","type","lastUpdated","version"] }, "value": { "type": "array", "items": { "type": "object", "properties": { "id": { "$ref": "common.json#/$defs/uuid" }, "type": { "type": "string" }, "description": { "type": "string" }, "impact": { "type": "string" } }, "required": ["id","type"] } } } } ] }
+  },
+  "required": ["constraints"],
+  "additionalProperties": false
+}

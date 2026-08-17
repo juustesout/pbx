@@ -1,0 +1,48 @@
+{
+  "format": "plan",
+  "status": "draft",
+  "pbx_doc": {
+    "metadata": {
+      "version": "1.0.0",
+      "value": {
+        "title": "Example plan title"
+      }
+    },
+    "projectDefinition": {
+      "version": "1.0.0",
+      "value": {
+        "objective": "Example objective",
+        "background": "Example background / context"
+      }
+    },
+    "scope": {
+      "version": "1.0.0",
+      "value": {
+        "in_scope": [
+          "example in scope"
+        ],
+        "out_of_scope": [
+          "example out of scope"
+        ]
+      }
+    },
+    "acceptance": {
+      "version": "1.0.0",
+      "value": {
+        "criteria": [
+          "example acceptance criteria"
+        ]
+      }
+    },
+    "businessCase": {
+      "version": "1.0.0",
+      "value": {
+        "value": {
+          "revenue_model": "Example value / revenue model",
+          "willingness_to_pay": "Example willingness to pay"
+        }
+      }
+    }
+  },
+  "pbx_ext": null
+}

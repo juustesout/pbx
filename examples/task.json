@@ -1,0 +1,47 @@
+{
+  "format": "task",
+  "status": "todo",
+  "pbx_doc": {
+    "metadata": {
+      "version": "1.0.0",
+      "value": {
+        "title": "Example task title",
+        "status": "todo",
+        "assignee": "Example assignee (person_work id or handle)",
+        "due": "Example due date (iso)",
+        "duration": "Example estimated duration"
+      }
+    },
+    "projectDefinition": {
+      "version": "1.0.0",
+      "value": {
+        "objective": "Example what done looks like"
+      }
+    },
+    "acceptance": {
+      "version": "1.0.0",
+      "value": {
+        "criteria": [
+          "example acceptance criteria"
+        ]
+      }
+    },
+    "scope": {
+      "version": "1.0.0",
+      "value": {
+        "in_scope": [
+          "example in scope"
+        ]
+      }
+    },
+    "constraints": {
+      "version": "1.0.0",
+      "value": {
+        "blockers": [
+          "example known blockers"
+        ]
+      }
+    }
+  },
+  "pbx_ext": null
+}

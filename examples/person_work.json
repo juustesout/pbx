@@ -1,0 +1,51 @@
+{
+  "format": "person_work",
+  "status": "draft",
+  "pbx_doc": {
+    "metadata": {
+      "version": "1.0.0",
+      "value": {
+        "title": "Example display name",
+        "kind": "human",
+        "avatar_url": "https://example.com",
+        "provider": "Example provider (ai_agent / service / robot)",
+        "external_id": "Example external id / handle",
+        "endpoint_url": "https://example.com"
+      }
+    },
+    "personas": {
+      "version": "1.0.0",
+      "value": {
+        "role": "Example role / title",
+        "skills": [
+          "example skills"
+        ],
+        "years_experience": 0,
+        "languages": [
+          "example languages"
+        ]
+      }
+    },
+    "productDescription": {
+      "version": "1.0.0",
+      "value": {
+        "tagline": "Example one-line pitch",
+        "summary": "Example about your work"
+      }
+    },
+    "businessCase": {
+      "version": "1.0.0",
+      "value": {
+        "rate": "Example rate",
+        "availability": "Example availability"
+      }
+    },
+    "constraints": {
+      "version": "1.0.0",
+      "value": {
+        "prefs": "Example preferences / constraints"
+      }
+    }
+  },
+  "pbx_ext": null
+}

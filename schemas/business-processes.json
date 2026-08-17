@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "business-processes.json",
+  "title": "Business Processes",
+  "description": "Descriptions and models of business processes impacted or in scope.",
+  "type": "object",
+  "properties": {
+    "processes": {
+      "allOf": [ { "$ref": "common.json#/$defs/fieldWrapper" }, { "properties": { "meta": { "required": ["id","title","type","lastUpdated","version"] }, "value": { "type": "array", "items": { "type": "object", "properties": { "id": { "$ref": "common.json#/$defs/uuid" }, "name": { "type": "string" }, "description": { "type": "string" }, "triggers": { "type": "array", "items": { "type": "string" } }, "inputs": { "type": "array", "items": { "type": "string" } }, "outputs": { "type": "array", "items": { "type": "string" } }, "steps": { "type": "array", "items": { "type": "string" } } }, "required": ["id","name"] } } } } ]
+    }
+  },
+  "required": ["processes"],
+  "additionalProperties": false
+}

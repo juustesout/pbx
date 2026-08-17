@@ -1,0 +1,41 @@
+{
+  "format": "workflow",
+  "status": "draft",
+  "pbx_doc": {
+    "metadata": {
+      "version": "1.0.0",
+      "value": {
+        "title": "Example workflow title",
+        "status": "draft",
+        "provider": "n8n",
+        "external_id": "Example external workflow id / handle",
+        "instance_url": "https://example.com",
+        "webhook_url": "https://example.com"
+      }
+    },
+    "productDescription": {
+      "version": "1.0.0",
+      "value": {
+        "summary": "Example what this workflow does"
+      }
+    },
+    "businessCase": {
+      "version": "1.0.0",
+      "value": {
+        "value": {
+          "revenue_model": "Example value / purpose"
+        }
+      }
+    },
+    "constraints": {
+      "version": "1.0.0",
+      "value": {
+        "credentials": [
+          "example required credentials (handles only)"
+        ],
+        "rate_limits": "Example rate limits / cadence"
+      }
+    }
+  },
+  "pbx_ext": null
+}

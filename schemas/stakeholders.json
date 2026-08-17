@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "stakeholders.json",
+  "title": "Stakeholders",
+  "description": "Stakeholder roster with roles, influence and contact details.",
+  "type": "object",
+  "properties": {
+    "members": {
+      "allOf": [
+        { "$ref": "common.json#/$defs/fieldWrapper" },
+        {
+          "properties": {
+            "meta": { "required": ["id","title","type","lastUpdated","version"] },
+            "value": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "person": { "$ref": "common.json#/$defs/personRef" },
+                  "role": { "type": "string" },
+                  "influence": { "type": "string", "enum": ["low","medium","high"] },
+                  "interest": { "type": "string", "enum": ["low","medium","high"] },
+                  "responsibilities": { "type": "string" }
+                },
+                "required": ["person","role"],
+                "additionalProperties": false
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "required": ["members"],
+  "additionalProperties": false
+}

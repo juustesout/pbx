@@ -1,0 +1,1415 @@
+{
+  "version": "2.0.0",
+  "generated_at": "2026-08-17T19:09:36.788Z",
+  "note": "Machine-readable PBX registry: components, capabilities, entities, state machines.",
+  "capabilities": {
+    "searchable": "Shows up in text search and list previews.",
+    "vectorizable": "Contributes free text to the embedding vectors.",
+    "pii": "Contains personal data — drives GDPR export/delete and redaction.",
+    "public_ok": "Safe to render on public or unlisted pages.",
+    "mergeable": "Values from multiple sources can be reconciled into one.",
+    "translatable": "Free text that should be translated when the target language differs.",
+    "versioned": "The module version is bumped on every edit (default true)."
+  },
+  "embedAspects": {
+    "intent": "What the thing is and why it exists.",
+    "functional": "What it does — features, use cases, scope.",
+    "quality": "How good/viable it is — business case, constraints, acceptance.",
+    "personal": "Who it is about — personas, people."
+  },
+  "components": {
+    "metadata": {
+      "id": "metadata",
+      "label": "Metadata",
+      "schemaRef": "metadata_expanded.json",
+      "capabilities": [
+        "searchable",
+        "public_ok",
+        "versioned"
+      ],
+      "embedAspect": "intent"
+    },
+    "projectDefinition": {
+      "id": "projectDefinition",
+      "label": "Project definition",
+      "schemaRef": "project-definition_expanded.json",
+      "capabilities": [
+        "searchable",
+        "vectorizable",
+        "versioned"
+      ],
+      "embedAspect": "intent"
+    },
+    "productDescription": {
+      "id": "productDescription",
+      "label": "Product description",
+      "schemaRef": "product-description_expanded.json",
+      "capabilities": [
+        "searchable",
+        "vectorizable",
+        "public_ok",
+        "translatable",
+        "versioned"
+      ],
+      "embedAspect": "functional"
+    },
+    "businessCase": {
+      "id": "businessCase",
+      "label": "Business case",
+      "schemaRef": "business-case_expanded.json",
+      "capabilities": [
+        "searchable",
+        "vectorizable",
+        "public_ok",
+        "versioned"
+      ],
+      "embedAspect": "quality"
+    },
+    "personas": {
+      "id": "personas",
+      "label": "Personas",
+      "schemaRef": "personas_expanded.json",
+      "capabilities": [
+        "searchable",
+        "vectorizable",
+        "pii",
+        "translatable",
+        "versioned"
+      ],
+      "embedAspect": "personal"
+    },
+    "scope": {
+      "id": "scope",
+      "label": "Scope",
+      "schemaRef": "scope_expanded.json",
+      "capabilities": [
+        "searchable",
+        "vectorizable",
+        "versioned"
+      ],
+      "embedAspect": "functional"
+    },
+    "constraints": {
+      "id": "constraints",
+      "label": "Constraints",
+      "schemaRef": "constraints_expanded.json",
+      "capabilities": [
+        "searchable",
+        "versioned"
+      ],
+      "embedAspect": "quality"
+    },
+    "nonFunctionalRequirements": {
+      "id": "nonFunctionalRequirements",
+      "label": "Non-functional requirements",
+      "schemaRef": "non-functional-requirements_expanded.json",
+      "capabilities": [
+        "searchable",
+        "versioned"
+      ],
+      "embedAspect": "quality"
+    },
+    "functionalRequirements": {
+      "id": "functionalRequirements",
+      "label": "Functional requirements",
+      "schemaRef": "functional-requirements_expanded.json",
+      "capabilities": [
+        "searchable",
+        "vectorizable",
+        "versioned"
+      ],
+      "embedAspect": "functional"
+    },
+    "acceptance": {
+      "id": "acceptance",
+      "label": "Acceptance",
+      "schemaRef": "acceptance_expanded.json",
+      "capabilities": [
+        "searchable",
+        "versioned"
+      ],
+      "embedAspect": "quality"
+    },
+    "references": {
+      "id": "references",
+      "label": "References",
+      "schemaRef": "references_expanded.json",
+      "capabilities": [
+        "public_ok",
+        "versioned"
+      ]
+    }
+  },
+  "entities": {
+    "idea": {
+      "label": "Idea",
+      "emoji": "💡",
+      "blurb": "A raw idea — problem, solution sketch, who it's for.",
+      "uses": [
+        "metadata",
+        "productDescription",
+        "scope",
+        "personas",
+        "businessCase"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "tagline"
+      }
+    },
+    "plan": {
+      "label": "Plan",
+      "emoji": "🗺️",
+      "blurb": "A parent container that turns an idea into work — tasks & runs hang off it.",
+      "uses": [
+        "metadata",
+        "projectDefinition",
+        "businessCase",
+        "scope",
+        "acceptance"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "projectDefinition",
+        "subpath": "objective"
+      }
+    },
+    "project": {
+      "label": "Project",
+      "emoji": "📁",
+      "blurb": "A container above Plan — long-lived initiative with multiple plans/tasks.",
+      "uses": [
+        "metadata",
+        "projectDefinition",
+        "scope",
+        "acceptance"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "projectDefinition",
+        "subpath": "objective"
+      }
+    },
+    "task": {
+      "label": "Task",
+      "emoji": "✅",
+      "blurb": "A macro-task in a plan. Micro-steps live inline in pbx_ext.data.steps[] and are not first-class records.",
+      "uses": [
+        "metadata",
+        "projectDefinition",
+        "scope",
+        "acceptance",
+        "constraints"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "projectDefinition",
+        "subpath": "objective"
+      }
+    },
+    "workflow": {
+      "label": "Workflow",
+      "emoji": "🔗",
+      "blurb": "A generic executable workflow (n8n, LangGraph, Temporal, …). Provider lives in pbx_ext.data.provider; large definitions go to object storage as definition_ref.",
+      "uses": [
+        "metadata",
+        "productDescription",
+        "businessCase",
+        "constraints"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "summary"
+      }
+    },
+    "lead": {
+      "label": "Lead",
+      "emoji": "🌱",
+      "blurb": "An unqualified prospect — top of the sales pipeline.",
+      "uses": [
+        "metadata",
+        "productDescription",
+        "personas",
+        "businessCase"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "tagline"
+      }
+    },
+    "deal": {
+      "label": "Deal",
+      "emoji": "🤝",
+      "blurb": "An in-flight sales opportunity moving through a pipeline.",
+      "uses": [
+        "metadata",
+        "productDescription",
+        "businessCase",
+        "acceptance"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "tagline"
+      }
+    },
+    "opportunity": {
+      "label": "Opportunity",
+      "emoji": "🎯",
+      "blurb": "A larger, multi-stage revenue chance — often a family of deals.",
+      "uses": [
+        "metadata",
+        "productDescription",
+        "businessCase",
+        "scope"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "tagline"
+      }
+    },
+    "product": {
+      "label": "Product",
+      "emoji": "📦",
+      "blurb": "A sellable thing — physical or digital.",
+      "uses": [
+        "metadata",
+        "productDescription",
+        "businessCase",
+        "constraints"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "tagline"
+      }
+    },
+    "service": {
+      "label": "Service",
+      "emoji": "🛠️",
+      "blurb": "A sellable non-physical offering — sibling of Product.",
+      "uses": [
+        "metadata",
+        "productDescription",
+        "businessCase",
+        "constraints"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "tagline"
+      }
+    },
+    "company": {
+      "label": "Company",
+      "emoji": "🏢",
+      "blurb": "An org — what you do, who you serve, how to reach you.",
+      "uses": [
+        "metadata",
+        "productDescription"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "tagline"
+      }
+    },
+    "vendor": {
+      "label": "Vendor",
+      "emoji": "🏬",
+      "blurb": "A supplier or service provider you buy from.",
+      "uses": [
+        "metadata",
+        "productDescription",
+        "businessCase"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "tagline"
+      }
+    },
+    "contact": {
+      "label": "Contact",
+      "emoji": "📇",
+      "blurb": "A person outside your team — someone you talk to but who has no login.",
+      "uses": [
+        "metadata",
+        "productDescription",
+        "personas"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "tagline"
+      }
+    },
+    "person_dating": {
+      "label": "You — dating",
+      "emoji": "❤️",
+      "blurb": "How you show up to a potential partner.",
+      "uses": [
+        "metadata",
+        "productDescription",
+        "personas",
+        "constraints"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "tagline"
+      }
+    },
+    "person_social": {
+      "label": "You — social",
+      "emoji": "👥",
+      "blurb": "You among friends and communities.",
+      "uses": [
+        "metadata",
+        "productDescription",
+        "personas"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "tagline"
+      }
+    },
+    "person_work": {
+      "label": "Actor — work",
+      "emoji": "💼",
+      "blurb": "A working actor — human, AI agent, service account, or robot. Role, skills, availability.",
+      "uses": [
+        "metadata",
+        "productDescription",
+        "personas",
+        "businessCase",
+        "constraints"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "tagline"
+      }
+    },
+    "job_opening": {
+      "label": "Job opening",
+      "emoji": "📢",
+      "blurb": "A role you're hiring for.",
+      "uses": [
+        "metadata",
+        "productDescription",
+        "businessCase",
+        "nonFunctionalRequirements"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "tagline"
+      }
+    },
+    "knowledge_asset": {
+      "label": "Knowledge asset",
+      "emoji": "📜",
+      "blurb": "Executable knowledge — a template, contract, or checklist you can buy and use.",
+      "uses": [
+        "metadata",
+        "productDescription",
+        "businessCase",
+        "constraints",
+        "personas"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "tagline"
+      }
+    },
+    "micro_app": {
+      "label": "Micro-app",
+      "emoji": "⚡",
+      "blurb": "A small executable tool, AI helper, or challenge object.",
+      "uses": [
+        "metadata",
+        "productDescription",
+        "businessCase",
+        "personas",
+        "constraints"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "tagline"
+      }
+    },
+    "challenge": {
+      "label": "Challenge",
+      "emoji": "🎯",
+      "blurb": "A short quiz with a personalized score and a shareable link.",
+      "uses": [
+        "metadata",
+        "productDescription",
+        "personas",
+        "constraints"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "tagline"
+      }
+    },
+    "event": {
+      "label": "Event",
+      "emoji": "📅",
+      "blurb": "A calendar event with a start and end.",
+      "uses": [
+        "metadata",
+        "productDescription"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "tagline"
+      }
+    },
+    "meeting": {
+      "label": "Meeting",
+      "emoji": "👥",
+      "blurb": "An event subtype with attendees and an agenda.",
+      "uses": [
+        "metadata",
+        "productDescription",
+        "acceptance"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "tagline"
+      }
+    },
+    "call": {
+      "label": "Call",
+      "emoji": "📞",
+      "blurb": "A logged phone or video interaction.",
+      "uses": [
+        "metadata",
+        "productDescription"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "tagline"
+      }
+    },
+    "activity": {
+      "label": "Activity",
+      "emoji": "📊",
+      "blurb": "A generic timeline entry — anything worth remembering happened.",
+      "uses": [
+        "metadata",
+        "productDescription"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "tagline"
+      }
+    },
+    "doc": {
+      "label": "Doc",
+      "emoji": "📄",
+      "blurb": "A knowledge document with a markdown body.",
+      "uses": [
+        "metadata",
+        "productDescription",
+        "references"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "tagline"
+      }
+    },
+    "note": {
+      "label": "Note",
+      "emoji": "🗒️",
+      "blurb": "A short user note.",
+      "uses": [
+        "metadata",
+        "productDescription"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "tagline"
+      }
+    },
+    "file": {
+      "label": "File",
+      "emoji": "📎",
+      "blurb": "A wrapper around a stored object — points at a storage bucket path.",
+      "uses": [
+        "metadata",
+        "productDescription"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "tagline"
+      }
+    },
+    "tag": {
+      "label": "Tag",
+      "emoji": "🏷️",
+      "blurb": "A canonical tag from your taxonomy.",
+      "uses": [
+        "metadata",
+        "productDescription"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "tagline"
+      }
+    },
+    "price": {
+      "label": "Price",
+      "emoji": "🏷️",
+      "blurb": "A catalog price: currency, amount, interval, and validity window.",
+      "uses": [
+        "metadata",
+        "productDescription",
+        "businessCase"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "tagline"
+      }
+    },
+    "billing_plan": {
+      "label": "Billing Plan",
+      "emoji": "📦",
+      "blurb": "A pricing plan grouping one or more prices + entitlements.",
+      "uses": [
+        "metadata",
+        "productDescription",
+        "businessCase",
+        "functionalRequirements"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "tagline"
+      }
+    },
+    "invoice": {
+      "label": "Invoice",
+      "emoji": "🧾",
+      "blurb": "A billable invoice with lines, totals, and Draft→Sent→Paid state.",
+      "uses": [
+        "metadata",
+        "productDescription",
+        "businessCase",
+        "references"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "tagline"
+      }
+    },
+    "payment": {
+      "label": "Payment",
+      "emoji": "💳",
+      "blurb": "A settled or attempted payment against an invoice or SKU.",
+      "uses": [
+        "metadata",
+        "productDescription",
+        "references"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "tagline"
+      }
+    },
+    "subscription": {
+      "label": "Subscription",
+      "emoji": "🔁",
+      "blurb": "A recurring plan against a price, with lifecycle state.",
+      "uses": [
+        "metadata",
+        "productDescription",
+        "businessCase"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "tagline"
+      }
+    },
+    "license": {
+      "label": "License",
+      "emoji": "🔑",
+      "blurb": "A capability grant to an actor for a bundle, with optional expiry.",
+      "uses": [
+        "metadata",
+        "productDescription",
+        "constraints"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "tagline"
+      }
+    },
+    "wallet": {
+      "label": "Wallet",
+      "emoji": "👛",
+      "blurb": "A credit balance for an actor. Ledger-backed elsewhere.",
+      "uses": [
+        "metadata",
+        "productDescription"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "tagline"
+      }
+    },
+    "conversation": {
+      "label": "Conversation",
+      "emoji": "💬",
+      "blurb": "A 1:1 or group conversation grouping threads and messages.",
+      "uses": [
+        "metadata",
+        "productDescription",
+        "personas"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "tagline"
+      }
+    },
+    "thread": {
+      "label": "Thread",
+      "emoji": "🧵",
+      "blurb": "A single topical thread inside a conversation or channel.",
+      "uses": [
+        "metadata",
+        "productDescription"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "tagline"
+      }
+    },
+    "channel": {
+      "label": "Channel",
+      "emoji": "📣",
+      "blurb": "A named channel for broadcasting or group discussion.",
+      "uses": [
+        "metadata",
+        "productDescription"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "tagline"
+      }
+    },
+    "message": {
+      "label": "Message",
+      "emoji": "✉️",
+      "blurb": "A single message inside a conversation, thread, or channel.",
+      "uses": [
+        "metadata",
+        "productDescription"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "tagline"
+      }
+    },
+    "email": {
+      "label": "Email",
+      "emoji": "📧",
+      "blurb": "An outbound or inbound email with subject and body.",
+      "uses": [
+        "metadata",
+        "productDescription"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "tagline"
+      }
+    },
+    "notification": {
+      "label": "Notification",
+      "emoji": "🔔",
+      "blurb": "A short alert for one recipient, delivered in-app or via a channel.",
+      "uses": [
+        "metadata",
+        "productDescription"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "tagline"
+      }
+    },
+    "broadcast": {
+      "label": "Broadcast",
+      "emoji": "📡",
+      "blurb": "A one-to-many announcement fanned out to a channel or list.",
+      "uses": [
+        "metadata",
+        "productDescription",
+        "personas"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "tagline"
+      }
+    },
+    "inbox": {
+      "label": "Inbox",
+      "emoji": "📥",
+      "blurb": "An owner's collection of incoming messages/notifications.",
+      "uses": [
+        "metadata",
+        "productDescription"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "tagline"
+      }
+    },
+    "outbox": {
+      "label": "Outbox",
+      "emoji": "📤",
+      "blurb": "An owner's queue of outgoing messages/broadcasts.",
+      "uses": [
+        "metadata",
+        "productDescription"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "tagline"
+      }
+    },
+    "webhook": {
+      "label": "Webhook",
+      "emoji": "🪝",
+      "blurb": "An outbound webhook endpoint receiving events for a record or channel.",
+      "uses": [
+        "metadata",
+        "productDescription"
+      ],
+      "titleField": {
+        "component": "metadata",
+        "subpath": "title"
+      },
+      "summaryField": {
+        "component": "productDescription",
+        "subpath": "tagline"
+      }
+    }
+  },
+  "entityOrder": [
+    "idea",
+    "plan",
+    "project",
+    "task",
+    "workflow",
+    "lead",
+    "deal",
+    "opportunity",
+    "product",
+    "service",
+    "company",
+    "vendor",
+    "contact",
+    "person_dating",
+    "person_social",
+    "person_work",
+    "job_opening",
+    "knowledge_asset",
+    "micro_app",
+    "challenge",
+    "event",
+    "meeting",
+    "call",
+    "activity",
+    "doc",
+    "note",
+    "file",
+    "tag",
+    "price",
+    "billing_plan",
+    "invoice",
+    "payment",
+    "subscription",
+    "license",
+    "wallet",
+    "conversation",
+    "thread",
+    "channel",
+    "message",
+    "email",
+    "notification",
+    "broadcast",
+    "inbox",
+    "outbox",
+    "webhook"
+  ],
+  "stateMachines": {
+    "deal": {
+      "format": "deal",
+      "field": "/metadata/value/status",
+      "states": [
+        "lead",
+        "qualified",
+        "proposal",
+        "negotiation",
+        "won",
+        "lost",
+        "archived"
+      ],
+      "initial": "lead",
+      "transitions": [
+        {
+          "from": "lead",
+          "to": "qualified"
+        },
+        {
+          "from": "lead",
+          "to": "lost"
+        },
+        {
+          "from": "qualified",
+          "to": "proposal"
+        },
+        {
+          "from": "qualified",
+          "to": "lost"
+        },
+        {
+          "from": "proposal",
+          "to": "negotiation"
+        },
+        {
+          "from": "proposal",
+          "to": "lost"
+        },
+        {
+          "from": "negotiation",
+          "to": "won"
+        },
+        {
+          "from": "negotiation",
+          "to": "lost"
+        },
+        {
+          "from": "won",
+          "to": "archived"
+        },
+        {
+          "from": "lost",
+          "to": "archived"
+        }
+      ],
+      "allowedActions": {
+        "won": [
+          "update",
+          "archive"
+        ],
+        "lost": [
+          "update",
+          "archive"
+        ],
+        "archived": []
+      }
+    },
+    "task": {
+      "format": "task",
+      "field": "/metadata/value/status",
+      "states": [
+        "todo",
+        "in_progress",
+        "blocked",
+        "done",
+        "cancelled"
+      ],
+      "initial": "todo",
+      "transitions": [
+        {
+          "from": "todo",
+          "to": "in_progress"
+        },
+        {
+          "from": "todo",
+          "to": "cancelled"
+        },
+        {
+          "from": "in_progress",
+          "to": "blocked"
+        },
+        {
+          "from": "in_progress",
+          "to": "done"
+        },
+        {
+          "from": "in_progress",
+          "to": "cancelled"
+        },
+        {
+          "from": "blocked",
+          "to": "in_progress"
+        },
+        {
+          "from": "blocked",
+          "to": "cancelled"
+        },
+        {
+          "from": "done",
+          "to": "in_progress"
+        }
+      ],
+      "allowedActions": {
+        "done": [
+          "update",
+          "archive"
+        ],
+        "cancelled": [
+          "update",
+          "archive"
+        ]
+      }
+    },
+    "lead": {
+      "format": "lead",
+      "field": "/metadata/value/status",
+      "states": [
+        "new",
+        "contacted",
+        "qualified",
+        "converted",
+        "disqualified"
+      ],
+      "initial": "new",
+      "transitions": [
+        {
+          "from": "new",
+          "to": "contacted"
+        },
+        {
+          "from": "new",
+          "to": "disqualified"
+        },
+        {
+          "from": "contacted",
+          "to": "qualified"
+        },
+        {
+          "from": "contacted",
+          "to": "disqualified"
+        },
+        {
+          "from": "qualified",
+          "to": "converted"
+        },
+        {
+          "from": "qualified",
+          "to": "disqualified"
+        }
+      ],
+      "allowedActions": {
+        "converted": [
+          "update",
+          "archive"
+        ],
+        "disqualified": [
+          "update",
+          "archive"
+        ]
+      }
+    },
+    "invoice": {
+      "format": "invoice",
+      "field": "/metadata/value/status",
+      "states": [
+        "draft",
+        "sent",
+        "paid",
+        "void"
+      ],
+      "initial": "draft",
+      "transitions": [
+        {
+          "from": "draft",
+          "to": "sent"
+        },
+        {
+          "from": "draft",
+          "to": "void"
+        },
+        {
+          "from": "sent",
+          "to": "paid"
+        },
+        {
+          "from": "sent",
+          "to": "void"
+        }
+      ],
+      "allowedActions": {
+        "paid": [
+          "update",
+          "archive"
+        ],
+        "void": [
+          "update",
+          "archive"
+        ]
+      }
+    },
+    "subscription": {
+      "format": "subscription",
+      "field": "/metadata/value/status",
+      "states": [
+        "trialing",
+        "active",
+        "past_due",
+        "canceled",
+        "paused"
+      ],
+      "initial": "trialing",
+      "transitions": [
+        {
+          "from": "trialing",
+          "to": "active"
+        },
+        {
+          "from": "trialing",
+          "to": "canceled"
+        },
+        {
+          "from": "active",
+          "to": "past_due"
+        },
+        {
+          "from": "active",
+          "to": "paused"
+        },
+        {
+          "from": "active",
+          "to": "canceled"
+        },
+        {
+          "from": "past_due",
+          "to": "active"
+        },
+        {
+          "from": "past_due",
+          "to": "canceled"
+        },
+        {
+          "from": "paused",
+          "to": "active"
+        },
+        {
+          "from": "paused",
+          "to": "canceled"
+        }
+      ],
+      "allowedActions": {
+        "canceled": [
+          "update",
+          "archive"
+        ]
+      }
+    },
+    "message": {
+      "format": "message",
+      "field": "/metadata/value/status",
+      "states": [
+        "draft",
+        "sent",
+        "delivered",
+        "read",
+        "failed"
+      ],
+      "initial": "draft",
+      "transitions": [
+        {
+          "from": "draft",
+          "to": "sent"
+        },
+        {
+          "from": "sent",
+          "to": "delivered"
+        },
+        {
+          "from": "sent",
+          "to": "failed"
+        },
+        {
+          "from": "delivered",
+          "to": "read"
+        },
+        {
+          "from": "delivered",
+          "to": "failed"
+        }
+      ],
+      "allowedActions": {
+        "read": [
+          "update",
+          "archive"
+        ],
+        "failed": [
+          "update",
+          "archive"
+        ]
+      }
+    },
+    "notification": {
+      "format": "notification",
+      "field": "/metadata/value/status",
+      "states": [
+        "pending",
+        "sent",
+        "read",
+        "dismissed",
+        "failed"
+      ],
+      "initial": "pending",
+      "transitions": [
+        {
+          "from": "pending",
+          "to": "sent"
+        },
+        {
+          "from": "pending",
+          "to": "failed"
+        },
+        {
+          "from": "sent",
+          "to": "read"
+        },
+        {
+          "from": "sent",
+          "to": "dismissed"
+        },
+        {
+          "from": "read",
+          "to": "dismissed"
+        }
+      ],
+      "allowedActions": {
+        "dismissed": [
+          "update",
+          "archive"
+        ],
+        "failed": [
+          "update",
+          "archive"
+        ]
+      }
+    },
+    "email": {
+      "format": "email",
+      "field": "/metadata/value/status",
+      "states": [
+        "draft",
+        "sent",
+        "delivered",
+        "read",
+        "bounced",
+        "failed"
+      ],
+      "initial": "draft",
+      "transitions": [
+        {
+          "from": "draft",
+          "to": "sent"
+        },
+        {
+          "from": "sent",
+          "to": "delivered"
+        },
+        {
+          "from": "sent",
+          "to": "bounced"
+        },
+        {
+          "from": "sent",
+          "to": "failed"
+        },
+        {
+          "from": "delivered",
+          "to": "read"
+        }
+      ],
+      "allowedActions": {
+        "read": [
+          "update",
+          "archive"
+        ],
+        "bounced": [
+          "update",
+          "archive"
+        ],
+        "failed": [
+          "update",
+          "archive"
+        ]
+      }
+    }
+  }
+}

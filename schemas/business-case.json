@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "business-case.json",
+  "title": "Business Case",
+  "description": "Business rationale, benefits, impacts and measures.",
+  "type": "object",
+  "properties": {
+    "executiveSummary": {
+      "allOf": [ { "$ref": "common.json#/$defs/fieldWrapper" }, { "properties": { "meta": { "required": ["id","title","type","lastUpdated","version"] }, "value": { "type": "string" } } } ]
+    },
+    "benefits": {
+      "allOf": [ { "$ref": "common.json#/$defs/fieldWrapper" }, { "properties": { "meta": { "required": ["id","title","type","lastUpdated","version"] }, "value": { "type": "array", "items": { "type": "object", "properties": { "id": { "$ref": "common.json#/$defs/uuid" }, "title": { "type": "string" }, "description": { "type": "string" }, "metric": { "$ref": "success-metrics.json" } }, "required": ["id","title"] } } } } ]
+    },
+    "strategicAlignment": {
+      "allOf": [ { "$ref": "common.json#/$defs/fieldWrapper" }, { "properties": { "meta": { "required": ["id","title","type","lastUpdated","version"] }, "value": { "type": "string" } } } ]
+    },
+    "measures": {
+      "allOf": [ { "$ref": "common.json#/$defs/fieldWrapper" }, { "properties": { "meta": { "required": ["id","title","type","lastUpdated","version"] }, "value": { "type": "array", "items": { "$ref": "success-metrics.json" } } } } ]
+    },
+    "assumptions": { "$ref": "assumptions.json" }
+  },
+  "required": ["executiveSummary","benefits"],
+  "additionalProperties": false
+}

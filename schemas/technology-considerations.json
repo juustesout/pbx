@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "technology-considerations.json",
+  "title": "Technology Considerations",
+  "description": "Tech stack constraints, preferred platforms, licensing and integrations.",
+  "type": "object",
+  "properties": {
+    "stack": {
+      "allOf": [
+        { "$ref": "common.json#/$defs/fieldWrapper" },
+        {
+          "properties": {
+            "meta": {
+              "required": ["id", "title", "type", "lastUpdated", "version"]
+            },
+            "value": {
+              "type": "object",
+              "properties": {
+                "languages": { "type": "array", "items": { "type": "string" } },
+                "platforms": { "type": "array", "items": { "type": "string" } },
+                "datastores": { "type": "array", "items": { "type": "string" } },
+                "constraints": { "type": "array", "items": { "type": "string" } }
+              },
+              "additionalProperties": false
+            }
+          },
+          "required": ["meta", "value"]
+        }
+      ]
+    }
+  },
+  "required": ["stack"],
+  "additionalProperties": false
+}
